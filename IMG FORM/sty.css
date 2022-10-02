@@ -1,0 +1,40 @@
+ *{
+        
+        margin: 0%;
+     }
+     .bg{
+        background-image: url(rehan.jpg);
+            width: 100%;
+            height: 1120px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            position: fixed
+     }
+     .fm1{
+        width: 35%;
+        height: 200px;
+                text-align: center;
+                border-style: solid;
+                 
+                height: 475px;
+               margin-left: 61%;
+               margin-top: 5%;
+               background-color: white;
+               border: 15px solid white;
+               text-align: center;
+     }
+      a{
+        color: rgb(20, 3, 245);
+        text-decoration: none;
+         
+      }
+       
+     
+
+     
+
+      
+    
+      
