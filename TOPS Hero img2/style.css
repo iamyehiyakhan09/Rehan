@@ -1,0 +1,77 @@
+ *{
+    padding: 0%;
+    margin: 0%;
+ }
+ .bg{
+    background-image: url(matteo-di-iorio-MLhrPKXdMys-unsplash.jpg);
+        width: 100%;
+        height: 1000px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: fixed
+        
+        
+ }
+
+  
+ 
+ .pgr{    font-size: 6em;
+    color: rgb(215, 12, 12);
+    margin-top: 1%;
+    font-weight: bolder;
+    width: 63%;
+    font-variant: small-caps;
+    margin-left: 29%;
+    font-variant: small-caps;
+    font-style: revert-layer;
+    height: 132px;
+  }
+.pgr:hover{
+        color: rgb(0, 0, 0);
+        width: 50px;
+        height: 105px;
+        width: 50%;
+
+    }
+    div{
+      height: 38px;
+    }
+    hr {
+      background:  rgb(2, 70, 255);
+      height: 5px;
+      width: 44%;
+      margin-left:  30%;
+      
+     }
+    p{
+        color: black;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-weight: bold;
+        height: 40px;
+        margin-left: 39%;
+        font-variant: small-caps;
+        
+      
+      }
+       
+       
+      button{
+        color: rgb(0, 0, 0);
+        height: 65px;
+        width: 206px;
+        font-weight: bold;
+        margin-left: 39%;
+        padding: 6px;
+        background-color: yellow;
+        border-bottom: 5px;
+        border-radius: 10px;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: none;
+       
+      }
+       
