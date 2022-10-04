@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bf.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+
+}
+.menubar{
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+}
+  
+
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+    
+}
+.menubar ul li{
+    width: 172px;
+    /* position: sticky; */
+    margin: 9px;
+    padding: 17px;
+
+}
+.menubar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-variant: small-caps;
+
+
+}
+.active, .menubar ul li :hover{
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    width: 130px;
+    text-align: center;
+    
+}
+.table form input{
+    color: black;
+    /* background-color: brown; */
+    width: 50%;
+ 
+    height: 60px;
+    margin-top: 24%;
+    margin-left: 26%;
+    border: 55px;
+    /* border-color: green; */
+    font-size: 30px;
+    text-align: center;
+    
+    border-radius: 70px;
+    /* position: fixed; */
+}
+ 
+ H1{
+        font-size: 70px;
+        margin-left: 26%;
+       color: red;
+       height: 100px;
+       padding: 25px;
+       text-shadow: 4px 3px yellow;
+       
+    }
