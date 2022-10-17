@@ -1,0 +1,425 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header .back-img{
+    /* padding: 30px; */
+    background-color: rgb(180, 237, 245);
+    /* background-image: url(mi-pham-ZcA4ai3bRSk-unsplash.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 680px; */
+    /* filter: brightness(10%); */
+    width: 100%;   
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+span{
+    color: red;
+    padding: 3px;
+    
+
+}
+header .header-nav{
+    display: flex;
+    width: 100%;
+    background-color: rgb(223, 206, 206);
+    position: sticky;
+    top: 10px;
+     
+}
+header .header-nav:hover{
+    background-color: white;
+}
+header .back-img .header-nav .logo{
+    padding: 29px;
+    /* background-color: aqua; */
+    font-size: 12px;
+    width: 20%;
+}
+header .back-img .header-nav .nav{
+    width: 70%;
+
+}
+ 
+.back-img .header-nav .nav ul{
+    list-style: none;
+    text-align: end;
+}
+.back-img .header-nav .nav ul li:hover{
+    background-color: red;
+    /* color: blue; */
+
+}
+
+.back-img .header-nav .nav ul li{
+    display: inline-block;
+    padding: 30px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+}
+.back-img .header-nav .login{
+    width: 10%;
+}
+
+.back-img .header-nav .login button{
+    background-color: rgb(251, 255, 6);
+    border-radius: 23PX;
+    /* border: 1px solid rgb(255, 255, 255); */
+    margin-top: 19px;
+    font-variant: small-caps;
+    width: 125px;
+    height: 50px;
+    /* margin-right: 90px; */
+    font-size: 22px;
+    font-weight: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    transition: 1s all ease;
+  }
+.back-img .header-nav .login button:hover{
+    background-color: rgb(33, 102, 93);
+    color: white;
+    transform:translatey(-7px);
+box-shadow: 3px 4px 5px rgb(0, 0, 0);
+
+}
+
+.main-head{
+    
+    display: flex;
+    padding-top: 4px;
+    margin-top: 110px;
+  
+}
+.main-head .r1{
+  width: 55%;
+  padding-left: 145px;
+  padding-top: 34px;
+}
+.main-head .r1 h1{
+    
+    font-size: 3.3em;
+    font-weight: 550;
+    color: black;
+    font-family: Means Web,Georgia,Times,Times New Roman,serif;
+}
+.main-head .r1 button{
+    background-color: yellow;
+    border-radius: 15PX;
+    /* border: 2px solid rgb(0, 0, 0); */
+    margin-top: 29px;
+    width: 144px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    height: 48px;
+    margin-right: 90px;
+    font-size: 22px;
+    font-weight: 100px;
+    color: white;
+    transition: 1s all ease;
+    
+
+}
+.main-head .r1 button:hover{
+    width: 146px;
+    background-color: red;
+    color: white;
+    transform:translatey(-10px);
+    box-shadow: 3px 4px 5px rgb(255, 255, 255);
+    
+}
+ 
+ 
+.main-head .l1 img{
+    height: 430px;
+    width: 460px;
+    /* border: 5px solid black; */
+}
+.l1{
+
+    padding: 30px;
+    width: 45%;
+}
+ 
+  
+ 
+ 
+ .prg h1{
+    font-weight: 550;
+    line-height: 1;
+    color: black;
+    font-family: Means Web,Georgia,Times,Times New Roman,serif;
+ text-align: center; 
+ padding-top: 85px;
+ font-size: 50px;
+
+}
+.prg .p1 p{
+    color: black;
+    /* text-align: center; */
+    padding-top: 37px;
+    font-size: 19px;
+    font-family: serif;
+    width: 70%;
+    padding-left: 432px;
+  } 
+  
+.sing-up h1{
+    color: rgb(0, 0, 0);
+    font-family: Means Web,Georgia,Times,Times New Roman,serif;
+    text-align: center;
+    padding-top: 85px;
+    font-size: 50px;
+    font-weight: 550;
+    line-height: 1;
+     
+}
+.sing-up .p2 p{
+    text-align: center;
+    padding-top: 37px;
+    color: black;
+    width: 70%;
+    font-family: serif;
+    padding-left: 432px;
+    font-size: 19px;
+}
+ 
+.sing-up .btn button{
+    background-color: rgb(255, 2, 2);
+color: white;
+width: 122px;
+height: 45px;
+font-size: 21px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-left: 595px;
+margin-top: 20px;
+border-radius: 13px;
+transition: 1s all ease;
+    font-variant: small-caps;
+}
+.sing-up .btn button:hover{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    width: 126px;
+    transform:translatey(-8px);
+    box-shadow: 3px 4px 5px rgb(207, 94, 94);
+}
+.main{
+    background-color:rgb(235, 240, 242);
+    /* border: 2px solid black; */
+    display: flex;
+    height: 500px;
+    padding-top: 14px;
+    margin-top: 62px;
+  
+}
+.main .right{
+     
+    /* border: 2px solid rgb(0, 16, 61); */
+  width: 60%;
+  /* background-color: pink; */
+  /* text-align: center; */
+  padding-left: 145px;
+  padding-top: 94px;
+}
+.main .right h1{
+    font-weight: 550;
+    font-family:Means Web,Georgia,Times,Times New Roman,serif ;
+    font-size: 3em;
+    font-weight: 550;
+}
+.main .right .p4 p{
+    font-size: 21px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 37px;
+}
+.main .left img{
+    height: 400px;
+    width: 450px;
+    /* border: 5px solid black; */
+}
+.left{
+    /* border: 2px solid blue; */
+    padding: 30px;
+    width: 40%;
+}
+.relife  {
+    background-color:rgb(235, 240, 242);
+    height: 450px;
+}
+.relife h1{
+    color: rgb(0, 0, 0);
+    font-family: Means Web,Georgia,Times,Times New Roman,serif;
+    text-align: center;
+    padding-top: 85px;
+    font-size: 50px;
+    font-weight: 550;
+    line-height: 1;
+}
+.relife .p5 p{
+    font-size: 19px;
+    padding-top: 22px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 30px;
+ 
+}
+.m2{
+    /* border: 2px solid black; */
+    display: flex;
+    height: 300px;
+    padding-top: 1px;
+    margin-top: 2px;
+    /* background-color: #f0890e; */
+  }
+.m2 .l2 h1{
+    /* text-align: center; */
+    padding-left: 145px;
+    padding-top: 89px;
+    font-size: 3.3em;
+    padding-left: 130px;
+    font-weight: 550;
+   font-family:Means Web,Georgia,Times,Times New Roman,serif;
+}
+.m2 .r2  {
+    padding-left: 114px;
+    padding-top: 109px;
+    /* background-color: yellow; */
+}
+.r2 .pr1 p{
+    color: black;
+    font-size: 21px;
+    line-height: 1.3;
+    font-family:Means Web,Georgia,Times,Times New Roman,serif;   
+}
+.r2 .pr1 p :hover{
+    color: black;
+    background-color: yellow;
+
+}
+.r2 .pr2 p{
+    line-height: 1.3;
+    color: black;
+    font-size: 21px;
+    font-family:Means Web,Georgia,Times,Times New Roman,serif;
+}
+.r2 .pr2 p :hover{
+    color: black;
+    background-color: yellow;
+
+}
+.r2 .pr3 p{
+    color: black;
+    line-height: 1.3;
+    font-size: 21px;
+    font-family:Means Web,Georgia,Times,Times New Roman,serif;
+    
+}
+
+.r2 .pr3 p :hover{
+    color: black;
+    background-color: yellow;
+
+}
+.r2 .pr4 p{
+    line-height: 1.3;
+    color: black;
+    font-family:Means Web,Georgia,Times,Times New Roman,serif;
+    font-size: 21px;
+    
+}
+
+.r2 .pr4 p :hover{
+    color: black;
+    background-color: yellow;
+
+}
+.r2 .pr5 p{
+    color: black;
+font-size: 21px;
+font-family:Means Web,Georgia,Times,Times New Roman,serif;
+
+}
+.r2 .pr5 p :hover{
+    color: black;
+    background-color: yellow;
+
+}
+ 
+
+footer{
+    background-color:rgb(74, 81, 98);
+    height: auto;
+    width: 100%;
+    font-family: open sans-serif;
+    color: rgb(255, 255, 255);
+     margin-top: 25px;
+}
+.foter-con1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 25px;
+}
+.foter-con1 h3{
+    font-size: 2.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.foter-con1 h3:hover{
+    color: red;
+}
+.foter-con1 p{
+    max-width: 500px;
+    margin: 10px auto;
+    /* line-height: 2.8px; */
+    font-size: 14px;
+}
+.social{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 1rem 0 3rem 0;
+     list-style: none;
+
+}
+.social li{
+    margin: 0 10px;
+
+}
+.social a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.social a i{
+     font-size: 1.1rem;
+    transition: rgb(205, 206, 205) 4s ease;
+}
+.social a :hover{
+    color: violet;
+}
+.foter-bottom{
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.foter-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform:capitalize;
+}
+.foter-bottom span{
+    text-transform: uppercase;
+    font-weight: 200;
+}
