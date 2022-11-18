@@ -1,0 +1,650 @@
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+/* list-style: none; */
+text-decoration: none;
+font-family:sans-serif;
+}
+
+.continer{
+    background-image: url(March-metal-particles-1000x400-1\ 1.png);
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+background-attachment: fixed;
+width: 100%;
+
+}
+.main{
+    display: flex;
+    background-color: whitesmoke;
+    height: 80px;
+}
+.logo{
+    width: 30%;
+}
+.logo img{
+    padding-top: 8px;
+    padding-left: 95px;
+
+
+}
+.menu{
+    width: 70%;
+    padding-left: 40%;
+    padding-top: 17px;
+}
+ .menu a{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: bold;
+    padding:25px;
+
+
+}
+.menu button{
+    background-color: black;
+    color: whitesmoke;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size:  21px;
+}
+.menu button:hover{
+    COLOR: BLACK;
+    font-weight: bold;
+    background-color: yellow;
+}
+.text{
+    padding-top: 250px;
+    padding-left: 220px;
+}
+.text h1{
+    font-size:5em;
+    color: whitesmoke;
+    
+}
+.text P{
+    COLOR: white;
+    width: 550px;
+    padding-top: 20px;
+    font-size:17px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.text .bg-btn{
+    padding-top: 25px;
+}
+.text .bg-btn button a{
+    color: black;
+}
+.text .bg-btn button{
+    width:160px;
+    height: 50px;
+    color: whitesmoke;
+    font-size: 22px;
+    border:none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.text .bg-btn button:hover{
+    background-color: red;
+}
+.product-1{
+    padding-top: 50px;
+    margin-left: 220px;
+}
+.product-1 h1{
+    font-size:3em;
+}
+.range{
+    display: grid;
+    row-gap: 20px;
+    padding: 137px;
+    grid-template-columns: repeat(3,2fr);
+    padding-left: 150px;
+    padding-top: 50px;
+
+}
+.rng-img{
+    display: flex;
+    border:none;
+    box-shadow: 5px 2px 25px rgb(234, 239, 248);
+    border-radius: 15px;
+    width: 430px;
+    margin-left: 75px;
+}
+.rng-img img{
+    height: 230px;
+    border-radius: 15px;
+width: 300px;
+}
+.rng-img.side-cont{
+    padding-top:25px;
+}
+.rng-img .side-cont h3{
+    padding-top:20px;
+    font-size:24px;
+    font-weight:bold;
+    
+}
+.about h1{
+    color: black;
+    font-size: 58px;
+    padding-left: 225px;
+    font-family: unset;
+
+}
+.main-about{
+    display:flex;
+    padding-top:70px;   
+}
+.right-img{
+    padding-left:226px;
+}
+.main-about .right-img img{
+    height: 475px;
+    width: 592px;
+    border-radius: 10px;
+}
+.left-cont{
+    padding-left: 77px;
+    width: 49%;
+    padding-top: 16px;
+
+}
+.left-cont p{
+    COLOR: gray;
+    width: 97%;
+}
+.main-mission{
+    padding-top: 60px;
+    padding-left: 150px;
+
+}
+.main-mission h1{
+    font-size: 40px;
+    letter-spacing: inherit;
+    font-family: system-ui;
+    font-weight: bolder;
+    padding-left: 70px;
+
+}
+.mission-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 50px;
+    width: 95%;
+    /* gap: 241px; */
+}
+ 
+.mission-img .mission img{
+    padding-top: 10px;
+    height: 100px;
+    width: 110px;
+    filter: brightness(98%);
+    margin-left: 75px;
+}
+.mission h2{
+    /* padding-left: 65px; */
+    font-size: 49px;
+    padding-top: 36px;
+
+}
+.mission-img a{
+    color: black;
+}
+.mission-img a:hover{
+    color: red;
+}
+.mission p{
+    padding-top: 25px;
+    font-size: 16px;
+    width: 64%;
+    color: gray;
+
+
+}
+.vission img {
+    padding-top: 10px;
+    height: 100px;
+    width: 125px;
+    border: 16px solid  black;
+    border-image: url(focus\ 1\ \(Traced\).png) 10 fill;
+    filter: brightness(98%);
+    margin-left: 54px;
+}
+.vission h2{
+    font-size: 49px;
+    letter-spacing: inherit;
+    font-family: system-ui;
+    font-weight: bolder;
+    padding-top: 30px;
+   
+}
+.vission p{
+    padding-top: 25px;
+    font-size: 16px;
+    color: gray;
+    width: 64%;
+
+}
+.value img{
+    height: 100px;
+    width: 125px;
+    margin-left: 40px;
+}
+.value h2{
+    padding-top: 36px;
+    font-size: 49px;
+
+}
+.value UL {
+    padding-top:25px;
+}
+.value ul li {
+    font-size:22px;
+    font-weight: bold;
+    width: 87%;
+}
+.value ul li span {
+    font-size: 16px;
+    color: gray;
+    font-family: revert;
+    font-weight: 100;
+}
+.hr-line{
+    padding-left: 195px;
+    margin-top: 60px;
+}
+hr{
+    border-top: 3px solid black;
+    width: 92%;
+
+}
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 241px;
+    padding-top: 55px;
+}
+.logo-main{
+    display: flex;
+    padding-top: 16px;
+}
+.logo2 img{
+    height: 110px;
+    width: 110px;
+}
+.logo-text h2{
+    font-size: 2.8em;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-left: 20px;
+
+}
+.logo-text span{
+    font-weight: lighter;
+    font-family: monospace;
+    letter-spacing: 11px;
+
+}
+.detail{
+    padding-right: 350px;
+    padding-top: 27px;
+}
+ 
+.addres{
+    display: flex;
+    gap: 20px;
+}
+
+.addres span{
+    color: gray;
+    font-size:22px;
+}
+.addres span:hover{
+    color: red;
+}
+.addres p{
+    font-size:17px;
+    font-family: sans-serif;
+}
+.min-grid{
+    display: flex;
+    column-gap: 110px;
+}
+.min-grid .addres1 p{
+color: blue;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.min-grid .addres1{
+    display: flex;
+    padding-top: 30px;
+    column-gap: 22px;
+
+}
+.min-grid .addres1 span{
+    color: gray;
+    font-size:22px;
+}
+.min-grid .addres1 span:hover{
+    color: red;
+}
+.social{
+    padding-left: 58%;
+    display: flex;
+    column-gap: 35px;
+
+}
+.social .social-media p{
+    color: gray;
+    font-size:17px;
+
+}
+.social-icon span{
+    font-size: 23px;
+    color: rgb(133, 133, 133);
+    padding-left: 13px;
+
+}
+.social-icon span:hover{
+    color: red;
+}
+.hr-line1{
+    padding-left: 195px;
+    margin-top: 60px;
+}
+.hr-line1 hr{
+    border-top: 2.1px solid gray;
+    width: 92%;
+    opacity: 0.4;
+}
+.footer-link{
+display: flex;
+    column-gap: 416px;
+    padding-top: 30px;
+}
+.link{
+    display: flex;
+    column-gap: 100px;
+padding-left: 210Px;
+}
+.link a{
+    color: black;
+}
+
+.copy p {
+    color: gray;
+    font-size: 16px;
+    /* opacity: 0.4; */
+    padding-left: 41%;
+    padding-bottom: 40px;
+}
+ 
+/* @media (min-width:400px){ */
+    /* 
+    .continer {
+        height: 100%;
+        width: 465px;
+    }
+    .menu {
+        width: 40%;
+        padding-left: 19%;
+    }
+    .logo img {
+        padding-top: 15px;
+        padding-left: 16px;
+        width: 69px;
+    }
+    
+    .text{
+        padding-top: 55px;
+        padding-left: 24px;
+    }
+    .text h1{
+        font-size:38px;
+    }
+    .text p {
+        font-size: 13px;
+        
+        width: 334px;
+    }
+    .text .bg-btn button {
+        width: 123px;
+        height: 40px;
+     
+        font-size: 17px;
+          
+    }
+    .product-1{
+        padding-top: 10px;
+        margin-left: 5%;
+    }
+    .product-1 h1{
+        font-size:2.2em;
+    }
+    .range{
+        display: grid;
+        grid-template-columns: repeat(1,6fr);
+        padding-left: 0px;
+        padding-top: 13px;
+    
+    }
+    .rng-img{
+        display: flex;
+        width: 425px;
+        margin-left: 23px;
+    }
+    .rng-img img{
+        height: 180px;
+        width: 200px;
+    }
+    
+    .rng-img .side-cont h3 {
+        padding-top: 67px;
+        font-size: 25px; 
+       }
+    .about h1 {
+   
+        font-size: 36px;
+        padding-left: 38px;
+       
+    }
+    .main-about{
+        display: flex;
+        padding-top: 25px;
+        flex-direction: column;
+    } 
+    .main-about .right-img img {
+        height: 353px;
+        width: 418Px;
+       
+    }
+.right-img {
+    padding-left: 25px;
+}
+.left-cont {
+    padding-left: 30px;
+    width: 100%;
+    padding-top: 25px;
+}
+.left-cont p {
+    
+    width: 98vh;
+    font-size: 14px;
+}
+.main-mission {
+    padding-top: 24px;
+    padding-left: 0;
+}
+.main-mission h1 {
+    font-size: 15px;
+    padding-left: 25px;
+}
+.mission-img {
+    display: grid;
+    grid-template-columns: repeat(1,3fr);
+    padding-left: 58px;
+    padding-top: 36px;
+}
+.mission{
+    padding-left:30px;
+}
+.mission p {
+    font-size: 12px;
+    width: 340px;
+    letter-spacing: 1px;
+    padding-top: 5px;
+}
+.mission h2 {
+    font-size: 32px;
+    padding-left: 28px;
+}
+ .vission{
+    padding-top: 40px;
+    padding-left:30px;
+}
+.vission img {
+    padding-top: 4px;
+    height: 100px;
+    width: 118px;
+   
+    margin-left: 78px;
+}
+.vission h2{
+    font-size: 32px;
+    padding-left: 28px;
+}
+.vission p {
+    font-size: 12px;
+    width: 340px;
+    letter-spacing: 1px;
+    padding-top: 5px;
+}
+.value{
+padding-left: 30px;
+padding-top: 40px;
+}
+.value img {
+    height: 95px;
+    width: 123px;
+    margin-left: 85px;
+}
+.value h2{
+    font-size: 32px;
+    padding-left: 53px;
+}
+.value ul li {
+    width: 100%;
+}
+.value ul li span {
+    font-size: 14px;
+    font-weight: 100;
+}
+.hr-line {
+    padding-left: 52px;
+    margin-top: 0px;
+}
+.hr-line hr{
+    width: 83vh;
+   
+}
+footer {
+    padding-left: 35px;
+}
+.footer-main {
+    display: flex;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.detail {
+    padding-right: 114px;
+    padding-top: 22px;
+}
+.logo2 img {
+    height: 50px;
+    width: 47px;
+}
+.logo-text h2 {
+    font-size: 15px;
+    padding-left: 11px;
+}
+.logo-text span {
+    letter-spacing: 6px;
+}
+.min-grid {
+    column-gap: 66px;
+}
+.addres {
+    display: flex;
+    gap: 7px;
+}
+.addres span {
+    font-size: 15px;
+}
+.addres p {
+    font-size: 10px;
+
+}
+.addres1 p{
+    font-size: 12px;
+}
+.min-grid {
+    column-gap: 24px;
+}
+.min-grid .addres1 {
+    display: flex;
+    padding-top: 16px;
+    column-gap: 0px;
+}
+.min-grid .addres1 span {
+    font-size: 14px;
+}
+.social {
+    padding-left: 5%;
+    display: flex;
+    column-gap: 36px;
+    padding-top: 18px;
+}
+
+.social .social-media p {
+    
+    font-size: 14px;
+}
+.social-icon span {
+    font-size: 19px;
+}
+.hr-line1 {
+    padding-left: 24px;
+    margin-top: 20px;
+}
+.hr-line1 hr {
+    width: 83vh;
+}
+.footer-link {
+    display: flex;
+    column-gap: 416px;
+    padding-top: 10px;
+}
+
+.link {
+    column-gap: 37px;
+    padding-left: 25Px;
+}
+.link a {
+    font-size: 13px;
+}
+
+.copy p {
+    color: gray;
+    opacity: 4.4;
+    padding-left: 24px;
+    padding-bottom: 44px;
+    padding-top: 13px;
+    font-size: 12px;
+    }
+  
