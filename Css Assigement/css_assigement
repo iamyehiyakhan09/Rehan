@@ -1,0 +1,85 @@
+
+-----------------Assignment of css------------------
+
+(1) what are the benifits of using css?
+ans- There are a number of benefits of CSS, including:
+1) Faster Page Speed. More code means slower page speed. ...
+2) Better User Experience. CSS not only makes web pages easy on the eye, it also allows for user-friendly formatting. ...
+3) Quicker Development Time. ...
+4) Easy Formatting Changes. ...
+5) Compatibility Across Devices.
+
+
+(2) what are the disadvantages of CSS?
+ans-
+(1)CSS, CSS 1 up to CSS3, result in creating of confusion among  web browsers.
+(2)With CSS, what works with one browser might not always work with another. The web developers need to test for compatibility, running the program across multiple browsers.
+(3)There exists a scarcity of security.
+(4)After making the changes we need to confirm the compatibility if they appear. The similar change affects on all the browsers.
+(5)The programing language world is complicated for non-developers and beginners. Different levels of CSS i.e. CSS, CSS 2, CSS 3 are often quite confusing.
+(6)Browser compatibility (some styles sheet are supported and some are not).
+CSS works differently on different browsers. IE and Opera supports CSS as different logic.
+(7)There might be cross-browser issues while using CSS.
+(8)There are multiple levels which creates confusion for non-developers and beginners.
+
+(3) what is the difference betiween css2 and css3?
+ans- Major Differences Between CSS, CSS2 & CSS3
+Unlike CSS2, which was comprised of a single document, CSS3 has its specifications divided into many individual modules, which makes CSS3 a whole lot easier to handle. With CSS3, the designers can now use special fonts, like those available in Google Fonts and Typecast.
+
+(4) name of few css style componets 
+ans- The components of css style are: 1)Selecter:HTML element name, id name, class name. 2)Property:It's like an attribute such as background color,font-size,position,text-align,color,border etc. 3)Values:which defines property or values allocate for properties.
+
+(5) what do you understand by css opacity?
+ans- The opacity CSS property sets the opacity of an element. Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency.
+
+(6) how can the background color of an element be changed?
+ans- To add background color in HTML, use the CSS background-color property. Set it to the color name or code you want and place it inside a style attribute. Then add this style attribute to an HTML element, like a table, heading, div, or span tag.
+
+(7) how can image repetition of backup cantrolled ?
+ans- This task can be achieved by using the background-repeat property that will help us to control the repetition of the image. The background-repeat property in CSS is used to repeat the background image both horizontally and vertically. It also decides whether the background image will be repeated or not.
+
+(8) what is the use of the background position property ?
+ans- The background-position property sets the starting position of a background image. Tip: By default, a background-image is placed at the top-left corner of an element, and repeated both vertically and horizontally.
+
+(9) which property controls the image scroll in background?
+ans- The background-attachment property sets whether a background image scrolls with the rest of the page, or is fixed.
+
+(10) why should background and color be used as separte property ?
+ans- Why background and color are the separate properties if they should always be set together? There are two reasons behind this: It enhances the legibility of style sheets. The background property is a complex property in CSS, and if it is combined with color, the complexity will further increase.
+
+(11) how to center block elements using css1 ?
+ans-To horizontally center a block element (like <div>), use margin: auto; Setting the width of the element will prevent it from stretching out to the edges of its container.
+
+(12) how to maintain the css specifications?
+ans-This page contains descriptions of all specifications that the CSS WG is working on. See the ‘current work’ page for a compact view and how to give feedback.
+
+(13) what are the ways to integrate css as web page?
+ans-CSS can be added to HTML documents in 3 ways: Inline - by using the style attribute inside HTML elements. Internal - by using a <style> element in the <head> section. External - by using a <link> element to link to an external CSS file.
+
+(14) what is embedded style sheet?
+ans-Embedded style sheets are particularly useful for HTML documents that have unique style requirements from the rest of the documents in your project. However, if the styles need to be applied across multiple documents, you should link to an external style sheet instead of using individual embedded style sheets.
+
+(15) what are the external style sheet?
+ans-An external style sheet is a separate CSS file that can be accessed by creating a link within the head section of the webpage. Multiple webpages can use the same link to access the stylesheet. The link to an external style sheet is placed within the head section of the page.
+
+(16) what are the advantages and disadvantages of using external style sheet?
+ans-External style sheets have the following advantages over internal and inline styles:
+1.one change to the style sheet will change all linked pages.
+2.you can create classes of styles that can then be used on many different HTML elements.
+3.consistent look and feel across multiple web pages.
+
+
+(17) what is the meaning of the css  selector?
+ans-A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them.
+
+(18) what are the media type allowed by css?
+ans-CSS 2.1 defines the following media groups:
+1.continuous or paged.
+2.visual, audio, speech, or tactile.
+3.grid (for character grid devices), or bitmap.
+4.interactive (for devices that allow user interaction), or static (for those that do not).
+5.all (includes all media types)
+
+(19) what is the rulse set?
+ans-A collection of rules or signatures that network traffic or system activity is compared against to determine an action to take—such as forwarding or rejecting a packet, creating an alert, or allowing a system event.
+
