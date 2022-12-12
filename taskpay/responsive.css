@@ -1,0 +1,1185 @@
+
+
+
+
+@media (MAX-width:576px){
+    .main {
+        align-items: stretch;
+        display: flex;
+        height: 94px;
+        width:100%;
+        background-color:white;
+    
+    }
+    .logo {
+        PADDING-LEFT: 0;
+        padding-top: 17px;
+        column-gap:5px;
+    }
+    .heder-link {
+        padding-left: 0pc;
+    }      
+    .logo .src {
+        padding-left: 0;
+    }
+    
+    .logo-img img{
+        display:none;
+    
+    }
+    .logo .logo-p p {
+        display:  none;
+    }
+    .heder-link {
+        padding-left: 0pc;
+    }
+    .heder-link a {
+        display:  none;
+    }
+    .logo .src span {
+        color: black;
+        position: absolute;
+        padding-left: 10px;
+        padding-top: 14px;
+    }
+    .logo .src input {
+        border-radius: 5px;
+        width: 14pc;
+        height: 45px;
+        background: #e6e5e1;
+        padding-left: 35px;
+    }
+    .main .ern-btn {
+        padding-left: 7pc;
+    }    
+    .main .them img {
+        display:  none;
+    }
+    .main .them {
+        padding-left: 0px;
+    }
+   
+    .main .ern-btn button {
+        border: none;
+        height: 57px;
+        width: 100px;
+        top: 19px;
+        font-size: 12px;
+    
+    }
+    .slide-img img {
+        width: 100%;
+        padding: 15px 14px;
+      }
+      .shoping {
+        display: flex;
+        width: 100%;
+        column-gap: 11pc;
+        padding-left: 15px;
+      }
+      .offer-grid {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        padding: 24px 24px;
+        box-sizing: border-box;
+        gap: 25px;
+      }
+      .arrow-span {
+        display: flex;
+        padding-left: 1pc;
+        column-gap: 28pc;
+      }
+      .shoping-site {
+        display: flex;
+        width: 100%;
+        column-gap: 17pc;
+        padding-left: 18px;
+        padding-top: 2pc;
+      }
+      .sec1 {
+        padding-top: 26px;
+        padding-left: 0;
+      }
+      .sec1 .best-site {
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        padding: 2px 23px;
+        gap: 20px;
+    
+      }
+      .sec1 .best-site .piz1 {
+        padding: 16px;
+        width: 13pc;
+        border: 2px solid;
+        transition: all 1s ease;
+        height: 14pc;
+        border-radius: 23px;
+      }
+      .sec1 .best-site .piz {
+        padding: 10px;
+        width: 13pc;
+        height:14pc;
+      }           
+      .arrow-span1 {
+        display: flex;
+        padding-left: 1pc;
+        column-gap: 28pc;
+        padding-top: 24px;
+      }
+      .shoping-site1 {
+        display: flex;
+        width: 100%;
+        column-gap: 22pc;
+        padding-left: 22px;
+        padding-top: 1pc;
+      }
+      .shoping-site2 {
+        display: flex;
+        width: 100%;
+        column-gap: 22pc;
+        padding-left: 28px;
+        padding-top: 2pc;
+      }
+      .Voucher {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 14px 28px;
+        gap: 20px;
+      }
+      .arrow-span2 {
+        display: flex;
+        padding-left: 1pc;
+        column-gap: 28pc;
+        padding-top:17px;
+      }
+      .shoping-site3 {
+        display: flex;
+        width: 100%;
+        column-gap: 21pc;
+        padding-left: 18px;
+        padding-top: 2pc;
+      }
+      .cupons {
+        grid-template-columns: repeat(6,1fr);
+        padding: 16px 24px;
+        gap: 20px;
+      }
+      .gift-Card {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 40px 59px;
+        gap: 88px;
+      }
+      .gift {
+        width: 446px;
+        height: 250px;
+    }
+      .gift-cont {
+        padding-top: 23px;
+        padding-left: 14pc;
+      }
+      .gift .giftbox p {
+        position: absolute;
+        top: 178px;
+        padding-left: 49px;
+      }
+      .arrow-span3 {
+        display: flex;
+        padding-left: 1pc;
+        column-gap: 28pc;
+        padding-top: 0;
+      }
+      .exclusive h1 {
+        padding-top: 35px;
+        font-size: 30px;
+        padding-left: 15px;
+      }
+      .exclusive-img img {
+        width: 99%;
+      }
+      .exclusive-img {
+        padding-left: 17px;
+        padding-top: 39px;
+      }      
+      .Recommendation {
+        padding-top: 2pc;
+        padding-left: 23px;
+      }
+      .Recommendation-img {
+        GAP: 20PX;
+      }
+      .Recommendation-img .blck-fridy img {
+        height: 256pX;
+        width: 204PX;
+        margin-left: 0;
+      }
+      .Recommendation-img .blck-fridy1 img {
+        width: 148PX;
+        height:222px;
+        margin-top: 12px;
+      }
+      .footer {
+        padding-left: 0;
+        width: 100%;
+        height: 506px;
+      }        
+      .footer .footer-min {
+        display: grid;
+        padding: 43px 20px;
+        grid-template-columns: repeat(1,1fr);
+      }
+      .logo-About h6 {
+        padding-top: 2px;
+        font-size: 25px;
+      }
+      .link {
+        padding-top: 0;
+        padding-left: 0;
+        display: none;
+      }  
+      .footer-heding h5 {
+        padding-top: 0;
+        display: none;
+      }
+      .link1 {
+        padding-left: 0;
+        padding-top: 0;
+        display: none;
+      }
+      .foter-logo {
+        padding: 1px 155px;
+      }       
+      .footer-heding h4 {
+        font-size: 31px;
+        padding: 27px 160px;
+        color: gray;
+      }
+      .footer-heding .Apps {
+        padding: 0px 165px;
+      }
+      .footer-heding P {
+        padding: 15px 101px;
+        font-size: 15px;
+      }
+
+      .contct {
+        padding: 0 123px;
+
+    }      
+    .footer-heding .email-btn {
+        padding: 20px 144px;
+      }
+
+    }
+    @media (Min-width:576px){
+        .main {
+            align-items: stretch;
+            display: flex;
+            height: 94px;
+            width: 100%;
+            background-color:white;
+        
+        }
+        .logo {
+            PADDING-LEFT: 0;
+            padding-top: 17px;
+            column-gap:5px;
+        }
+        .heder-link {
+            padding-left: 0pc;
+        }      
+        .logo .src {
+            padding-left: 0;
+        }
+        
+        .logo-img img{
+            display:none;
+        
+        }
+        .logo .logo-p p {
+            display:  none;
+        }
+        .heder-link {
+            padding-left: 0pc;
+        }
+        .heder-link a {
+            display:  none;
+        }
+        .logo .src span {
+            color: black;
+            position: absolute;
+            padding-left: 10px;
+            padding-top: 14px;
+        }
+        .logo .src input {
+            border-radius: 5px;
+            width: 14pc;
+            height: 45px;
+            background: #e6e5e1;
+            padding-left: 35px;
+        }
+        .main .ern-btn {
+            padding-left: 10pc;
+        }    
+        .main .them img {
+            display:  none;
+        }
+        .main .them {
+            padding-left: 0px;
+        }
+        .main .ern-btn {
+            padding-left: 219px;
+          }
+        .main .ern-btn button {
+            border: none;
+            height: 57px;
+            width: 100px;
+            top: 19px;
+            font-size: 12px;
+        
+        }
+        .slide-img img {
+            width: 100%;
+            padding: 15px 14px;
+          }
+          .shoping {
+            display: flex;
+            width: 100%;
+            column-gap: 11pc;
+            padding-left: 15px;
+          }
+          .offer-grid {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            padding: 24px 24px;
+            box-sizing: border-box;
+            gap: 25px;
+          }
+          .arrow-span {
+            display: flex;
+            padding-left: 1pc;
+            column-gap: 28pc;
+          }
+          .shoping-site {
+            display: flex;
+            width: 100%;
+            column-gap: 17pc;
+            padding-left: 18px;
+            padding-top: 2pc;
+          }
+          .sec1 {
+            padding-top: 26px;
+            padding-left: 0;
+          }
+          .sec1 .best-site {
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            padding: 2px 23px;
+            gap: 20px;
+        
+          }
+          .sec1 .best-site .piz1 {
+            padding: 16px;
+            width: 13pc;
+            border: 2px solid;
+            transition: all 1s ease;
+            height: 14pc;
+            border-radius: 23px;
+          }
+          .sec1 .best-site .piz {
+            padding: 10px;
+            width: 13pc;
+            height:14pc;
+          }           
+          .arrow-span1 {
+            display: flex;
+            padding-left: 1pc;
+            column-gap: 28pc;
+            padding-top: 24px;
+          }
+          .shoping-site1 {
+            display: flex;
+            width: 100%;
+            column-gap: 22pc;
+            padding-left: 22px;
+            padding-top: 1pc;
+          }
+          .shoping-site2 {
+            display: flex;
+            width: 100%;
+            column-gap: 22pc;
+            padding-left: 28px;
+            padding-top: 2pc;
+          }
+          .Voucher {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            padding: 14px 28px;
+            gap: 20px;
+          }
+          .arrow-span2 {
+            display: flex;
+            padding-left: 1pc;
+            column-gap: 28pc;
+            padding-top:17px;
+          }
+          .shoping-site3 {
+            display: flex;
+            width: 100%;
+            column-gap: 21pc;
+            padding-left: 18px;
+            padding-top: 2pc;
+          }
+          .cupons {
+            grid-template-columns: repeat(6,1fr);
+            padding: 16px 24px;
+            gap: 20px;
+          }
+          .gift-Card {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            padding: 40px 59px;
+            gap: 88px;
+          }
+          .gift-cont {
+            padding-top: 23px;
+            padding-left: 14pc;
+          }
+          .gift .giftbox p {
+            position: absolute;
+            top: 178px;
+            padding-left: 49px;
+          }
+          .arrow-span3 {
+            display: flex;
+            padding-left: 1pc;
+            column-gap: 28pc;
+            padding-top: 0;
+          }
+          .exclusive h1 {
+            padding-top: 35px;
+            font-size: 30px;
+            padding-left: 15px;
+          }
+          .exclusive-img img {
+            width: 99%;
+          }
+          .exclusive-img {
+            padding-left: 17px;
+            padding-top: 39px;
+          }      
+          .Recommendation {
+            padding-top: 2pc;
+            padding-left: 23px;
+          }
+          .Recommendation-img {
+            GAP: 20PX;
+          }
+          .Recommendation-img .blck-fridy img {
+            height: 256pX;
+            width: 204PX;
+            margin-left: 0;
+          }
+          .Recommendation-img .blck-fridy1 img {
+            width: 148PX;
+            height:222px;
+            margin-top: 12px;
+          }
+          .footer {
+            padding-left: 0;
+            width: 100%;
+            height: 506px;
+          }        
+          .footer .footer-min {
+            display: grid;
+            padding: 43px 20px;
+            grid-template-columns: repeat(1,1fr);
+          }
+          .logo-About h6 {
+            padding-top: 2px;
+            font-size: 25px;
+          }
+          .link {
+            padding-top: 0;
+            padding-left: 0;
+            display: none;
+          }  
+          .footer-heding h5 {
+            padding-top: 0;
+            display: none;
+          }
+          .link1 {
+            padding-left: 0;
+            padding-top: 0;
+            display: none;
+          }
+          .foter-logo {
+            padding: 1px 155px;
+          }       
+          .footer-heding h4 {
+            font-size: 31px;
+            padding: 27px 160px;
+            color: gray;
+          }
+          .footer-heding .Apps {
+            padding: 0px 165px;
+          }
+          .footer-heding P {
+            padding: 15px 101px;
+            font-size: 15px;
+          }
+    
+          .contct {
+            padding: 0 123px;
+    
+        }      
+        .footer-heding .email-btn {
+            padding: 20px 144px;
+          }
+    
+        }
+
+
+    @media (MAX-width:425px){
+        .main .ern-btn {
+            padding-left: 70px;
+          }
+            .shoping h2 {
+                font-size: 14px;
+                width: 10pc;
+              }
+              .shoping h6 {
+                font-size: 14px;
+                padding-top: 11px;
+              }
+          .arrow-span {
+            display: flex;
+            padding-left: 1pc;
+            column-gap: 19pc;
+          }
+          .shoping-site h2 {
+            font-size: 13px;
+            font-family: sans-serif;
+          }
+          .shoping-site h6 {
+            font-size: 13px;
+            padding-top: 0;
+          }
+          .shoping-site {
+            display: flex;
+            width: 100%;
+            column-gap: 15pc;
+            padding-left: 20px;
+            padding-top: 1pc;
+          }
+          .arrow-span span {
+            font-size: 22px;
+            width: 40px;
+            padding-left: 9px;
+            height: 29px;
+            padding-top: 4px;
+          }
+          .sec1 .best-site .piz1 {
+            padding: 0;
+            width: 12pc;
+            height: 12pc;
+          }
+          .sec1 .best-site .piz {
+            padding: 1px;
+            width: 11pc;
+            height: 12pc;
+          }          
+          .sec1 .best-site .piz1 button {
+            margin: 22px 42px;
+            width: 104px;
+            height: 37px;
+          }     
+          
+          .sec1 .best-site .piz1 button a {
+            font-size: 14px;
+          }
+          .sec1 .best-site .piz button {
+            margin: 22px 42px;
+            width: 104px;
+            height: 37px;
+          }  
+          .sec1 .best-site .piz button a {
+            font-size: 14px;
+          }
+          .arrow-span1 span {
+            font-size: 21px;
+            width: 44px;
+            padding-left: 10px;
+            height: 29px;
+            padding-top: 5px;
+          }
+          .gift {
+            width: 446px;
+            height: 250px;
+        }
+          .arrow-span1 {
+            display: flex;
+            padding-left: 1pc;
+            column-gap: 19pc;
+            padding-top: 16px;
+          }
+          .shoping-site1 h2 {
+            font-size: 17px;
+          }
+          .shoping-site1 {
+            display: flex;
+            width: 100%;
+            column-gap: 17pc;
+            padding-left: 19px;
+          }
+          .shoping-site1 h6 {
+            font-size: 14px;
+            padding-top:8px;
+          }
+          .shoping-site2 h2 {
+            font-size: 19px;
+          }
+          .shoping-site2 {
+            display: flex;
+            width: 100%;
+            column-gap: 17pc;
+            padding-left: 21px;
+          }
+          .shoping-site2 h6 {
+            font-size: 14px;
+            padding-top: 9px;
+          }
+          .arrow-span2 span {
+            font-size: 23px;
+            width: 44px;
+            padding-left: 10px;
+            height: 31px;
+            padding-top: 3px;
+          }
+          .arrow-span2 {
+            display: flex;
+            padding-left: 1pc;
+            column-gap: 19pc;
+            padding-top: 14px;
+          }
+          .shoping-site3 h2 {
+            font-size: 19px;
+          }
+          .shoping-site3 h6 {
+            font-size: 14px;
+            padding-top: 5px;
+          }
+          .shoping-site3 {
+            column-gap: 16pc;
+            padding-left: 18px;
+            padding-top: 1pc;
+          }          
+
+          .arrow-span3 span {
+            font-size: 22px;
+            width: 46px;
+            padding-left: 9px;
+            height: 31px;
+            padding-top: 4px;
+          }
+          .arrow-span3 {
+            display: flex;
+            padding-left: 1pc;
+            column-gap: 19pc;
+            padding-top: 0;
+          }
+          .exclusive-img img {
+            width: 98%;
+          }
+          .exclusive-img {
+            padding-left: 11px;
+            padding-top: 28px;
+          }
+          .Recommendation-img .blck-fridy img {
+            height: 181pX;
+            width: 150PX;
+            margin-left: 0;
+          }
+          .Recommendation-img .blck-fridy1 img {
+            width: 107PX;
+            height: 154px;
+            margin-top: 12px;
+          }
+          .foter-logo {
+            padding: 1px 82px;
+          }
+          .footer-heding h4 {
+            font-size: 26px;
+            padding: 27px 112px;
+          }   
+          .footer-heding .Apps {
+            padding: 0px 121px;
+          }
+          .footer-heding h3 {
+            font-size: 24px;
+            padding-left: 9PC;
+          }       
+          .footer-heding P {
+            padding: 9px 37px;
+            font-size: 15px;
+          }
+          .contct {
+            padding: 0 35px;
+          }
+          .footer-heding .contct input {
+            width: 21pc;
+          }
+          .footer-heding .email-btn {
+            padding: 15px 108px;
+          }
+          .footer-bottom .design span {
+            font-size: 13px;
+          }
+          .footer-bottom .design span h2 a {
+            font-size: 10px;
+          }          
+        }
+
+
+    @media (Min-width:768px){
+        .main {
+            height: 97px;
+            width: 100%;
+            background-color: black;
+        }
+        .logo-img img {
+            display: block;
+        }
+        .logo .logo-p p {
+            display: block;
+        }
+        .logo .logo-p span {
+            position: absolute;
+            top: 62px;
+        }
+        .logo {
+            PADDING-LEFT: 17px;
+        }
+        .logo .src {
+            padding-left: 21px;
+            padding-top: 16px;
+        }
+        .logo .src {
+    padding-left: 21px;
+    padding-top: 16px;
+}
+        .main .them img {
+            display: block;
+        }
+        .main .them {
+            padding-left: 21px;
+            padding-top: 20px;
+        }
+        .main .ern-btn {
+            padding-left: 77px;
+        }
+        .shoping h2 {
+            font-size: 31px;
+            width: 20pc;
+        }
+        .shoping h6 {
+            font-size: 20px;
+            padding-top: 12px;
+        }
+        .shoping {
+            column-gap: 22pc;
+            padding-left: 15px;
+        }
+        .arrow-span {
+            column-gap: 40pc;
+        }
+        .shoping-site h2 {
+            font-size: 30px;
+        }
+        .shoping-site {
+            column-gap: 29pc;
+            padding-left: 18px;
+            padding-top: 1pc;
+        }
+        .arrow-span1 {
+            padding-left: 1pc;
+            column-gap: 40pc;
+            padding-top: 27px;
+        }
+        .shoping-site1 {
+            column-gap: 34pc;
+            padding-left: 19px;
+        }
+        .shoping-site2 {
+            column-gap: 34pc;
+            padding-left: 24px;
+        }
+        .arrow-span2 {
+            column-gap: 40pc;
+            padding-top: 16px;
+        }
+        .shoping-site3 {
+            column-gap: 33pc;
+            padding-left: 16px;
+        }
+        .gift {
+            width: 30pc;
+            height: 32vh;
+        }
+        .arrow-span3 {
+            padding-left: 1pc;
+            column-gap: 40pc;
+            padding-top: 1px;
+        }
+        .exclusive h1 {
+            font-size: 34px;
+        }
+        .Recommendation h1 {
+            font-size: 36px;
+        }
+        .Recommendation-img .blck-fridy img {
+            height: 275pX;
+            width: 246PX;
+            margin-left: 0;
+        }
+        .Recommendation-img .blck-fridy1 img {
+            width: 215PX;
+            height: 237px;
+            margin-top: 12px;
+        }
+        .footer {
+            height: 523px;
+        }
+        .footer .footer-min {
+            padding: 43px 95px;
+        }
+        .foter-logo .footer-imglogo img {
+            height: 46px;
+        }
+        .logo-About h6 {
+            padding-top: 5px;
+            font-size: 30px;
+        }
+        .footer-heding h4 {
+            font-size: 31px;
+            padding: 27px 188px;
+            width: 100%;
+        }
+        .footer-heding .Apps {
+            padding: 0px 212px;
+        }
+        .footer-heding h3 {
+            font-size: 33px;
+            padding-left: 14PC;
+            padding-top: 15PX;
+        }
+        .footer-heding P {
+            padding: 15px 64px;
+            font-size: 21px;
+        }
+        .contct {
+            padding: 0 88px;
+        }
+        .footer-heding .contct input {
+            width: 26pc;
+            height: 51px;
+            border-radius: 36px;
+            font-size: 22px;
+            text-align: center;
+        }
+        .footer-heding .email-btn {
+            padding: 16px 160px;
+        }
+        .footer-heding .email-btn button {
+            width: 255px;
+            height: 54px;
+            border-radius: 21px;
+            font-size: 25px;
+        }
+        .footer-bottom .design span {
+            font-size: 23px;
+        }
+    }
+    @media (Min-width:1024px){
+        .main .them {
+            padding-left: 270px;
+          }
+          .shoping {
+            column-gap: 38pc;
+          }
+          
+          .arrow-span {
+            column-gap: 56pc;
+          }
+          .shoping-site {
+            column-gap: 44pc;
+          }
+
+          .arrow-span1 {
+            column-gap: 56pc;
+          }
+          .shoping-site1 {
+            column-gap: 50pc;
+          }
+          .shoping-site2 {
+            column-gap: 50pc;
+          }
+          .arrow-span2 {
+            column-gap: 56pc;
+          }
+          .shoping-site3 {
+            column-gap: 49pc;
+            padding-left: 19px;
+          }
+          .arrow-span3 {
+            padding-left: 1pc;
+            column-gap: 56pc;
+            padding-top: 1px;
+          }
+          .exclusive h1 {
+            font-size: 40px;
+          }
+          .Recommendation-img .blck-fridy img {
+            height: 309pX;
+            width: 309PX;
+            margin-left: 0;
+          }
+          .Recommendation-img .blck-fridy1 img {
+            width: 278PX;
+            height: 268px;
+            margin-top: 12px;
+          }
+          .footer {
+            height: 586px;
+          }
+          .foter-logo .footer-imglogo img {
+            height: 64px;
+          }
+          .logo-About h6 {
+            padding-top: 9px;
+            font-size: 38px;
+          }
+          .foter-logo {
+            padding: 1px 241px;
+          }
+          .footer-heding h4 {
+            font-size: 36px;
+            padding: 27px 293px;
+            width: 100%;
+          }
+          .footer-heding .Apps {
+            padding: 0px 313px;
+          }
+          .footer-heding h3 {
+            font-size: 36px;
+            padding-left: 20PC;
+            padding-top: 19PX;
+          }
+          .footer-heding P {
+            padding: 20px 140px;
+            font-size: 25px;
+          }
+          .contct {
+            padding: 0 161px;
+          }
+          .footer-heding .contct input {
+            width: 31pc;
+            height: 51px;
+            font-size: 24px;
+            text-align: center;
+          }                              
+          .footer-heding .email-btn {
+            padding: 16px 210px;
+          }
+          .footer-heding .email-btn button {
+            width: 391px;
+            height: 54px;
+            border-radius: 21px;
+            font-size: 30px;
+          }
+    }
+    @media (Min-width:1440px){
+        .main .them {
+            padding-left: 50px;
+        }
+        .heder-link a {
+            padding-left: 51px;
+            font-size: 19px;
+            display: block;
+        }
+        .shoping h2 {
+            font-size: 34px;
+            width: 38pc;
+        }
+        .shoping {
+            column-gap: 45pc;
+        }
+        .arrow-span {
+            padding: 13px 23px;
+            column-gap: 81pc;
+        }
+        .shoping-site {
+            column-gap: 70pc;
+        }
+        .arrow-span1 {
+            column-gap: 82pc;
+        }
+        .shoping-site1 h2 {
+            font-size: 33px;
+        }
+        .shoping-site1 {
+            column-gap: 75pc;
+            padding-top: 35px;
+        }
+        .cupons {
+            grid-template-columns: repeat(2,3fr);
+            padding: 15px 14px;
+            gap: 20px;
+        }
+        .grid-cupon {
+            display: flex;
+            gap: 9px;
+            width: 43pc;
+            height: auto;
+            padding: 12px 8px;
+        }
+        .shoping-site2 {
+            column-gap: 76pc;
+        }
+        
+        .Voucher {
+            padding: 14px 20px;
+        }
+        .arrow-span2 {
+            column-gap: 82pc;
+        }
+        .shoping-site3 {
+            column-gap: 75pc;
+        }
+        .gift {
+            width: 395px;
+            height: 230px;
+        }
+        .gift-cont {
+            padding-top: 17px;
+            padding-left: 10pc;
+        }
+        .gift .giftbox p {
+            position: absolute;
+            top: 167px;
+            padding-left: 8px;
+        }
+        .gift-cont h6 {
+            padding-top: 11px;
+            font-size: 18px;
+        }
+        .arrow-span3 {
+            padding-left: 1pc;
+            column-gap: 82pc;
+            padding-top: 16px;
+        }
+        .exclusive h1 {
+            font-size: 46px;
+        }
+        .Recommendation h1 {
+            font-size: 44px;
+        }
+        
+        .Recommendation-img .blck-fridy img {
+            height: 373pX;
+            width: 470PX;
+            margin-left: 0;
+        }
+        .Recommendation-img .blck-fridy1 img {
+            width: 432PX;
+            height: 329px;
+            margin-top: 14px;
+        }
+        .footer {
+            height: 395px;
+        }
+        .footer .footer-min {
+            display: grid;
+            padding: 43px 20px;
+            grid-template-columns: repeat(6,1fr);
+        }
+        .foter-logo {
+            padding:15px 0px;
+            gap: 0;
+        
+        }
+        .foter-logo .footer-imglogo img {
+            display: none;
+        
+        }
+        .logo-About h6 {
+            padding-top: 9px;
+            font-size: 26px;
+        }
+        .footer-heding h4 {
+            font-size: 36px;
+            padding: 0;
+        }
+        .footer-heding .Apps {
+            padding:11px 0px;
+        }
+        .footer-heding h3 {
+            font-size: 36px;
+            padding-left: 0;
+            padding-top: 19PX;
+        }
+        .footer-heding P {
+            padding: 0px;
+        }
+        .contct {
+            padding: 0;
+        }
+        .footer-heding .email-btn {
+            padding: 17px 51px;
+        }
+    
+        .link {
+            padding-top: 20px;
+            padding-left: 6px;
+            display: block;
+        }
+        .footer-heding h5 {
+            padding-top: 28px;
+            display: block;
+            padding-left: 0px;
+            font-size: 26px;
+        }
+        .link1 {
+            padding-left: 0;
+            padding-top: 22px;
+            display: block;
+        }
+        .footer-heding .contct input {
+            width: 18pc;
+            height: 49px;
+            font-size: 19px;
+            text-align: center;
+        }
+        .footer-heding .email-btn button {
+    width: 188px;
+    height: 45px;
+    border-radius: 22px;
+    font-size:22px;
+        }
+        .footer-heding h4 {
+            font-size: 26px;
+            padding: 28px 0;
+            color: white;
+        }
+        .footer-heding h3 {
+            font-size: 29px;
+            padding-left: 5px;
+            padding-top: 28PX;
+            color: whitesmoke;
+        }
+        .footer-heding P {
+            padding: 31px 0;
+            font-size: 20px;
+        }
+    }
+  
