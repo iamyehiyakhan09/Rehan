@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="form_valid.js"></script>
+    <script src="hideshow.js"></script>
+</head>
+<body>
+    <div class="reg-form">
+        <h1>Registation form</h1>
+        <form action="#" name="form1" method="get">
+            <!-- first Name -->
+<div class="row">
+    <div class="col"><label for="">First name</label></div>
+    <div class="col-1"><input type="text" name="fname">
+    <p id="fmsg"></p>
+    </div>
+</div>
+ <!-- Middle Name -->
+
+<div class="row">
+    <div class="col"><label for="">Middle name</label></div>
+    <div class="col-1"><input type="text" name="mname">
+        <p id="Mmsg"></p>
+</div>
+</div>
+ <!-- last Name -->
+
+<div class="row">
+    <div class="col"><label for="">Last name</label></div>
+    <div class="col-1"><input type="text" name="lname">
+    <p id="lmsg"></p>
+    </div>
+</div>
+<!-- email -->
+
+<div class="row">
+    <div class="col"><label for="">Email</label></div>
+    <div class="col-1"><input type="text" name="mail">
+    <p id="mailmsg"></p>
+    </div>
+</div>
+
+<!-- password -->
+
+<div class="row">
+    <div class="col"><label for="">password</label></div>
+    <div class="col-1"><input type="password" name="security" id="sec">
+  <p>  <input type="checkbox" onclick=" return hide_show()">
+     <label for="">Show password</label> </p>
+     <p id="pmsg"></p>
+</div>
+    
+</div>
+
+<!-- gender -->
+
+<div class="row">
+    <div class="col"><label for="">Gender</label></div>
+    <div class="col-1">
+        <input type="radio" name="gen" id="">
+    <label for="">Male</label>
+
+    <input type="radio" name="gen" id="">
+    <label for="">FeMale</label>
+    <P id="gmsg"></P>
+    </div>
+</div>
+<!-- cheakbox -->
+
+<div class="row">
+    <div class="col"><label for="">Subject</label></div>
+    <div class="col-1">
+        <input type="checkbox" name="c1" id="">
+    <label for="">Html</label>
+    
+    <input type="checkbox" name="c2" id="">
+    <label for="">Css</label>
+    
+    <input type="checkbox" name="c3" id="">
+    <label for="">Js</label>
+    <p id="submsg"></p>
+    </div>
+</div>
+
+<!-- drop-down -->
+<div class="row">
+    <div class="col"><label for="">Experience</label></div>
+    <div class="col-1">
+        <select name="exp" id="">
+<option value="-1">-------------------------Select------------------------</option>
+<option value=""> &lt; 1</option>
+<option value=""> &gt; 1</option>
+</select>
+<p id="expmsg"></p>
+
+</div>
+</div>
+
+<!-- mobile -->
+
+<div class="row">
+    <div class="col"><label for="">Mobile Number</label></div>
+    <div class="col-1"><input type="text" name="mno" id=""></div>
+</div>
+<div class="row">
+    <div class="col"><label for=""></label></div>
+    <div class="col-1"><input type="submit" name="submit" value="Register" class="btn1" onclick="return check_form_valid()"></div>
+</div>
+
+        </form>
+    </div>
+</body>
+</html>
