@@ -1,0 +1,169 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        header {
+            background-color: rgb(0, 0, 0);
+        }
+
+        header .header-top {
+            margin: 0px 49px 0px 48px;
+            padding: 0px;
+        }
+
+        header .header-nav {
+            display: flex;
+        }
+
+        header .header-nav .bars {
+            display: none;
+            padding: 20px 0px;
+            
+        }
+
+        header .header-nav .bars button {
+            height: 40px;
+            width: 40px;
+        }
+
+        header .header-nav .logo {
+            flex: 1;
+            display: flex;
+            padding: 20px;
+        }
+
+        header .header-nav .nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex: 6;
+            padding: 20px;
+
+        }
+
+        header .header-nav .logo p{
+        font-size: 20px;
+        padding-left: 53px;
+        font-family: sans-serif;
+        color: bisque;
+    }
+    
+        header .header-nav .nav .search input {
+            height: 40px;
+            width: 205px;
+            padding: 21px;
+            border-radius: 22px;
+            border: none;
+            font-size: 17px;
+        }
+
+        header .header-nav .nav .mid-nav {
+            flex: 1;
+        }
+
+        header .header-nav .nav .mid-nav ul {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        header .header-nav .nav .mid-nav ul li {
+            padding: 20px;
+        }
+
+        header .header-nav .bell {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            color: white;
+        }
+        header .header-nav .bell img{
+            height: 50px;
+            border-radius: 60%;
+            width: 66px;
+        }
+
+        header .header-nav .btn {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        header .header-nav .btn button {
+            height: 40px;
+            width: 100px;
+            border: none;
+            border-radius: 10px;
+        }
+
+        .header-bottom {
+            display: none;
+            padding: 30px;
+        }
+
+        .header-bottom .header-b-val {
+            display: flex;
+            gap: 215px;
+        }
+
+        .header-bottom .input-search input {
+            height: 40px;
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        header .header-nav .btn button {
+            height: 62px;
+            width: 113px;
+            border: none;
+            border-radius: 10px;
+            background: antiquewhite;
+            font-size: 15px;
+        }
+
+        @media (max-width:576px) {
+
+            header .header-nav .bars {
+                display: block;
+            }
+
+            header .header-nav .logo {
+                display: flex;
+                justify-content: center;
+            }
+
+            header .header-nav .nav {
+                display: none;
+            }
+
+            header .header-nav .btn {
+                display: none;
+            }
+
+            .header-bottom {
+                display: block;
+                padding: 20px;
+            }
+
+ .btn button{
+            height: 45px;
+            width: 116px;
+            background: #ffbd65;
+            border: none;
+            font-size: 17px;
+        }
+
+        }
