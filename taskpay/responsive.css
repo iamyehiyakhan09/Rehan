@@ -1,68 +1,36 @@
 
-@media (MAX-width:576px){
-    .main {
-        align-items: stretch;
-        display: flex;
-        height: 94px;
-        width:100%;
-        background-color:white;
-    
-    }
-    .logo {
-        PADDING-LEFT: 0;
-        padding-top: 17px;
-        column-gap:5px;
-    }
-    .heder-link {
-        padding-left: 0pc;
-    }      
-    .logo .src {
-        padding-left: 0;
-    }
-    
-    .logo-img img{
-        display:none;
-    
-    }
-    .logo .logo-p p {
-        display:  none;
-    }
-    .heder-link {
-        padding-left: 0pc;
-    }
-    .heder-link a {
-        display:  none;
-    }
-    .logo .src span {
-        color: black;
-        position: absolute;
-        padding-left: 10px;
-        padding-top: 14px;
-    }
-    .logo .src input {
-        border-radius: 5px;
-        width: 14pc;
-        height: 45px;
-        background: #e6e5e1;
-        padding-left: 35px;
-    }
-    .main .ern-btn {
-        padding-left: 8pc;
-    }    
-    .main .them img {
-        display:  none;
-    }
-    .main .them {
-        padding-left: 0px;
-    }
-    .main .ern-btn button {
-        border: none;
-        height: 57px;
-        width: 100px;
-        top: 19px;
-        font-size: 12px;
-    
-    }
+@media (max-width:576px) {
+
+  header .header-nav .bars {
+      display: block;
+  }
+
+  header .header-nav .logo {
+      display: flex;
+      justify-content: center;
+  }
+
+  header .header-nav .nav {
+      display: none;
+  }
+
+  header .header-nav .btn {
+      display: none;
+  }
+
+  .header-bottom {
+      display: block;
+      padding: 20px;
+  }
+
+.btn button{
+  height: 45px;
+  width: 116px;
+  background: #ffbd65;
+  border: none;
+  font-size: 17px;
+}
+
     .slide-img img {
         width: 100%;
         padding: 15px 14px;
@@ -411,98 +379,38 @@ height: 6pc;
   width: 0;
   DISPLAY: NONE;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
+  }
     @media (Min-width:576px){
-        .main {
-            align-items: stretch;
-            display: flex;
-            height: 94px;
-            width: 100%;
-            background-color:white;
         
-        }
+  header .header-nav .bars {
+    display: block;
+}
 
-        
-        .logo {
-            PADDING-LEFT: 0;
-            padding-top: 17px;
-            column-gap:5px;
-        }
-        .heder-link {
-            padding-left: 0pc;
-        }      
-        .logo .src {
-            padding-left: 0;
-        }
-        
-        .logo-img img{
-            display:none;
-        
-        }
-        .logo .logo-p p {
-            display:  none;
-        }
-        .heder-link {
-            padding-left: 0pc;
-        }
-        .heder-link a {
-            display:  none;
-        }
-        .logo .src span {
-            color: black;
-            position: absolute;
-            padding-left: 10px;
-            padding-top: 14px;
-        }
-        .logo .src input {
-            border-radius: 5px;
-            width: 14pc;
-            height: 45px;
-            background: #e6e5e1;
-            padding-left: 35px;
-        }
-        .main .ern-btn {
-            padding-left: 10pc;
-        }    
-        .main .them img {
-            display:  none;
-        }
-        .main .them {
-            padding-left: 0px;
-        }
-        .main .ern-btn {
-            padding-left: 219px;
-          }
-        .main .ern-btn button {
-            border: none;
-            height: 57px;
-            width: 100px;
-            top: 19px;
-            font-size: 12px;
-        
-        }
+header .header-nav .logo {
+    display: flex;
+    justify-content: center;
+}
+
+header .header-nav .nav {
+    display: none;
+}
+
+header .header-nav .btn {
+    display: none;
+}
+
+.header-bottom {
+    display: block;
+    padding: 20px;
+}
+
+.btn button{
+height: 45px;
+width: 116px;
+background: #ffbd65;
+border: none;
+font-size: 17px;
+}
         .slide-img img {
             width: 100%;
             padding: 15px 14px;
@@ -1215,36 +1123,7 @@ height: 32px;
 
 
     @media (Min-width:768px){
-        .main {
-            height: 97px;
-            width: 100%;
-            background-color: black;
-        }
-        .logo-img img {
-            display: block;
-        }
-        .logo .logo-p p {
-            display: block;
-        }
-        .logo .logo-p span {
-            position: absolute;
-            top: 62px;
-        }
-        .logo {
-            PADDING-LEFT: 17px;
-        }
-        .logo .src {
-            padding-left: 21px;
-            padding-top: 16px;
-        }
-        .logo .src {
-    padding-left: 21px;
-    padding-top: 16px;
-}
-.logo .src input {
-  border-radius: 35px;
-background:#4E5053;
-}
+
 .offer-grid {
   padding: 23px 17px;
   gap: 23px;
@@ -1625,9 +1504,7 @@ height: 26px;
         }
     }
     @media (Min-width:1024px){
-        .main .them {
-            padding-left: 270px;
-          }
+       
           .gift .giftbox img {
             width: 15pc;
             left: -66px;
@@ -1944,14 +1821,42 @@ width: 116px;
           }
     }
     @media (Min-width:1440px){
-        .main .them {
-            padding-left: 50px;
-        }
-        .heder-link a {
-            padding-left: 51px;
-            font-size: 19px;
-            display: block;
-        }
+      header .header-nav .bars {
+        display: none;
+    }
+    
+    header .header-nav .logo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    header .header-nav .nav {
+        display: block;
+    }
+    
+    header .header-nav .btn {
+        display: block;
+    }
+    
+    .header-bottom {
+      padding: 20px;
+      display: none;
+  }
+  
+  
+    
+    .btn button{
+    height: 45px;
+    width: 116px;
+    background: #ffbd65;
+    border: none;
+    font-size: 17px;
+    }
+    .header-bottom .input-search input {
+      display: none;
+  }
+  
+  
         .shoping h2 {
             font-size: 34px;
             width: 38pc;
@@ -3030,8 +2935,57 @@ display:block;
   gap: 0;
 }
 .sec1 .best-site .piz1 {
-  padding: 7px;
+  padding: 10px 54px;
+  width: 15pc;
+  height: 13pc;
 }
+.sec1 .best-site .piz {
+  padding: 10px 54px;
+  width: 15pc;
+  height: 13pc;
+}
+.sec1 .best-site .piz2 {
+  padding: 10px 54px;
+  width: 15pc;
+  height: 13pc;
+}
+.sec1 .best-site .piz3 {
+  padding: 10px 54px;
+  width: 15pc;
+  height: 13pc;
+}
+.sec1 .best-site .piz4 {
+  padding: 10px 54px;
+  width: 13pc;
+  height: 13pc;
+}
+.gift1 {
+  width: 450px;
+  height: 216px;
+}
+
+.gift {
+  width: 450px;
+  height: 216px;
+}
+.gift-cont {
+  padding-top: 17px;
+  padding-left: 12pc;
+}
+.gift2 .giftbox p {
+  top: 165px;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
 .arrow-span1 {
   padding-left: 3pc;
   column-gap: 91pc;

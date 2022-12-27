@@ -12,51 +12,55 @@
 
 </head>
 <body>
-    <script>
-//  ("Please Enter Your Name");
-    
-    </script>
-    <Header>       
-        <div class="continer">
-            <div class="main">
+    <header>
+        <div class="header-top">
+            <div class="header-nav">
+                <div class="bars">
+                    <button><span class="fa-solid fa-bars"></span></button>
+                </div>
                 <div class="logo">
-                    <div class="logo-img">
-                       <a href="http://" target="_blank">
-                         <img src="Union 39.png" alt="">
-                        </a>
+                    <a href="#"><img src="Avatar-7" alt=""></a>
+                    <h1><a href="">TaskPay<p>deals</p></a></h1>
+                </div>
+                <div class="nav">
+                    <div class="search">
+                        <input type="text" placeholder="Search">
                     </div>
-                    <div class="logo-p">
-                        <a href="http://" target="_blank"> 
-                        <p>TaskPay <br><span>deals</span> </p>
-                    </a>
-                    </div>
-                    <div class="src">
-                        <span class="fa-solid fa-magnifying-glass"></span>
-               <input type="search" placeholder="Serch Here" >
+                    <div class="mid-nav">
+                        <ul>
+                            <li><a href="">Exclusive offer</a></li>
+                            <li><a href="">Advertising with us</a></li>
+                            <li><a href="">Contact Now</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="heder-link">
-                    <ul>
-                        <li><a href="" target="_blank">Exclusive Offer</a></li>
-                        <li>   <a href="" target="_blank">Advertisement with Us    </a></li>
-                        <li>       <a href="" target="_blank">Contact Us</a></li>
-                    </ul>
-
-                    
+                <div class="bell">
+                    <img src="boy-face-avatar-cartoon-free-vector.jpg" alt="">
                 </div>
-                <div class="them">
-                    <a href="" target="_blank"><img src="Avatar-7 1.png" alt=""></a>
-                </div>
-                <div class="ern-btn">
-                    <a href="" target="_blank"><button>Total Earnings<br><span>$10.000</span></button></a>
+                <div class="btn">
+                    <button>Total Earning</button>
                 </div>
             </div>
-         
         </div>
-        <div class="slide-img">
-           <a href="" target="_blank"><img src="Rectangle 5.png" alt=""></a>
+    </header>
+    <div class="header-bottom">
+        <div class="header-b-val">
+            <div class="input-search">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="btn">
+                <button>Total Earning</button>
+            </div>
         </div>
-    </Header>
+    </div>
+    <script>
+        let btn = document.querySelector(".bars");
+        let header_nav = document.querySelector(".mid-nav");
+    
+        btn.addEventListener("click", function () {
+          header_nav.classList.toggle("navi");
+        });
+      </script>
   
     <section>
         <div class="main-best">
