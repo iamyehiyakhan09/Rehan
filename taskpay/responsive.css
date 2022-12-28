@@ -423,13 +423,19 @@ header .header-nav .btn {
     display: block;
     padding: 20px;
 }
+.btn button {
+  height: 63px;
+  width: 179px;
+  border: none;
 
-.btn button{
-height: 45px;
-width: 116px;
-background: #ffbd65;
-border: none;
-font-size: 17px;
+  border-radius: 12px;
+}
+.btn button {
+  height: 56px;
+  width: 128px;
+  font-size: 18px;
+  background: #FDC7B0;
+  border: none;
 }
 .header-b-val  .input-search{
   position: relative;

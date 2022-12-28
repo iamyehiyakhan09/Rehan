@@ -1,0 +1,571 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+a{
+ text-decoration: none;
+}
+section{
+    padding: 49px 118px;
+}
+
+.Ajio-main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.Ajio{
+    position: relative;
+    padding: 0px 0;
+    border: 2px solid 
+    #FDC7B0;
+    height: 376px;
+    width: 361px;
+    border-radius: 15px;
+}
+.Ajio-img {
+    position: absolute;
+    top: 215px;
+    left: 26px;
+}
+.profit {
+    margin-top: 15px;
+}
+
+
+.sle{
+    DISPLAY: FLEX;
+}
+.flex-btn {
+    display: flex;
+    gap: 97px;
+    padding: 0px 20px;
+}
+
+.profit h2 {
+    font-size: 18px;
+    font-weight: 900;
+    font-family: sans-serif;
+    margin-left: 263px;
+}
+.profit p {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    margin-left: 164px;
+    padding-top: 8px;
+}
+.flex-btn .btn1 button{
+    width: 150px;
+    height: 40px;
+    background: #FDC7B0;
+    border: none;
+    border-radius: 10px;
+
+
+}
+
+.flex-btn .btn1 button:hover{
+    background-color: rgb(214, 18, 18);
+    border: 3px solid yellow;
+    border-left: none;
+    border-right: none;
+    
+    }
+.flex-btn .btn1 a{
+    color: black;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+.flex-btn .btn1 a:hover{
+    color: white;
+}
+.flex-btn .Amount h2 {
+    font-size: 26px;
+    font-family: sans-serif;
+    font-weight: 900;
+    padding-top: 2px;
+}
+.Ajio1 {
+    position: relative;
+    padding: 0px 0;
+    border: 2px solid 
+    #FDC7B0;
+    height: 376px;
+    width: 361px;
+    border-radius: 15px;
+}
+.Ajio2 {
+    position: relative;
+    padding: 0px 0;
+    border: 2px solid #FDC7B0;
+    height: 376px;
+    width: 357px;
+    border-radius: 15px;
+}
+.Ajio3 {
+    position: relative;
+    padding: 0px 0;
+    border: 2px solid 
+    #FDC7B0;
+    height: 376px;
+    width: 361px;
+    border-radius: 15px;
+}
+
+
+
+
+.flipkart-main {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 50px 0;
+}
+
+.flipkart {
+    position: relative;
+    padding: 0px 0;
+    border: 2px solid 
+    #FDC7B0;
+    height: 380px;
+    width: 361px;
+    border-radius: 9px;
+}
+.flipkart-img {
+    position: absolute;
+    top: 215px;
+    left: 26px;
+}
+.flp-profit {
+    margin-top: 15px;
+}
+
+.flp-sle{
+    DISPLAY: FLEX;
+}
+.flp-btn {
+    display: flex;
+    gap: 97px;
+    padding: 0px 20px;
+}
+
+.flp-profit h2 {
+    font-size: 23px;
+    font-weight: 900;
+    font-family: sans-serif;
+    margin-left: 241px;
+}
+.flp-profit p {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    margin-left: 142px;
+    padding-top: 3px;
+}
+.flp-btn1 button{
+    width: 150px;
+    height: 40px;
+    background: #FDC7B0;
+    border: none;
+    border-radius: 10px;
+}
+.flp-btn1 button:hover{
+background-color: rgb(214, 18, 18);
+border: 3px solid yellow;
+border-left: none;
+border-right: none;
+
+}
+.flp-btn .flp-btn1 a{
+    color: black;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+.flp-btn .flp-btn1 a:hover{
+    color: white;
+}
+
+
+.flp-btn .flp-Amount h2 {
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: 900;
+    padding-top: 4px;
+}
+.flipkart1{
+    position: relative;
+    padding: 0px 0;
+    border: 2px solid 
+    #FDC7B0;
+        height: 380px;
+        width: 361px;
+        border-radius: 9px;
+    }
+
+    .flipkart2{
+        position: relative;
+        padding: 0px 0; 
+        border: 2px solid 
+        #FDC7B0;
+            height: 380px;
+            width: 361px;
+            border-radius: 9px;
+        }
+    
+        .flipkart3{
+            position: relative;
+            padding: 0px 0;
+            border: 2px solid 
+            #FDC7B0;
+                height: 380px;
+                width: 361px;
+                border-radius: 9px;
+            }
+        
+
+
+
+
+/* Myntra */
+            .Myntra-main{
+                display: grid;
+                grid-template-columns: repeat(4,1fr);
+            }
+            
+            .Myntra {
+                position: relative;
+                padding: 0px 0;
+                border: 2px solid 
+            #FDC7B0;
+                height: 376px;
+                width: 361px;
+                border-radius: 15px;
+            }
+            .Myntra-img {
+                position: absolute;
+                top: 220px;
+                left: 26px;
+            }
+            .mnt-profit {
+                margin-top: 15px;
+            }
+        
+            .mnt-sle{
+                DISPLAY: FLEX;
+            }
+            .mnt-btn {
+                display: flex;
+                gap: 97px;
+                padding: 0px 20px;
+            }
+            .mnt-profit h2 {
+                font-size: 22px;
+                font-weight: 900;
+                font-family: sans-serif;
+                margin-left: 241px;
+            }
+            .mnt-profit p {
+                font-family: sans-serif;
+                font-weight: 600;
+                font-size: 20px;
+                margin-left: 148px;
+                padding-top: 8px;
+            }
+            .mnt-btn1 button{
+                width: 150px;
+                height: 40px;
+                background: #FDC7B0;
+                border: none;
+                border-radius: 10px;
+            }
+            .mnt-btn1 button:hover{
+            background-color: rgb(214, 18, 18);
+            border: 3px solid yellow;
+            border-left: none;
+            border-right: none;
+            
+            }
+            .mnt-btn .mnt-btn1 a{
+                color: black;
+                font-size: 19px;
+                font-family: sans-serif;
+            }
+            .mnt-btn .mnt-btn1 a:hover{
+                color: white;
+            }
+            
+            
+            .mnt-btn .mnt-Amount h2 {
+                font-size: 24px;
+                font-family: sans-serif;
+                font-weight: 900;
+                padding-top: 3px;
+            }
+            .Myntra1 {
+                position: relative;
+                padding: 0px 0;
+                border: 2px solid 
+                #FDC7B0; 
+                height: 376px;
+                width: 361px;
+                border-radius: 15px;
+            }
+            .Myntra2{
+                position: relative;
+                padding: 0px 0;
+         border: 2px solid 
+                #FDC7B0; 
+                 height: 376px;
+                width: 361px;
+                border-radius: 15px;
+            }
+            .Myntra3 {
+                position: relative;
+                padding: 0px 0;
+                border: 2px solid 
+                #FDC7B0; 
+                height: 376px;
+                width: 361px;
+                border-radius: 15px;
+            }
+        
+ footer{
+        padding: 10px 133px;
+        background:black;
+    }
+    .footer{
+        padding-top: 56px;
+
+    }
+    .About{
+        display: flex;
+    }
+    .footer-grid{
+        display:grid;
+        grid-template-columns: repeat(6,1fr);
+    }
+.About h2{
+    padding: 7px 8px;
+    font-size: 26px;
+    font-family: sans-serif;
+    color: white;
+
+}
+.abt-link{
+    padding: 29px 75px;
+
+}
+.abt-link a{
+    color:white;
+FONT-SIZE: 21PX;
+LINE-HEIGHT: 2.5;
+font-family: sans-serif;
+
+}
+.abt-link a:hover{
+    color:red;
+
+}
+.read{
+PADDING: 11PX 19PX;
+}
+.read h2 {
+    padding: 0 8px;
+    font-size: 26px;
+    font-family: sans-serif;
+    color:white;
+}
+.rd-link {
+    padding: 36px 9px;
+}
+.rd-link a{
+    color:white;
+    FONT-SIZE: 21PX;
+    LINE-HEIGHT: 2.5;
+    font-family: sans-serif;
+
+    }
+ .rd-link a:hover{
+        color:red;
+    
+    }
+    .page{
+        PADDING: 11PX 19PX;
+        }
+
+        .page h2 {
+            padding: 0 8px;
+            font-size: 26px;
+            font-family: sans-serif;
+            color:white;
+        }
+        .pg-link {
+            padding: 36px 9px;
+        }
+        .pg-link a{
+            color:white;
+            FONT-SIZE: 21PX;
+            LINE-HEIGHT: 2.5;
+            font-family: sans-serif;
+        
+            }
+            .pg-link a:hover{
+                color:red;
+            }
+
+.connect{
+PADDING: 11PX 19PX;
+
+ }
+ .connect h2 {
+    padding: 0 8px;
+    font-size: 26px;
+    font-family: sans-serif;
+    color:white;
+}
+.cnt-link {
+    padding: 36px 9px;
+}
+.cnt-link a{
+    color:white;
+    FONT-SIZE: 21PX;
+    LINE-HEIGHT: 2.5;
+    font-family: sans-serif;
+
+    }
+.cnt-link a:hover{
+    color:red;
+}  
+
+.Download{
+    PADDING: 11PX 19PX;
+}
+.Download h2 {
+    padding: 0 8px;
+    font-size: 26px;
+    font-family: sans-serif;
+    color:white;
+}
+.app-link{
+padding: 42px 9px;
+}
+.Subscribe{
+    PADDING: 11PX 19PX;
+}
+.Subscribe h2{
+    padding: 0 8px;
+    font-size: 26px;
+    font-family: sans-serif;
+    color:white;
+}
+.Subscribe p{
+padding-top: 37px;
+font-size: 20px;
+color:white;
+font-family: sans-serif;
+}
+.email{
+    padding: 30px 0;
+
+}
+
+.email input {
+    width: 217.8px;
+    height: 45px;
+    color: #c7a9a9;
+    background: #FFFFFF;
+    border-radius: 12.15px;
+    font-size: 17px;
+    padding: 0 12px;
+}
+.email-btn{
+    padding: 0 15px;
+
+}
+.email-btn button {
+    background:#FDC7B0;
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.email-btn button a{
+    color:black;
+}
+.footer-bottom{
+        padding-top: 40px;
+
+}
+.copy{
+        text-align: center;
+
+}
+.copy p{
+    font-size: 23px;
+    color: black;
+    font-family: sans-serif;
+}
+.copy h2{
+    PADDING-TOP: 9PX;
+    PADDING-BOTTOM: 29PX;
+
+}
+
+
+.copy a{
+    color: black;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.copy a:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
