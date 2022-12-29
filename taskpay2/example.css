@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.main {
+    align-items: stretch;
+    /* position:fixed; */
+    display: flex;
+    height: 120px;
+    width: 100%;
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+    color: white;
+    position: relative;
+    PADDING-LEFT: 1PC;
+    padding-top: 33px;
+    column-gap: 1px;
+}
+
+.logo-img img {
+    height: 43px;
+    width: 55px;
+}
+
+.logo .logo-p p {
+    padding-top: 5px;
+    color: white;
+    font-family: cursive;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.logo .logo-p span {
+    color: #f1c0ab;
+    font-size: 17px;
+    position: absolute;
+    top: 74px;
+    padding-left: 54px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.logo .logo-p p:hover {
+    color: red;
+    text-transform: uppercase;
+}
+
+.logo .src {
+    padding-top: 7px;
+}
+
+.logo .src span {
+    position: absolute;
+    padding-left: 11px;
+    padding-top: 11px;
+}
+
+.logo .src input {
+    width: 10pc;
+    height: 37px;
+    padding-left: 40px;
+    border: none;
+    outline: none;
+    border-radius: 23px;
+    background: #4E5053;
+    font-size: 16px;
+    color: black;
+}
+
+.heder-link {
+
+    padding-top: 46px;
+}
+
+.heder-link ul li {
+    display: inline-block;
+}
+
+.heder-link a {
+    padding-left: 26px;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.heder-link a:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.main .them {
+    padding-top: 31px;
+    padding-left: 55px;
+
+}
+
+.main .them img {
+    border: 2px solid gold transparent;
+    border-radius: 50%;
+    padding-top: 8px;
+    width: 56px;
+    background-color: gray;
+    transition: ease all 1s;
+    height: 54px;
+}
+
+.main .them img:hover {
+    transform: rotate(360deg);
+}
+
+.main .ern-btn {
+    padding-left: 60px;
+
+}
+
+.main .ern-btn button {
+    height: 93px;
+    width: 166px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    position: absolute;
+    top: -3px;
+    padding-top: 3px;
+    background: #FDC7B0;
+
+    z-index: 1;
+    BORDER-RADIUS: 9PX;
+    FONT-FAMILY: sans-serif;
+}
+
+.main .ern-btn button span {
+    color: black;
+    font-weight: bolder;
+    FONT-SIZE: 1.6em;
+}
+
+.slide-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width:768px) {
+    .heder-link {
+
+        display: none;
+    }
+
+    .main .them {
+        padding-top: 15px;
+        position: absolute;
+        padding-left: 55px;
+        left: 626px;
+    }
+
+    .main .ern-btn button {
+
+        display: none;
+
+    }
+
+    .logo .src input {
+
+        display: none;
+
+    }
+
+    .logo {
+        display: flex;
+        color: white;
+        position: relative;
+        top: -35px;
+        margin: auto;
+        PADDING-LEFT: 1PC;
+        /* padding-top: 33px; */
+
+    }
+
+    .logo .src {
+        padding-top: 7px;
+        display: none;
+    }
+
+    .main .logo_bar {
+        color: white;
+        padding: 28px 0px 0px 15px;
+    }
+
+    .main .logo_bar span {
+        font-size: 30px;
+    }
+
+    .main {
+        height: 95px;
+
+    }
+
+}

@@ -1,0 +1,234 @@
+@media (max-width: 576px) {
+  header .header-nav .bars {
+    display: block;
+  }
+  header .header-nav .logo {
+    display: flex;
+    justify-content: center;
+  }
+  header .header-nav .nav {
+    display: none;
+  }
+
+  header .header-nav .btn {
+    display: none;
+  }
+
+  .header-bottom {
+    display: block;
+    padding: 20px;
+  }
+  .header-bottom .header-b-val {
+    display: flex;
+    gap: 183px;
+  }
+  .btn button {
+    border-radius: 10px;
+    height: 60px;
+    width: 145px;
+    background: #fdc7b0;
+    border: none;
+    font-size: 17px;
+  }
+  .header-bottom {
+    position: relative;
+  }
+  .header-bottom .input-search input {
+    height: 49px;
+    width: 204px;
+    border-radius: 10px;
+    border: none;
+    background: gainsboro;
+    padding: 0 38px;
+    font-size: 18px;
+  }
+  .header-bottom span {
+    position: absolute;
+    top: 34px;
+    left: 30px;
+    font-size: 18px;
+    color: gray;
+  }
+  .shoping h2 {
+    font-size: 20px;
+    width: 13pc;
+  }
+}
+@media (min-width: 576px) {
+  header .header-nav .bars {
+    display: block;
+  }
+  header .header-nav .logo {
+    display: flex;
+    justify-content: center;
+  }
+  header .header-nav .nav .search {
+    display: none;
+  }
+  header .header-nav .nav .mid-nav {
+    display: none;
+  }
+  header .header-nav .btn {
+    display: none;
+  }
+  .header-bottom {
+    display: block;
+    padding: 20px;
+  }
+
+  .btn button {
+    height: 45px;
+    width: 116px;
+    background: #ffbd65;
+    border: none;
+    font-size: 17px;
+  }
+  header .header-nav .nav .menu-list {
+    display: block;
+    height: auto;
+    width: 150px;
+    background-color: #fdc7b0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    transition: 1s ease all;
+  }
+  header .header-nav .nav .menu-list ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 375px) {
+  header .header-nav .bars {
+    display: block;
+    padding: 22px 0;
+  }
+  .logo img {
+    height: 37px;
+    width: 40px;
+  }
+  header .header-nav .logo h1 {
+    font-size: 27px;
+  }
+  header .header-nav .logo p {
+    font-size: 20px;
+    padding-left: 50px;
+  }
+  .header-bottom .input-search input {
+    height: 49px;
+    width: 196px;
+  }
+  .btn button {
+    height: 51px;
+    width: 98px;
+    font-size: 15px;
+  }
+  header .header-nav {
+    display: flex;
+    gap: 29px;
+  }
+}
+
+@media (max-width: 425px) {
+  header .header-nav {
+    display: flex;
+    gap: 36px;
+  }
+  header .header-top {
+    margin: 0px 9px 0px 11px;
+    padding: 0px;
+  }
+  .header-bottom .header-b-val {
+    display: flex;
+    gap: 49px;
+  }
+  header .header-nav .bars button {
+    height: 38px;
+    width: 40px;
+    border-radius: 20px;
+    background: darkgray;
+    border: none;
+  }
+  header .header-nav .bars {
+    display: block;
+    padding: 30px 0;
+  }
+  header .header-nav .bars span {
+    color: white;
+  }
+}
+@media (min-width: 1024px) {
+  header .header-nav .logo {
+    /* padding-left: 261px; */
+  }
+  .header-bottom .header-b-val {
+    display: flex;
+    gap: 753px;
+  }
+
+  .btn button {
+    height: 63px;
+    width: 179px;
+    border: none;
+    font-size: 19px;
+    background: #fdc7b0;
+    border-radius: 12px;
+  }
+  .header-bottom .input-search input {
+    height: 51px;
+    width: 305px;
+    border-radius: 27px;
+    font-size: 22px;
+    padding: 1px 36px;
+    border: navajowhite;
+    background: gainsboro;
+  }
+}
+
+@media (max-width: 320px) {
+  header .header-nav .bars button {
+    height: 33px;
+    width: 35px;
+  }
+  .logo img {
+    height: 31px;
+    width: 41px;
+  }
+  header .header-nav .logo h1 {
+    font-size: 19px;
+  }
+  .header-bottom .header-b-val {
+    gap: 27px;
+  }
+  header .header-nav .logo p {
+    font-size: 15px;
+    padding-left: 28px;
+    color: bisque;
+  }
+  header .header-nav {
+    display: flex;
+    gap: 23px;
+  }
+  .header-bottom .input-search input {
+    height: 45px;
+    width: 169px;
+    padding: 0 30px;
+    font-size: 15px;
+  }
+  .header-bottom span {
+    position: absolute;
+    top: 35px;
+    left: 28px;
+    font-size: 16px;
+  }
+  .btn button {
+    border-radius: 10px;
+    height: 46px;
+    width: 94px;
+    background: #fdc7b0;
+    border: none;
+    font-size: 12px;
+  }
+}
