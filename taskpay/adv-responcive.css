@@ -1,0 +1,705 @@
+
+@media (max-width:576px) {
+    header .header-top  .header-nav .bars {
+      display: block;
+      flex: 1;
+  }
+  
+    header .header-top .header-nav.bars .logo {
+  padding-left: 54px;
+    }
+    header .header-top .header-nav .logo {
+      padding: 0;
+  }
+    header .header-top .header-nav .logo img {
+      height: auto;
+      width: auto;
+  } 
+  header .header-nav .logo h1 {
+    font-size: 22px;
+  
+  }
+  header .header-top .header-nav .logo  p {
+    font-size: 13px;
+    padding-left: 48px;
+  }
+  header .header-top  .header-nav .nav .mid-nav ul li {
+    padding: 10px 62PX;
+    font-size: 20px;
+    FONT-FAMILY: SANS-SERIF;
+  }
+  header .header-nav .nav .search {
+      display: NONE;
+    }
+    header .header-nav .nav .mid-nav {
+      flex: 1;
+      display: NONE;
+    }
+    header .header-nav .btn button {
+      display: none;
+    }
+  .header-bottom {
+display: none;
+  }
+  header .header-top .header-nav .mid-nav .logo-visi {
+    padding-top: 50px;
+  }
+  header .header-top .header-nav .mid-nav .logo-visi .logo img{
+  width: 30px;
+  height: auto;
+  }
+  header .header-top .header-nav .mid-nav .logo-visi .logo h1{
+    font-size: 18px; 
+  }
+  header .header-top .header-nav .mid-nav .logo-visi .logo p{
+    font-size: 15px;
+    padding-left: 15px;
+  }
+  
+  header .header-nav .nav .menu-list {
+    display: block;
+    height: 820px;
+    width: 300px;
+    background-color: #4E5053;
+    position: absolute;
+    left: -340px;
+    top: 0;
+    padding-top: 30px;
+    z-index: 1;
+    transition: 3s ease all;
+  }
+  header .header-nav .nav .menu-list ul {
+    display: flex;
+    flex-direction: column;
+  }
+  header.header-top .header-nav .bell img {
+      height: 34px;
+      border-radius: 60%;
+      width: 40px;
+      background-color: black;
+  }
+  .header-bottom .header-b-val {
+    display: flex;
+    GAP: 215PX;
+  }
+  
+  .header-bottom .input-search input {
+    height: 42px;
+    width: 212px;
+    border-radius: 10px;
+    border: none;
+    background: gainsboro;
+    padding: 0 38px;
+    font-size: 18px;
+  }
+  .header-bottom .header-b-val .input-search span {
+    position: absolute;
+    top: 14px;
+    left: 9px;
+    font-size: 14px;
+    color: gray;
+  }
+  .btn button {
+    background:#FDC7B0;
+    border: NONE;
+    height: 41px;
+    width: 102px;
+    font-size: 13px;
+    border-radius: 10px;
+  }
+
+  section .reg {
+    height: auto;
+    margin: 0;
+}
+
+section .reg h1 {
+  padding-top: 40px;
+  padding-left: 29px;
+  font-size: 32px;
+}
+section .reg  .form-row {
+  padding: 0px 19px;
+} 
+
+section .reg  .btn {
+  margin: 0 171px;
+}
+.reg 
+.form-row input[type="text"] {
+  height: 50px;
+  width: 525px;
+
+}
+.reg  
+.form-row select {
+  height: 54px;
+  width: 525px;
+}
+.reg  
+.form-row textarea {
+  height: 108px;
+  width: 525px;
+}
+section .reg .btn {
+  margin: 0 181px;
+}
+header .header-top .header-nav .logo {
+  padding: 0 55px;
+}
+header .header-nav .nav {
+  padding: 0;
+}
+header .header-top {
+  margin: 0px 0 0px 9px;
+  padding: 0px;
+}
+}
+
+
+
+
+
+
+@media (Min-width:576px){
+    header  .header-top .header-nav .bars {
+      display: block;
+      flex: 1;
+  }
+  
+    header .header-top .header-nav.bars .logo {
+  padding-left: 54px;
+    }
+    header .header-top .header-nav .logo {
+      padding: 0;
+  }
+    header .header-top .header-nav .logo img {
+      height: auto;
+      width: auto;
+  } 
+  header.header-top .header-nav .logo h1 {
+    font-size: 22px;
+  
+  }
+  header .header-top .header-nav .logo  p {
+    font-size: 13px;
+    padding-left: 48px;
+  }
+  header .header-top  .header-nav .nav .mid-nav ul li {
+    padding: 10px 62PX;
+    font-size: 20px;
+    FONT-FAMILY: cursive;
+  }
+  header .header-top  .header-nav .nav .search {
+      display: NONE;
+    }
+    header .header-top .header-nav .nav .mid-nav {
+      flex: 1;
+      display: NONE;
+    }
+    header.header-top  .header-nav .btn button {
+      display: none;
+    }
+    .header-bottom {
+      display: none;
+  }
+  header .header-top .header-nav .mid-nav .logo-visi {
+    padding-top: 50px;
+  }
+  header .header-top .header-nav .mid-nav .logo-visi .logo img{
+  width: 30px;
+  height: auto;
+  }
+  header .header-top .header-nav .mid-nav .logo-visi .logo h1{
+    font-size: 18px; 
+  }
+  header .header-top .header-nav .mid-nav .logo-visi .logo p{
+    font-size: 15px;
+    padding-left: 15px;
+  }
+  
+  header .header-nav .nav .menu-list {
+    display: block;
+    height: 826px;
+    width: 300px;
+    background-color: #4E5053;
+    position: absolute;
+    left: -340px;
+    top: 0;
+    padding-top: 30px;
+    z-index: 1;
+    transition: 3s ease all;
+  }
+  header .header-nav .nav .menu-list ul {
+    display: flex;
+    flex-direction: column;
+  }
+  header.header-top .header-nav .bell img {
+      height: 34px;
+      border-radius: 60%;
+      width: 40px;
+      background-color: black;
+  }
+  .header-bottom .header-b-val {
+    display: flex;
+    GAP: 215PX;
+  }
+  
+  .btn button {
+ display: NONE;
+  }
+  .reg {
+    height: auto;
+    margin: 0;
+}
+.reg  
+.form-row {
+  padding: 0px 39px;
+}
+.reg h1 {
+  padding-top: 20px;
+  padding-left: 49px;
+  font-size: 35px;
+}
+.reg .btn {
+  width: 100%;
+  margin: 0;
+  font-size: 25px;
+}
+
+}
+
+
+
+@media (MAX-width:425px){
+    header .header-top .header-nav .bars {
+      flex: 3;
+  }
+  header .header-top .header-nav .logo img {
+    height: auto;
+    width: 44px;
+}
+    .header-bottom .header-b-val {
+      display: flex;
+      GAP: 17PX;
+  }
+  .header-bottom .header-b-val .input-search input {
+    height: 42px;
+    width:100%;
+}
+.reg .form-row input[type="text"] {
+  height: 50px;
+  width: 373px;
+}
+.reg .form-row  select {
+  height: 50px;
+  width: 100%;
+}
+.reg .form-row  textarea {
+  height: 108px;
+  width: 100%;
+}
+.reg .btn {
+    width: 100%;
+
+}
+
+section .reg .btn {
+  margin: 0;
+}
+}
+ @media (Min-width:768px){
+
+      header .header-top .header-nav .nav .mid-nav ul li {
+        font-size: 44px;
+    }
+    header .header-nav .nav .menu-list {
+      display: block;
+      height: 3365px;
+      width: 438px;
+
+      padding-top: 30px;
+  }
+ .menu-list li a {
+    height: 36px;
+    border-radius: 50%;
+    width: 42px;
+    background-color: #000000;
+  }
+  .header-bottom .header-b-val {
+    display: flex;
+    GAP: 32PX;
+}
+Section .reg {
+  height: auto;
+  margin: 0;
+}
+Section .reg input[type="text"] {
+  height: 54px;
+  width: 100%;
+}
+Section .reg select {
+  height: 54px;
+  width: 100%;
+}
+Section .reg textarea {
+  height: 134px;
+  width: 100%;
+}
+Section .reg .btn {
+  margin: 0 275px;
+ }
+} 
+   @media (Min-width:1024px){
+      header .header-top  .header-nav .logo h1 {
+        font-size: 33px;
+    }
+    header .header-top .header-nav .logo p {
+      font-size: 22px;
+      padding-left: 66px;
+  }
+  .header-bottom .header-b-val .input-search span {
+    top: 17px;
+    left: 11px;
+    font-size: 18px;
+} 
+
+      .header-bottom .header-b-val {
+        display: flex;
+        gap: 15px;
+      }
+    
+    
+      .header-bottom .input-search input {
+        height: 53px;
+        width: 866px;
+    }
+    
+    .btn button{
+      height: 50px;
+      width: 108px;
+      font-size: 15px;
+    }
+    
+    header .header-nav .nav .menu-list {
+      width: 590px;
+      height: 3665px;
+      background-color: #4E5053;
+      padding-top: 36px;
+  }
+  header .header-top .header-nav .mid-nav .logo-visi .logo img {
+    width: AUTO;
+    height: AUTO;
+}
+header .header-top .header-nav .mid-nav .logo-visi .logo p {
+  font-size: 20px;
+  padding-left: 29px;
+}
+
+     .menu-list ul li a {
+      color: white;
+      font-size: 23px;
+      FONT-FAMILY: SANS-SERIF;
+    }
+    .reg input[type="text"] {
+      height: 54px;
+      width: 600px;
+  }
+  select {
+    height: 54px;
+    width: 600px;
+}
+textarea {
+  height: 134px;
+  width: 600px;
+}
+.reg .btn {
+  width: 156px;
+  margin: 0;
+  font-size: 19px;
+  height: 48px;
+}
+Section .reg {
+  height: auto;
+  margin: 24px 176px;
+}
+
+}
+
+
+@media (min-width: 1440px) {
+
+  header .header-top {
+    margin: 0px 17px 0px 17px;
+    padding: 0px;
+}
+  header .header-top .header-nav .bars {
+    display: none;
+  }
+  header .header-top  .header-nav .nav .search {
+    display: block;
+  }
+  header .header-top .header-nav .logo {
+    flex: 0;
+}
+  header .header-top  .header-nav .nav .mid-nav {
+    display: block;
+  }
+  .header-bottom {
+    display: none;
+  }
+  header .header-top .header-nav .bell {
+    display: block;
+    padding: 17px 0;
+    flex:0.5;
+}
+      header  .header-top .header-nav .nav .mid-nav ul li {
+        padding: 10px 30px;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 100;    } 
+
+  header  .header-top  .header-nav .btn button {
+    display: block;
+  }
+  header  .header-top .header-nav .mid-nav .logo-visi .logo{
+    display: none;
+  }
+  header .header-top  .header-nav .nav .mid-nav ul li .arrowleft{
+    display: none;
+  }
+  header .header-top  .header-nav .btn {
+    display: block;
+}
+header  .header-top  .header-nav .nav .search span {
+  position: absolute;
+  left: 14px;
+  top: 10px;
+  font-size: 15px;
+}
+header  .header-top  .header-nav .nav {
+  padding: 0 16px;
+}
+header .header-top .header-nav .logo p {
+  font-size: 19px;
+  padding-left: 72px;
+}
+section .reg input[type="text"] {
+  height: 54px;
+  width: 569px;
+}
+section .reg select {
+  height: 54px;
+  width: 569px;
+}
+section .reg textarea {
+  height: 134px;
+  width: 569px;
+}
+section .reg.btn {
+  width: 150px;
+  margin: 0;
+  font-size: 20px;
+  height: 50px;
+}
+header .header-top .header-nav .nav .search input {
+  height: 39px;
+  width: 222px;
+  padding: 9px 38px;
+  font-size: 18px;
+}
+section .reg {
+  height: auto;
+  margin: 45px 399px;
+}
+
+}
+
+@media (max-width:375px){
+  section  .reg  .form-row input[type="text"] {
+    height: 50px;
+    width: 101%;
+}
+header .header-top  .header-nav .nav {
+
+  padding: 0;
+}
+
+section  .reg .btn {
+    width: 125px;
+    height: 46px;
+
+}
+
+}
+@media (MAX-width:320px){
+  header .header-top {
+    margin: 0px 0 0px 0;
+    padding: 0px;
+}
+header .header-top .header-nav .bars button {
+  height: 37px;
+  width: 39px;
+}
+header .header-top  .header-nav .bell img {
+  height: 36px;
+  border-radius: 50%;
+  width: 42px;
+  background-color: #000000;
+}
+header .header-top .header-nav .logo {
+  padding: 0 40px;
+
+}
+header .header-top .header-nav .nav .menu-list {
+  display: block;
+  height: 774px;
+  width: 229px;
+}
+  section .reg h1 {
+    padding-top: 25px;
+    padding-left: 29px;
+    font-size: 23px;
+}
+header .header-top .header-nav .nav .mid-nav ul li {
+  padding: 10px 25PX;
+  font-size: 18px;
+}
+}
+@media (Min-width:1600px){
+  header .header-top  .header-nav {
+    display: flex;
+    padding: 15px 0 0 187px;
+
+}
+header .header-top .header-nav .nav .mid-nav ul li {
+  padding: 10px 30px;
+  font-size: 24px;
+}
+header .header-nav {
+  padding: 11px 0;
+}
+section .reg .form-row input[type="text"] {
+  height: 60px;
+  font-size: 20px;
+  width: 630px;
+}
+section .reg .form-row select {
+  height: 61px;
+  font-size: 20px;
+  width: 630px;
+}
+section .reg .form-row textarea {
+  height: 134px;
+  font-size: 20px;
+  width: 630px;
+}
+section  .reg {
+  height: auto;
+  margin: 45px 605px;
+}
+
+  }
+  @media (Min-width:2560px){
+
+    header .header-top .header-nav {
+      display: flex;
+      padding: 25px 0 22px 277px;
+  }
+  header.header-top   .header-nav .btn button {
+    height: 103px;
+    width: 172px;
+    font-size: 24px;
+}
+header .header-top {
+  margin: 0px 144px 0px 261px;
+  padding: 13px 0;
+}
+header .header-top .header-nav .logo img {
+  height: 67px;
+  width: auto;
+}
+header .header-top  .header-nav .logo h1 {
+  font-size: 37px;
+  padding-top: 8px;
+}
+header .header-top .header-nav .logo p {
+  font-size: 24px;
+  padding-left: 79px;
+}
+header .header-top  .header-nav .bell img {
+  height: 67px;
+  border-radius: 60%;
+  width: 88px;
+  background-color: #3c2323;
+}
+header .header-top  .header-nav .nav .search span {
+  position: absolute;
+  left: 15px;
+  top: 12px;
+  font-size: 18px;
+}
+header .header-top .header-nav .nav .mid-nav ul li {
+  padding: 10px 59px;
+  font-size: 29px;
+}
+header .header-top  .header-nav .bell img {
+  height: 67px;
+  border-radius: 60%;
+  width: 88px;
+  background-color: #3c2323;
+}
+header .header-top  .header-nav .nav .search input {
+  height: 49px;
+  width: 274px;
+  padding: 9px 47px;
+  font-size: 20px;
+}
+header .header-top  .header-nav .nav .search span {
+  left: 18px;
+  top: 13px;
+  font-size: 19px;
+}
+section .reg h1 {
+  padding-top: 17px;
+  padding-left: 49px;
+  font-size: 4em;
+}
+section .reg input[type="text"] {
+  height: 63px;
+  width: 100%;
+  font-size:26px;
+
+}
+section .reg {
+  height: auto;
+  margin: 45px 943px;
+}
+section .reg select {
+  height: 63px;
+  width: 100%;
+  font-size: 27px;
+
+}
+section .reg 
+textarea {
+  height: 143px;
+  width: 100%;
+}
+
+section .reg .btn {
+
+  width: 164px;
+  height: 68px;
+  margin: 0 510px;
+  font-size:21px;
+}
+section .reg label {
+  font-size: 31px;
+
+}
+
+
+
+
+  }

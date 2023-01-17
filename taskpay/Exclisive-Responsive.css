@@ -1,2238 +1,2427 @@
-@media (max-width:576px){
-    .main {
-        background: none;
-        width:100%;
+
+@media (max-width:576px) {
+    header .header-top .header-nav .bars {
+      display: block;
+      flex: 0;
+  }
+  
+    header .header-top .header-nav.bars .logo {
+  padding-left: 54px;
     }
-    .logo-img img {
-        display: none;
-    }
-
-.logo-p{
-    display: none;
-
+    header .header-top .header-nav .logo {
+      padding: 0px 144px;
+  }
+  header .header-top .header-nav .nav {
+    padding: 0;
 }
-.heder-link {
-    display: none;
+header .header-top .header-nav .bell {
+  flex: 0;
 }
-.logo {
-    color: black;
-    PADDING-LEFT: 2PC;
-    column-gap: 0;
+header .header-top .header-nav .logo img {
+  height: 40px;
+  width: 58px;
 }
-
-.logo .src input {
-    width: 14pc;
-    background-color: #d6e1ea;
-    height: 50px;
-    padding-left: 43px;
-    border-radius: 8px;
-    font-size: 21px;
-}
-.logo .src span {
-    padding-top: 14px;
-    font-size: 19px;
-}
-.main .them {
-    padding-left: 0;
-    display: none;
-}
-.main .ern-btn {
-    padding-left: 117px;
-}
-.main .ern-btn button {
-    height: 61px;
-    font-size: 16px;
-    top: 35px;
-    border: none;
-}
-section {
-    padding: 23px 32px;
-}
-.Ajio-main {
-    grid-template-columns: repeat(2,2fr);
-    GAP: 22PX;
-    padding-top:20px;
-}
-.Ajio {
-    background: antiquewhite;
-    padding: 0px 0;
-
-    height: 288px;
-    width: 237px;
-}
-.Ajio img{
-    WIDTH: 232PX;
-
-}
-.Ajio-img {
-    top: 141px;
-    left: 17px;
-}
-.Ajio-img img {
-    WIDTH: 51PX;
-}
-.flex-btn .btn1 button {
-    width: 95px;
-    height: 37px;
-}
-
-
-.profit p {
+  header .header-nav .logo h1 {
+    font-size: 22px;
+  
+  }
+  header .header-top .header-nav .logo  p {
     font-size: 13px;
-    margin-left: 83px;
-    padding-top: 7px;
-}
-.profit h2 {
+    padding-left: 48px;
+  }
+  header .header-top  .header-nav .nav .mid-nav ul li {
+    padding: 10px 62PX;
+    font-size: 20px;
+    FONT-FAMILY: SANS-SERIF;
+  }
+  header .header-nav .nav .search {
+      display: NONE;
+    }
+    header .header-nav .nav .mid-nav {
+      flex: 1;
+      display: NONE;
+    }
+    header .header-nav .btn button {
+      display: none;
+    }
+  .header-bottom {
+display: block;
+  }
+  header .header-top .header-nav .mid-nav .logo-visi {
+    padding-top: 50px;
+  }
+  header .header-top .header-nav .mid-nav .logo-visi .logo img{
+  width: 30px;
+  height: auto;
+  }
+  header .header-top .header-nav .mid-nav .logo-visi .logo h1{
+    font-size: 18px; 
+  }
+  header .header-top .header-nav .mid-nav .logo-visi .logo p{
     font-size: 15px;
-    margin-left: 108px;
+    padding-left: 15px;
+  }
+    header .header-nav .nav .menu-list {
+      display: block;
+      height: 1866px;
+      width: 359px;
+    background-color: #4E5053;
+    position: absolute;
+    left: -340px;
+    top: 0;
+    padding-top: 30px;
+    z-index: 1;
+    transition: 3s ease all;
+  }
+  header .header-nav .nav .menu-list ul {
+    display: flex;
+    flex-direction: column;
+  }
+  header.header-top .header-nav .bell img {
+      height: 34px;
+      border-radius: 60%;
+      width: 40px;
+      background-color: black;
+  }
+  .header-bottom .header-b-val {
+    display: flex;
+    GAP: 15PX;
+  }
+  
+  .header-bottom .header-b-val .input-search input {
+    height: 40px;
+    width: 405px;
+    border-radius: 10px;
+    border: none;
+    background: gainsboro;
+    padding: 0 38px;
+    font-size: 18px;
+  }
+  .header-bottom .header-b-val .input-search span {
+    position: absolute;
+    top: 14px;
+    left: 9px;
+    font-size: 14px;
+    color: gray;
+  }
+  .btn button {
+    background:#FDC7B0;
+    border: NONE;
+    height: 41px;
+    width: 102px;
+    font-size: 13px;
+    border-radius: 10px;
+  }
+  main section {
+    padding: 28px 29px;
 }
-    
-.flex-btn {
-    gap: 52px;
-    padding: 10px 10px;
-}
-.Ajio1 {
- 
-    height: 288px;
-    width: 243px;
-}
-.Ajio1 img{
-    WIDTH: 232PX;
 
+main section .Ajio-main .Ajio img{
+  width:250px;
 }
-.Ajio-img img {
-    WIDTH: 51PX;
+main section .Ajio-main .Ajio1 img{
+  width:250px;
 }
 .Ajio2 {
-
-    height: 291px;
-    width: 236px;
-    border-radius: 10px;
-}
-.Ajio2 img{
-    WIDTH: 232PX;
-
-}
-.Ajio-img img {
-    WIDTH: 51PX;
+  display: none;
 }
 .Ajio3{
- 
-    height: 291px;
-    width: 236px;
-    border-radius: 10px;
+  display: none;
+}
+main section .Ajio-main .Ajio-img img{
+  width:50px;
 }
 
-
-.Ajio3 img{
-    WIDTH: 232PX;
-
-}
-
-.Ajio-img img {
-    WIDTH: 51PX;
-}
-
-
-
-
-/* filpkrt */
-
-.flipkart-main {
-    display: grid;
-    grid-template-columns: repeat(2,2fr);
-    gap: 13px;
-    padding-top:30px;
-}
-.flipkart {
-    background: antiquewhite;
-    padding: 0px 0;
-    height: 291px;
-    width: 237px;
-}
-.flipkart img{
-    WIDTH: 232PX;
-
-}
-.flipkart-img {
-    top: 165px;
-    left: 17px;
-}
-.flipkart-img img {
-    WIDTH: 51PX;
-}
-
-.flp-btn .flp-btn1 button {
-    width: 95px;
-    height: 37px;
-}
-
-.flex-btn .btn1 button {
-    width: 95px;
-    height: 37px;
-}
-.flp-profit p {
-    font-size: 13px;
-    margin-left: 83px;
-    padding-top: 7px;
-}
-.flp-profit h2 {
-    font-size: 15px;
-    margin-left: 85px;
-}
-    
-.flp-btn {
-    gap: 52px;
-    padding: 10px 10px;
-}
-
-
-
-
-.flp-grid-img {
-    padding-top: 40px;
-}
-.flipkart1 {
-    height: 295px;
-    width: 235px;
-    border-radius: 9px;
-}
-.flipkart1 img{
-    WIDTH: 232PX;
-
-}
-.flipkart-img {
-    top: 165px;
-    left: 17px;
-}
-.flipkart-img img {
-    WIDTH: 51PX;
-}
-.flipkart2 {
-    height: 289px;
-    width: 237px;
-}
-.flipkart2 img{
-    WIDTH: 232PX;
-
-}
-.flipkart-img {
-    top: 165px;
-    left: 17px;
-}
-.flipkart-img img {
-    WIDTH: 51PX;
-}
-.flipkart3 {
-    height: 285px;
-    width: 237px;
-}
-.flipkart3 img{
-    WIDTH: 232PX;
-
-}
-.flipkart-img {
-    top: 165px;
-    left: 17px;
-}
-.flipkart-img img {
-    WIDTH: 51PX;
-}
-
-
-
-.Myntra-main {
-    grid-template-columns: repeat(2,2fr);
-    gap: 22px;
-    padding-top:30px;
-}
-.mnt-grid-img {
-    
-    padding-top: 40px;
-}
-.Myntra {
-    background: antiquewhite;
-    height: 290px;
-    width: 236px;
-}
-.Myntra img{
-    WIDTH: 232PX;
-
-}
-.Myntra-img {
-    top: 165px;
-    left: 17px;
-}
-.Myntra-img img {
-    WIDTH: 51PX;
-}
-
-.mnt-btn .mnt-btn1 button {
-    width: 95px;
-    height: 37px;
-}
-
-.mnt-btn .mnt-btn1 button {
-    width: 95px;
-    height: 37px;
-}
-.mnt-profit p {
-    font-size: 13px;
-    margin-left: 83px;
-    padding-top: 7px;
-}
-.mnt-profit h2 {
-    font-size: 15px;
-    margin-left: 85px;
-}
-    
-.mnt-btn {
-    gap: 52px;
-    padding: 10px 10px;
-}
-.Myntra1 {
-    height: 290px;
-    width: 236px;
-}
-.Myntra1 img{
-    WIDTH: 232PX;
-
-}
-.Myntra-img {
-    top: 165px;
-    left: 17px;
-}
-.Myntra-img img {
-    WIDTH: 51PX;
-}
-.Myntra2 {
-    height: 293px;
-    width: 236px;
-}
-.Myntra2 img{
-    WIDTH: 232PX;
-
-}
-.Myntra-img {
-    top: 165px;
-    left: 17px;
-}
-.Myntra-img img {
-    WIDTH: 51PX;
-}
-.Myntra3 {
-    height: 293px;
-    width: 237px;
-}
-.Myntra3 img{
-    WIDTH: 232PX;
-
-}
-.Myntra-img {
-    top: 165px;
-    left: 17px;
-}
-.Myntra-img img {
-    WIDTH: 51PX;
-}
-.footer {
-    padding-top: 23px;
-}
-.footer-grid {
-    grid-template-columns: repeat(1,1fr);
-}
-
-.abt-link {
-    display: none;
-}
-.read h2 {
-    font-size: 26px;
-    display: none;
-}
-
-.rd-link {
-    display: none;
-}
-.page {
-    PADDING: 0PX 19PX;
-}
-.page h2 {
-    display: none;
-}
-.pg-link {
-    display: none;
-}
-.connect {
-    PADDING: 0PX 19PX;
-}
-.cnt-link {
-    display: none;
-}
-.connect h2 {
-    display: none;
-}
-.Download h2 {
-    display: none;
-}
-.app-link {
-    padding: 0px 9px;
-}
-.Subscribe h2 {
-    padding: 0 20px;
-    font-size: 29px;
-}
-.Subscribe p {
-    padding-top: 10px;
-    font-size: 18px;
-}
-.email input {
-    width: 236.8px;
-    height: 47px;
-    font-size: 18px;
-    padding: 0 40px;
-}
-.email-btn {
-    padding: 0 44px;
-}
-.copy p {
-    font-size: 17px;
-}
-.copy h2 {
-    PADDING-TOP: 2PX;
-}
-.copy a {
-    font-size: 18px;
-}
-
-}
-
-@media (min-width:768px){
-    .logo {
-        PADDING-LEFT: 1PC;
-    }
-    .logo .src input {
-        width: 14pc;
-        height: 44px;
-        padding-left: 43px;
-        border-radius: 20px;
-        font-size: 19px;
-    }
-    .logo .src span {
-        padding-left: 11px;
-        padding-top: 12px;
-        font-size: 17px;
-    }
-    .heder-link {
-        display: none;
-    }
-    .main .them {
-        padding-left: 34px;
-    }
-    .main .ern-btn button {
-        height: 86px;
-        width: 130px;
-        font-size: 18px;
-    }
-    section {
-        padding: 27px 16px;
-    }
-    .Ajio-main {
-        grid-template-columns: repeat(2,2fr);
-        gap: 13px;
-        padding-top: 32px;
-    
-    }
-    .Ajio2 {
-        display: none;
-    }
-    .Ajio3 {
-        display: none;
-    }
-    .flipkart-main {
-        grid-template-columns: repeat(2,2fr);
-        gap: 15px;
-        padding-top: 32px;
-    
-    }
-    .flipkart2 {
-        display: none;
-    }
-    .flipkart3 {
-        display: none;
-    }
-    .Myntra-main {
-        grid-template-columns: repeat(2,2fr);
-        gap: 15px;
-        padding-top: 32px;
-    
-    }
-    .Myntra2 {
-        display: none;
-    }
-    .Myntra3 {
-        display: none;
-    }
-    footer {
-        padding: 10px 200px;
-        background: black;
-    }
-    .footer {
-        padding-top: 23px;
-    }
-    .footer-grid {
-        grid-template-columns: repeat(1,1fr);
-    }
-    .About h2 {
-        font-size: 29px;
-    }    
-    .abt-link {
-        display: none;
-    }
-    .read h2 {
-        font-size: 26px;
-        display: none;
-    }
-    
-    .rd-link {
-        display: none;
-    }
-    .page {
-        PADDING: 0PX 19PX;
-    }
-    .page h2 {
-        display: none;
-    }
-    .pg-link {
-        display: none;
-    }
-    .connect {
-        PADDING: 0PX 19PX;
-    }
-    .cnt-link {
-        display: none;
-    }
-    .connect h2 {
-        display: none;
-    }
-    .Download {
-        PADDING: 11PX 55PX;
-    }
-    .Download h2 {
-        display: none;
-    }
-    .app-link {
-        padding: 0px 18px;
-    }
-    .Subscribe h2 {
-        padding: 0 57px;
-        font-size: 29px;
-    }
-    .Subscribe p {
-        padding-top: 10px;
-        font-size: 16px;
-        width: 25pc;
-        text-align:center;
-    }
-    .email {
-        padding: 30px 30px;
-    }
-    .email input {
-        width: 276.8px;
-        height: 51px;
-        font-size: 21px;
-        padding: 3px 43px;
-    }
-    .email-btn {
-        padding: 0 89px;
-    }
-    .copy p {
-        font-size: 17px;
-    }
-    .copy h2 {
-        PADDING-TOP: 2PX;
-    }
-    .copy a {
-        font-size: 18px;
-    }
-}       
-
-@media (min-width:1024px){
-
-    .main .them {
-        padding-left: 259px;
-    }
-    .logo {
-        gap: 16px;
-    }
-
-    .main .ern-btn {
-        padding-left: 71px;
-    }
-    .Ajio {
-        height: 511px;
-        width: 488px;
-    }
-.Ajio img{
-    width: 100%;
-
-}
-.Ajio-img {
-    top: 303px;
-}
-.border {
-    width: 483px;
-    height: 154px;
-}
-.profit p {
-    font-size: 25px;
-    margin-left: 189px;
-    padding-top: 10px;
-}
-.profit h2 {
-    font-size: 23px;
-    margin-left: 276px;
-}
-.flex-btn .btn1 button {
-    width: 167px;
-    height: 57px;
-}
-.flex-btn .btn1 a {
-    font-size: 27px;
-}
-.flex-btn .Amount h2 {
-    font-size: 32px;
-}
-.flex-btn {
-    gap: 158px;
-}
-.Ajio1 {
-    height: 508px;
-    width: 481px;
-}
-.Ajio1 img{
-    width: 100%;
-
-}
-.Ajio2 {
-    height: 508px;
-    width: 481px;
-}
-.Ajio2 img{
-    width: 100%;
-
-}
-.Ajio3 {
-    height: 508px;
-    width: 481px;
-}
-.Ajio3 img{
-    width: 100%;
-
-}
-.flipkart {
-    height: 506px;
-    width: 481px;
-}
-.flipkart img{
-    width: 100%;
-
-}
-.flipkart-img {
-    top: 301px;
-}
-
-.flp-profit p {
-    font-size: 25px;
-    margin-left: 189px;
-    padding-top: 10px;
-}
-.flp-profit h2 {
-    font-size: 23px;
-    margin-left: 245px;
-}
-.flp-btn .flp-btn1 button {
-    width: 167px;
-    height: 57px;
-}
-.flp-btn .flp-btn1 a {
-    font-size: 27px;
-}
-.flp-btn .flp-Amount h2 {
-    font-size: 32px;
-}
-.flp-btn {
-    gap: 158px;
-}
-
-.flipkart1 {
-    height: 506px;
-    width: 481px;
-}
-.flipkart1 img{
-    width: 100%;
-
-}
-.flipkart2 {
-    height: 506px;
-    width: 481px;
-}
-.flipkart2 img{
-    width: 100%;
-
-}
-.flipkart3 {
-    height: 506px;
-    width: 481px;
-}
-
-.flipkart3 img{
-    width: 100%;
-
-}
-
-.Myntra {
-    height: 506px;
-    width: 481px;
-}
-.Myntra img{
-    width: 100%;
-
-}
-
-.mnt-profit p {
-    font-size: 25px;
-    margin-left: 189px;
-    padding-top: 10px;
-}
-.mnt-profit h2 {
-    font-size: 23px;
-    margin-left: 245px;
-}
-.mnt-btn .mnt-btn1 button {
-    width: 167px;
-    height: 57px;
-}
-.mnt-btn .mnt-btn1 a {
-    font-size: 27px;
-}
-.mnt-btn .mnt-Amount h2 {
-    font-size: 32px;
-}
-.mnt-btn {
-    gap: 158px;
-}
-.Myntra1 {
-    height: 506px;
-    width: 481px;
-}
-
-.Myntra1 img{
-    width: 100%;
-
-}
-.Myntra-img {
-    top: 303px;
-}
-
-.Myntra2 {
-    height: 506px;
-    width: 481px;
-}
-.Myntra2 img{
-    width: 100%;
-
-}
-
-.Myntra3 {
-    height: 506px;
-    width: 481px;
-}
-
-.Myntra3 img{
-    width: 100%;
-
-}
-footer {
-    padding: 10px 269px;
-}
-.About img {
-    width: 67px;
-    height: 62px;
-}
-.About h2 {
-    padding: 9px 10px;
-    font-size: 36px;
-} 
-.About {
-    padding-left: 59px;
-}
-.app-link img {
-    width: 185px;
-}
-.Subscribe h2 {
-    padding: 0 134px;
-    font-size: 33px;
-}
-.Subscribe p {
-    padding-top: 16px;
-    font-size: 18px;
-    /* width: 42pc; */
-    text-align: center;
-    padding-left: 46px;
-}
-.app-link {
-    padding: 0px 81px;
-}
-.email {
-    padding: 25px 77px;
-}
-.email input {
-    width: 309.8px;
-    height: 47px;
-    font-size: 20px;
-    padding: 3px 49px;
-}
-.email-btn {
-    padding: 0 149px;
-}
-.email-btn button {
-    width: 153px;
-    height: 48px;
-    font-size: 22px;
-}
-.footer-bottom {
-    padding-top: 18px;
-}
-.copy p {
-    font-size: 19px;
-}
-.copy h2 {
-    PADDING-TOP: 1PX;
-}
-.copy a {
-    font-size: 19px;
-}
-}
-@media (maX-width:425px){
-    .logo {
-        PADDING-LEFT: 1PC;
-    }
-
-.logo .src input {
-    width: 12pc;
-    height: 50px;
-}
-.main .ern-btn button {
-    WIDTH: 119PX;
-}
-.main .ern-btn {
-    padding-left: 83px;
-}
-section {
-    padding: 15px 18px;
+main section .Ajio-main .Ajio-img {
+  top: 159px;
+  left: 5px;
+}
+main section .Ajio-main .profit p {
+  font-size: 12px;
+  margin-left: 110px;
+  padding-top: 14px;
+}
+main section .Ajio-main  .profit h2 {
+  font-size: 13px;
+  margin-left: 145px;
+}
+main section .Ajio-main  .flex-btn .btn1 button {
+  width: 80px;
+  height: 31px;
+}
+main section .Ajio-main .flex-btn .btn1 a {
+  font-size: 16px;
+}
+main section .Ajio-main .flex-btn {
+  gap: 86px;
+  padding: 0px 20px;
+}
+main section .Ajio-main .Ajio {
+  height: 290px;
+  width: 254px;
+}
+main section .Ajio-main .Ajio1 {
+  height: 290px;
+  width: 254px;
 }
 .Ajio-main {
-    GAP: 13PX;
+  gap: 15px;
 }
-.Ajio {
-    height: 244px;
-    width: 189px;
+main section .grid-img h2 {
+  font-size: 27px;
+  font-family: monospace;
+  padding: 1px 8px 20px;
 }
-.Ajio img {
-    WIDTH: 185PX;
+.flipkart2 {
+  display: none;
 }
-.Ajio-img img{
-    WIDTH:40px;
+.flipkart3 {
+  display: none;
 }
-.Ajio-img {
-    top: 113px;
+
+
+main section .flp-grid-img h2 {
+  font-size: 28px;
+  padding: 1px 10px 20px;
+}
+
+main section .flipkart-main .flipkart img{
+    width:250px;
+}
+main section .flipkart-main .flipkart1 img{
+    width:250px;
+}
+main section .flipkart-main .flipkart-img img{
+    width:40px;
+}
+main section .flipkart-main .flp-btn {
+
+  gap: 88px;
+}
+main section .flipkart-main .flipkart-img {
+    top: 155px;
     left: 12px;
 }
+main section .flipkart-main .flp-profit p {
+  font-size: 14px;
+  margin-left: 94px;
+  padding-top: 13px;
+}
+main section .flipkart-main .flp-profit h2 {
+  font-size: 14px;
+  margin-left: 119px;
+}
+main section .flipkart-main  .flp-btn1 button {
+  width: 80px;
+  height: 31px;
+}
+main section .flipkart-main  .flp-btn1 button a{
+  font-size: 16px;
+}
+main section .flipkart-main  .flipkart {
+  
+  height: 297px;
+  width: 254px;
+}
+main section .flipkart-main  .flipkart1 {
+  
+  height: 297px;
+  width: 254px;
+}
+main section  .flipkart-main {
+  GAP: 17PX;
+}
+
+main section .mnt-grid-img h2 {
+  font-size: 29px;
+  font-family: monospace;
+  padding: 1px 10px 20PX;
+}
+.Myntra2 {
+  DISPLAY: NONE;
+}
+.Myntra3 {
+  DISPLAY: NONE;
+
+}
+  .Myntra-main .Myntra img{
+  width:250px;
+
+}
+.Myntra-main .Myntra1 img{
+  width:250px;
+}
+.Myntra-main .Myntra-img img{
+  width:50px;
+}
+.Myntra-main  .Myntra-img {
+  top: 154px;
+  left: 8px;
+}
+
+.Myntra-main .mnt-profit p {
+  font-size: 14px;
+  margin-left: 90px;
+  padding-top: 13px;
+}
+
+.Myntra-main .mnt-profit h2 {
+  font-size: 14px;
+  margin-left: 108px;
+}
+
+.Myntra-main .mnt-btn1 button {
+  width: 80px;
+  height: 31px;
+}
+.Myntra-main .mnt-btn1 button a {
+  font-size: 16px;
+}
+.Myntra-main  .Myntra {
+  height: 295px;
+  width: 253px;
+}
+.Myntra-main  .Myntra1 {
+  height: 295px;
+  width: 253px;
+}
+
+.Myntra-main .mnt-btn {
+  display: flex;
+  gap: 97px;
+  padding: 9px 20px;
+}
+
+footer .footer-grid {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+}
+
+footer  .footer {
+  padding-top: 11px;
+}
+
+footer  .footer  .abt-link {
+  display: none;
+}
+.read {
+  display: none;
+}
+.page {
+  display: none;
+}
+.connect {
+  display: none;
+}
+footer  .footer .Download h2 {
+  padding: 0 0;
+  font-size: 22px;
+}
+
+footer  .footer .Download {
+  PADDING: 11PX 77PX;
+}
+footer  .footer .Download .app-link img{
+  width:100px;
+}
+footer  .footer .app-link {
+  padding: 8px 20px;
+}
+footer  .footer  .Subscribe h2 {
+  padding: 0 8px;
+  font-size: 22px;
+}
+footer  .footer  .Subscribe {
+  text-align: center;
+}
+footer  .footer .Subscribe p {
+  padding-top: 16px;
+  font-size: 11px;
+}
+
+footer  .footer .email-btn button {
+  width: 101px;
+  height: 36px;
+  font-size: 18px;
+}
+footer  .footer .email {
+  padding: 30px 0 18px;
+}
+.footer-bottom {
+  padding-top: 12px;
+}
+.footer-bottom  .copy p {
+  font-size: 15px;
+}
+.footer-bottom  .copy h2 {
+  PADDING-TOP: 0;
+  PADDING-BOTTOM: 26PX;
+}
+.footer-bottom  .copy a {
+  font-size: 16px;
+}
 
 
 
-.profit p {
-    font-size: 10px;
-    margin-left: 60px;
-    padding-top: 8px;
-}
-.profit h2 {
-    font-size: 12px;
-    margin-left: 77px;
-}
-.flex-btn .btn1 button {
-    width: 76px;
-    height: 33px;
-}
-.flex-btn .btn1 a {
-    font-size: 16px;
-}
 
-.flex-btn {
-    gap: 34px;
-    padding: 13px 10px;
-}
-.flex-btn .Amount h2 {
-    font-size: 17px;
 }
 
 
-.grid-img h2 {
-    font-size: 27px;
+
+
+
+
+
+
+
+@media (Min-width:576px){
+  header .header-top .header-nav .bars {
+    display: block;
+    flex: 0;
 }
-.Ajio1 {
-    height: 246px;
-    width: 190px;
+
+  header .header-top .header-nav.bars .logo {
+padding-left: 54px;
+  }
+  header .header-top .header-nav .logo {
+    padding: 0px 144px;
 }
-.Ajio1 img {
-    WIDTH: 185PX;
+header .header-top .header-nav .nav {
+  padding: 0;
 }
-.Ajio-img img{
-    WIDTH:40px;
+header .header-top .header-nav .bell {
+flex: 0;
+}
+header .header-top .header-nav .logo img {
+height: 40px;
+width: 58px;
+}
+header .header-nav .logo h1 {
+  font-size: 22px;
+
+}
+header .header-top .header-nav .logo  p {
+  font-size: 13px;
+  padding-left: 48px;
+}
+header .header-top  .header-nav .nav .mid-nav ul li {
+  padding: 10px 62PX;
+  font-size: 20px;
+  FONT-FAMILY: SANS-SERIF;
+}
+header .header-nav .nav .search {
+    display: NONE;
+  }
+  header .header-nav .nav .mid-nav {
+    flex: 1;
+    display: NONE;
+  }
+  header .header-nav .btn button {
+    display: none;
+  }
+.header-bottom {
+display: block;
+}
+header .header-top .header-nav .mid-nav .logo-visi {
+  padding-top: 50px;
+}
+header .header-top .header-nav .mid-nav .logo-visi .logo img{
+width: 30px;
+height: auto;
+}
+header .header-top .header-nav .mid-nav .logo-visi .logo h1{
+  font-size: 18px; 
+}
+header .header-top .header-nav .mid-nav .logo-visi .logo p{
+  font-size: 15px;
+  padding-left: 15px;
+}
+  header .header-nav .nav .menu-list {
+    display: block;
+    height: 1866px;
+    width: 359px;
+  background-color: #4E5053;
+  position: absolute;
+  left: -340px;
+  top: 0;
+  padding-top: 30px;
+  z-index: 1;
+  transition: 3s ease all;
+}
+header .header-nav .nav .menu-list ul {
+  display: flex;
+  flex-direction: column;
+}
+header.header-top .header-nav .bell img {
+    height: 34px;
+    border-radius: 60%;
+    width: 40px;
+    background-color: black;
+}
+.header-bottom .header-b-val {
+  display: flex;
+  GAP: 15PX;
+}
+
+.header-bottom .header-b-val .input-search input {
+  height: 40px;
+  width: 405px;
+  border-radius: 10px;
+  border: none;
+  background: gainsboro;
+  padding: 0 38px;
+  font-size: 18px;
+}
+.header-bottom .header-b-val .input-search span {
+  position: absolute;
+  top: 14px;
+  left: 9px;
+  font-size: 14px;
+  color: gray;
+}
+.btn button {
+  background:#FDC7B0;
+  border: NONE;
+  height: 41px;
+  width: 102px;
+  font-size: 13px;
+  border-radius: 10px;
+}
+main section {
+  padding: 28px 29px;
+}
+
+main section .Ajio-main .Ajio img{
+width:250px;
+}
+main section .Ajio-main .Ajio1 img{
+width:250px;
 }
 .Ajio2 {
-    DISPLAY: NONE;
-    padding: 0px 0;
-        border: 2px solid;
-        height: 246px;
-        width: 190px;
-    
+display: none;
 }
-.Ajio2 img {
-    WIDTH: 185PX;
+.Ajio3{
+display: none;
 }
-.Ajio-img img{
-    WIDTH:40px;
+main section .Ajio-main .Ajio-img img{
+width:50px;
 }
 
-.Ajio3 {
-    DISPLAY: NONE;
-    padding: 0px 0;
-        border: 2px solid;
-        height: 246px;
-        width: 190px;
-    
+main section .Ajio-main .Ajio-img {
+top: 159px;
+left: 5px;
 }
-.Ajio3 img {
-    WIDTH: 185PX;
+main section .Ajio-main .profit p {
+font-size: 12px;
+margin-left: 110px;
+padding-top: 14px;
 }
-.Ajio-img img{
-    WIDTH:40px;
+main section .Ajio-main  .profit h2 {
+font-size: 13px;
+margin-left: 145px;
 }
-.flipkart-main {
-    padding-top: 16px;
+main section .Ajio-main  .flex-btn .btn1 button {
+width: 80px;
+height: 31px;
 }
-.flp-grid-img h2 {
-    font-size: 28px;
+main section .Ajio-main .flex-btn .btn1 a {
+font-size: 16px;
 }
-.flipkart {
-    height: 244px;
-    width: 191px;
+main section .Ajio-main .flex-btn {
+gap: 86px;
+padding: 0px 20px;
 }
-.flipkart img {
-    WIDTH: 185PX;
+main section .Ajio-main .Ajio {
+height: 290px;
+width: 254px;
 }
-.flipkart-img img{
-    WIDTH:40px;
+main section .Ajio-main .Ajio1 {
+height: 290px;
+width: 254px;
 }
-
-.flp-border {
-    width: 189px;
-    height: 109px;
+.Ajio-main {
+gap: 15px;
 }
-.flp-profit p {
-    font-size: 10px;
-    margin-left: 60px;
-    padding-top: 8px;
+main section .grid-img h2 {
+font-size: 27px;
+font-family: monospace;
+padding: 1px 8px 20px;
 }
-.flp-grid-img {
-    padding-top: 25px;
-}
-.flp-profit h2 {
-    font-size: 11px;
-    margin-left: 66px;
-}
-.flp-btn .flp-btn1 button {
-    width: 76px;
-    height: 33px;
-}
-.flp-btn .flp-btn1 a {
-    font-size: 16px;
-}
-
-.flp-btn {
-    gap: 34px;
-    padding: 13px 10px;
-}
-.flp-btn .flp-Amount h2 {
-    font-size: 17px;
-}
-.flipkart1 {
-    height: 244px;
-    width: 191px;
-}
-.flipkart1 img {
-    WIDTH: 185PX;
-}
-.flipkart-img img{
-    WIDTH:40px;
-}
-
-
 .flipkart2 {
-    padding: 0px 0;
-    display: none;
-        height: 244px;
-        width: 191px;
-    
+display: none;
 }
-.flipkart2 img {
-    WIDTH: 185PX;
-}
-.flipkart-img img{
-    WIDTH:40px;
-}
-
-
-
 .flipkart3 {
-    padding: 0px 0;
-        display: none;
-            height: 244px;
-            width: 191px;
-
-}
-.flipkart3 img{
-    WIDTH: 185PX;
-}
-.flipkart-img img{
-    WIDTH:40px;
-}
-.flipkart-img {
-    top: 114px;
-    left: 12px;
-}
-.mnt-grid-img {
-    padding-top: 21px;
-}
-.mnt-grid-img h2 {
-    font-size: 28px;
-}
-.Myntra-main {
-    gap: 13px;
-    padding-top: 20px;
-}
-.Myntra {
-    height: 243px;
-    width: 189px;
-}
-.Myntra img {
-    WIDTH: 185PX;
-}
-.Myntra-img img{
-    WIDTH:40px;
-}
-.Myntra-img {
-    top: 113px;
-    left: 12px;
-}
-
-.mnt-profit p {
-    font-size: 10px;
-    margin-left: 60px;
-    padding-top: 8px;
-}
-.mnt-profit h2 {
-    font-size: 11px;
-    margin-left: 66px;
-}
-.mnt-btn .mnt-btn1 button {
-    width: 76px;
-    height: 33px;
-}
-.mnt-btn .mnt-btn1 a {
-    font-size: 16px;
-}
-
-.mnt-btn {
-    gap: 3 4px;
-    padding: 13px 10px;
-}
-.mnt-btn .mnt-Amount h2 {
-    font-size: 17px;
-}
-
-.Myntra1 img {
-    WIDTH: 185PX;
-}
-.Myntra-img img{
-    WIDTH:40px;
-}
-
-.Myntra1 {
-    padding: 0px 0;
-    /* display: none; */
-   height: 243px;
-        width: 189px;
-    
+display: none;
 }
 
 
+main section .flp-grid-img h2 {
+font-size: 28px;
+padding: 1px 10px 20px;
+}
+
+main section .flipkart-main .flipkart img{
+  width:250px;
+}
+main section .flipkart-main .flipkart1 img{
+  width:250px;
+}
+main section .flipkart-main .flipkart-img img{
+  width:40px;
+}
+main section .flipkart-main .flp-btn {
+
+gap: 88px;
+}
+main section .flipkart-main .flipkart-img {
+  top: 155px;
+  left: 12px;
+}
+main section .flipkart-main .flp-profit p {
+font-size: 14px;
+margin-left: 94px;
+padding-top: 13px;
+}
+main section .flipkart-main .flp-profit h2 {
+font-size: 14px;
+margin-left: 119px;
+}
+main section .flipkart-main  .flp-btn1 button {
+width: 80px;
+height: 31px;
+}
+main section .flipkart-main  .flp-btn1 button a{
+font-size: 16px;
+}
+main section .flipkart-main  .flipkart {
+
+height: 297px;
+width: 254px;
+}
+main section .flipkart-main  .flipkart1 {
+
+height: 297px;
+width: 254px;
+}
+main section  .flipkart-main {
+GAP: 17PX;
+}
+
+main section .mnt-grid-img h2 {
+font-size: 29px;
+font-family: monospace;
+padding: 1px 10px 20PX;
+}
 .Myntra2 {
-    padding: 0px 0;
-    display: none;
-    height: 243px;
-        width: 189px;
-    
+DISPLAY: NONE;
 }
-.Myntra2 img {
-    WIDTH: 185PX;
-}
-.Myntra-img img{
-    WIDTH:40px;
-}
-
-
 .Myntra3 {
-    padding: 0px 0;
-    display: none;
-   height: 243px;
-        width: 189px;
-    
+DISPLAY: NONE;
+
+}
+.Myntra-main .Myntra img{
+width:250px;
+
+}
+.Myntra-main .Myntra1 img{
+width:250px;
+}
+.Myntra-main .Myntra-img img{
+width:50px;
+}
+.Myntra-main  .Myntra-img {
+top: 154px;
+left: 8px;
 }
 
-.Myntra3 img {
-    WIDTH: 185PX;
-}
-.Myntra-img img{
-    WIDTH:40px;
+.Myntra-main .mnt-profit p {
+font-size: 14px;
+margin-left: 90px;
+padding-top: 13px;
 }
 
-footer {
-    padding: 10px 59px;
+.Myntra-main .mnt-profit h2 {
+font-size: 14px;
+margin-left: 108px;
 }
-.Subscribe p {
-    padding-top: 10px;
-    font-size: 12px;
-    width: 272px;
+
+.Myntra-main .mnt-btn1 button {
+width: 80px;
+height: 31px;
 }
-.copy p {
-    font-size: 14px;
+.Myntra-main .mnt-btn1 button a {
+font-size: 16px;
 }
-.copy a {
-    font-size: 14px;
+.Myntra-main  .Myntra {
+height: 295px;
+width: 253px;
 }
-.app-link {
-    padding: 0px 55px;
+.Myntra-main  .Myntra1 {
+height: 295px;
+width: 253px;
 }
-.Subscribe h2 {
-    padding: 0 63px;
-    font-size: 29px;
+
+.Myntra-main .mnt-btn {
+display: flex;
+gap: 97px;
+padding: 9px 20px;
 }
-.email input {
-    width: 183.8px;
+
+footer .footer-grid {
+display: grid;
+grid-template-columns: repeat(1,1fr);
+}
+
+footer  .footer {
+padding-top: 11px;
+}
+
+footer  .footer  .abt-link {
+display: none;
+}
+.read {
+display: none;
+}
+.page {
+display: none;
+}
+.connect {
+display: none;
+}
+footer  .footer .Download h2 {
+padding: 0 0;
+font-size: 22px;
+}
+
+footer  .footer .Download {
+PADDING: 11PX 77PX;
+}
+footer  .footer .Download .app-link img{
+width:100px;
+}
+footer  .footer .app-link {
+padding: 8px 20px;
+}
+footer  .footer  .Subscribe h2 {
+padding: 0 8px;
+font-size: 22px;
+}
+footer  .footer  .Subscribe {
+text-align: center;
+}
+footer  .footer .Subscribe p {
+padding-top: 16px;
+font-size: 11px;
+}
+
+footer  .footer .email-btn button {
+width: 101px;
+height: 36px;
+font-size: 18px;
+}
+footer  .footer .email {
+padding: 30px 0 18px;
+}
+.footer-bottom {
+padding-top: 12px;
+}
+.footer-bottom  .copy p {
+font-size: 15px;
+}
+.footer-bottom  .copy h2 {
+PADDING-TOP: 0;
+PADDING-BOTTOM: 26PX;
+}
+.footer-bottom  .copy a {
+font-size: 16px;
+}
+
+
+
+
+}
+
+
+
+@media (Min-width:768px){
+  header .header-top .header-nav .mid-nav .logo-visi .logo img {
+    height: auto;
+    width:100%;
+}
+header .header-top .header-nav .mid-nav .logo-visi .logo .h1{
+  font-size:20px;
+}
+  .header-bottom .header-b-val .input-search input {
     height: 45px;
-    font-size: 15px;
-    padding: 0 21px;
-}
-.email {
-    padding: 17px 61px;
-}
-.email-btn button {
-    width: 113px;
-    height: 40px;
+    width: 597px;
+  }
+  header .header-nav .nav .menu-list {
+    display: block;
+    height: 1865px;
+    width: 456px;
+  }
+  header .header-nav   .menu-list li a {
+    color: white;
     font-size: 20px;
 }
-
-.email-btn {
-    padding: 0 97px;
+.header-bottom .header-b-val .input-search span {
+  top: 14px;
+  left: 12px;
+  font-size: 15px;
+}
+.header-bottom .header-b-val {
+  display: flex;
+  GAP: 12PX;
 }
 
+header .header-top .header-nav .logo {
+  padding: 0px 237px;
 }
 
-@media (min-width:1440px){
-.main .them {
-        padding-left: 44px;
-    }
-
-    .heder-link {
-        display: block;
-            padding-left: 0pc;
-        }
-        .heder-link a {
-            padding-left: 32px;
-            font-size: 21px;
-        }
-        .Ajio-main {
-            grid-template-columns: repeat(4,1fr);
-            gap: 29px;
-            padding-top: 32px;
-        }
-
-        .Ajio {
-            height: 346px;
-            width: 312px;
-        }
-        .Ajio-img {
-            top: 182px;
-        }
-
-        .flex-btn .btn1 button {
-            width: 130px;
-            height: 43px;
-        }
-        .flex-btn {
-            gap: 69px;
-        }
-        .flex-btn .btn1 a {
-            font-size: 22px;
-        }
-        .profit p {
-            font-size: 16px;
-            margin-left: 117px;
-            padding-top: 6px;
-        }
-        .profit h2 {
-            font-size: 15px;
-            margin-left: 174px;
-        }
-        .flex-btn .Amount h2 {
-            font-size: 25px;
-        }
-        .Ajio1 {
-            height: 346px;
-            width: 312px;
-        }
-        .Ajio2 {
-            height: 346px;
-            width: 312px;
-            display:block;
-        }
-        .Ajio3 {
-            display:block;
-            height: 346px;
-            width: 312px;
-        }
-
-
-        .flipkart-main{
-            grid-template-columns: repeat(4,1fr);
-            gap: 29px;
-            padding-top: 32px;
-        }
-
-        .flipkart {
-            height: 370px;
-            width: 312px;
-        }
-
-        .flipkart-img {
-            top: 170px;
-        }
-
-        .flp-btn .flp-btn1 button {
-            width: 130px;
-            height: 43px;
-        }
-        .flp-btn {
-            gap: 69px;
-            padding-top: 15px;
-        }
-        .flp-btn .flp-btn1 a {
-            font-size: 22px;
-        }
-        .flp-profit p {
-            font-size: 16px;
-            margin-left: 117px;
-            padding-top: 6px;
-        }
-        .flp-profit h2 {
-            font-size: 15px;
-            margin-left: 144px;
-        }
-        .flp-btn .flp-Amount h2 {
-            font-size: 25px;
-        }
-        .flipkart1 {
-            height: 370px;
-            width: 312px;
-        }
-
-        .flipkart2 {
-            height: 370px;
-            width: 312px;
-            display:block;
-        }
-
-        .flipkart3 {
-            height: 370px;
-            width: 312px;
-            display:block;
-        }
-
-
-
-        .Myntra-main{
-            grid-template-columns: repeat(4,1fr);
-            gap: 29px;
-            padding-top: 32px;
-        }
-
-        .Myntra {
-            height: 370px;
-            width: 312px;
-        }
-
-
-        .Myntra-img {
-            top: 170px;
-        }
-
-        .mnt-btn .mnt-btn1 button {
-            width: 130px;
-            height: 43px;
-        }
-        .mnt-btn {
-            gap: 69px;
-            padding-top: 15px;
-        }
-        .mnt-btn .mnt-btn1 a {
-            font-size: 22px;
-        }
-        .mnt-profit p {
-            font-size: 16px;
-            margin-left: 117px;
-            padding-top: 6px;
-        }
-        .mnt-profit h2 {
-            font-size: 15px;
-            margin-left: 144px;
-        }
-        .mnt-btn .mnt-Amount h2 {
-            font-size: 25px;
-        }
-
-        .Myntra1 {
-            height: 370px;
-            display:block;
-            width: 312px;
-        }
-        
-        .Myntra2 {
-            height: 370px;
-            width: 312px;
-            display:block;
-
-        }
-
-        .Myntra3 {
-            display:block;
-            height: 370px;
-            width: 312px;
-        }
-
-
-
-        .footer-grid {
-            grid-template-columns: repeat(6,1fr);
-        }
-        footer {
-            padding: 5px 0;
-        }
-        .footer {
-            padding-top: 42px;
-            padding-left: 53px;
-        }
-        .About img {
-            display: block;
-        }
-.About {
-    padding-left: 16px;
-    GAP:10px;
+header .header-top .header-nav .mid-nav .logo-visi .logo {
+  padding: 0px 2px;
 }
-.About h2 {
-    padding: 9px 0;
-    font-size: 26px;
-}
-.abt-link {
-    display: block;
-}
-.app-link {
-    padding: 59px 5px;
-}
-.read h2 {
-    font-size: 26px;
-    display: block;
-}
-.rd-link {
-    display: block;
-    width: 209px;
-}
-
-.page h2 {
-    padding: 10px 0;
-    display: block;
-}
-.pg-link {
-    display: block;
-    width: 12pc;
-}
-
-.connect h2 {
-    display: block;
-    padding: 11px 0;
-}
-.cnt-link {
-    display: block;
-    width: 14pc;
-}
-.Download h2 {
-    width: 13pc;
-    display: block;
-}
-
-.app-link img {
-    width: 100%;
-}
-
-
-.Subscribe h2 {
-    padding: 0;
-    display: none;
-    font-size: 26px;
-}
-.Subscribe p {
-    padding-top: 16px;
-    font-size: 23px;
-    width: 286px;
-    display: none;
-    padding-left: 4px;
-}
-
-
-.email input {
-    width: 243.8px;
-    display: none;
-
-    height: 56px;
+header .header-top .header-nav .mid-nav .logo-visi .logo p {
     font-size: 17px;
-    padding: 3px 5px;
+    padding-left: 37px;
 }
-.email {
-    padding: 30px 0;
+main section .Ajio-main .Ajio2 img {
+  width: 205px;
+  
 }
-.email-btn {
-    padding: 0 1px;
-    display: none;
+main section .Ajio-main .Ajio2{
+  display:block;
+  height: 258px;
+  width: 210px;
+}
+.Ajio-main {
+  gap: 34px;
+}
+main section .Ajio-main .Ajio img {
+  width: 205px;
+}
+main section .Ajio-main .Ajio1 img {
+  width: 205px;
+}
+main section .Ajio-main .Ajio-img img {
+  width:50px;
+  } 
+  main section .Ajio-main .Ajio-img {
+    top: 131px;
+    left: 5px;
+}
+main section .Ajio-main .profit p {
+  font-size: 12px;
+  margin-left: 69px;
+  padding-top: 0px;
+}
+main section .Ajio-main .profit h2 {
+  font-size: 13px;
+  margin-left: 102px;
+}
+main section .Ajio-main .flex-btn {
+  gap: 50px;
+  padding: 14px 16px;
+}
+main section .Ajio-main .Ajio {
+  width: 211px;
+  height: 258px;
+}
+main section .Ajio-main .Ajio1 {
+  width: 211px;
+  height: 258px;
+
 }
 
-.footer-bottom {
-    padding-top: 19px;
+main section .flipkart-main .flipkart img {
+  width: 205px;
 }
-.copy p {
+main section .flipkart-main .flipkart1 img {
+  width: 205px;
+}
+main section .flipkart-main .flipkart2 img {
+  width: 205px;
+}
+main section .flipkart-main .flipkart-img img {
+  width: 40px;
+}
+main section .flipkart-main .flipkart-img {
+  top: 130px;
+  left: 8px;
+}
+main section .flipkart-main .flp-profit p {
+  font-size: 12px;
+  margin-left: 68px;
+  padding-top: 4px;
+}
+main section .flipkart-main .flp-profit h2 {
+  font-size: 13px;
+  margin-left: 81px;
+}
+main section .flipkart-main .flp-btn {
+  gap: 49px;
+  padding: 13px 10px;
+}
+main section .flipkart-main .flipkart {
+  height: 264px;
+  width: 209px;
+}
+main section .flipkart-main .flipkart1 {
+  height: 264px;
+  width: 209px;
+}
+main section .flipkart-main .flipkart2 {
+  height: 264px;
+  width: 209px;
+  display:block;
+}
+main section .flipkart-main {
+  GAP: 35PX;
+}
+.Myntra-main .Myntra img {
+  width: 205px;
+}
+.Myntra-main .Myntra1 img {
+  width: 205px;
+}
+.Myntra-main .Myntra2 img {
+  width: 205px;
+}
+.Myntra-main .Myntra-img img {
+width:40px;
+}
+.Myntra-main .Myntra-img {
+  top: 125px;
+  left: 8px;
+}
+.Myntra-main .mnt-profit p {
+  font-size: 12px;
+  margin-left: 63px;
+  padding-top: 0;
+}
+.Myntra-main .mnt-profit h2 {
+  font-size: 14px;
+  margin-left: 60px;
+}
+.Myntra-main .mnt-btn {
+  display: flex;
+  gap: 54px;
+  padding: 19px 14px;
+}
+.Myntra-main .Myntra {
+  height: 263px;
+  width: 208px;
+}
+.Myntra-main .Myntra1 {
+  height: 263px;
+  width: 208px;
+}
+.Myntra-main .Myntra2 {
+  height: 263px;
+  width: 208px;
+  display:block;
+}
+.Myntra-main {
+  gap: 34px;
+}
+footer .footer .About {
+  display: flex;
+  padding:0 117px;
+}
+footer .footer .Download h2 {
+  padding: 8px 0 0 40px;
+  font-size: 23px;
+  text-align: center;
+}
+footer .footer .app-link {
+  padding: 15px 0 0 124px;
+}
+footer .footer .Download .app-link img {
+  width: 132px;
+}
+footer .footer .Subscribe h2 {
+  padding: 0 0 0 35px;
+  font-size: 25px;
+}
+
+footer .footer  .email input {
+  width: 283.8px;
+  height: 45px;
+  font-size: 17px;
+
+}
+footer .footer .email {
+  padding: 16px 0 14px 66px;
+}
+footer .footer .Subscribe p {
+  font-size: 15px;
+  padding: 10px 34px 0 96px;
+}
+footer .footer  .email-btn {
+  padding: 0 15px 0 63px;
+}
+.footer-bottom .copy p {
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media (Min-width:1024px){
+  header .header-top .header-nav .logo {
+    padding: 0px 345px;
+}
+
+
+    header .header-nav .logo h1 {
+      font-size: 33px;
+  }
+  header .header-top .header-nav .logo p {
+    font-size: 22px;
+    padding-left: 66px;
+}
+.header-bottom .header-b-val .input-search span {
+  top: 17px;
+  left: 11px;
+  font-size: 18px;
+} 
+
+    .header-bottom .header-b-val {
+      display: flex;
+      gap: 15px;
+    }
+  
+    .header-bottom .header-b-val .input-search input {
+      height: 53px;
+      width: 842px;
+  }
+  .btn button{
+    height: 50px;
+    width: 108px;
+    font-size: 15px;
+  }
+  
+  header .header-nav .nav .menu-list {
+    width: 603px;
+    height: 1806px;
+  }
+header .header-top .header-nav .mid-nav .logo-visi .logo img {
+  width: AUTO;
+  height: AUTO;
+}
+header .header-top .header-nav .mid-nav .logo-visi .logo p {
+font-size: 20px;
+padding-left: 29px;
+}
+
+   .menu-list ul li a {
+    color: white;
+    font-size: 23px;
+    FONT-FAMILY: SANS-SERIF;
+  }
+  main section .Ajio-main .Ajio3 img {
+    width: 205px;
+}
+main section .Ajio-main .Ajio-img img{
+  width:50px;
+}
+main section .Ajio-main .Ajio3 {
+  width: 209px;
+  height:263px;
+  display:block;
+
+}
+
+main section .Ajio-main .flex-btn {
+  gap: 46px;
+  padding: 14px 16px;
+}
+
+main section .flipkart-main .flipkart3 img {
+  width: 205px;
+}
+main section .flipkart-main .flipkart3 {
+  display:block;
+  width:209px;
+  height:263px;
+}
+main section .flipkart-main .flipkart-img img {
+width:50px;
+}
+.Myntra-main .Myntra3 img {
+  width: 205px;
+}
+.Myntra-main .Myntra3 {
+  width: 209px;
+  height:263px;
+  display:block;
+}
+.Myntra-main .Myntra-img img {
+  width: 50px;
+}
+footer .footer .About {
+  display: flex;
+  padding: 0px 240px;
+}
+footer .footer .Download .app-link img {
+  width: 135px;
+}
+footer .footer .app-link {
+  padding: 19px 0 0 249px;
+}
+footer .footer .Subscribe h2 {
+  padding: 0 0 0 35px;
+  font-size: 28px;
+}
+footer .footer .email input {
+  width: 337.8px;
+  height: 49px;
+  font-size: 18px;
+}
+footer .footer .email-btn {
+  padding: 5px 6px 0 56px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media (min-width: 1440px) {
+  header .header-top .header-nav .logo {
+    padding: 0;
+}
+    header .header-top .header-nav .bars {
+      display: none;
+    }
+    header .header-nav .nav .search {
+      display: block;
+    }
+    header .header-top .header-nav .logo {
+      flex: 0;
+  }
+    header .header-nav .nav .mid-nav {
+      display: block;
+    }
+    .header-bottom {
+      display: none;
+    }
+    header  .header-top .header-nav {
+      display: flex;
+      padding: 15px 0 0 44px;
+  }
+    header .header-top .header-nav .bell {
+      display: block;
+      padding: 17px 0;
+      flex: 0.9;
+  }
+        header  .header-top .header-nav .nav .mid-nav ul li {
+          padding: 10px 30px;
+          font-size: 20px;
+          font-family: sans-serif;
+          font-weight: 100;    } 
+  
+    header .header-nav .btn button {
+      display: block;
+    }
+    header  .header-top .header-nav .mid-nav .logo-visi .logo{
+      display: none;
+    }
+    header .header-nav .nav .mid-nav ul li .arrowleft{
+      display: none;
+    }
+    header .header-nav .btn {
+      display: block;
+  }
+  header .header-nav .nav .search span {
+    position: absolute;
+    left: 14px;
+    top: 10px;
+    font-size: 15px;
+  }
+  header .header-nav .nav {
+    padding: 0 16px;
+  }
+  header .header-top .header-nav .logo p {
     font-size: 19px;
+    padding-left: 72px;
+  }
+  main section {
+    padding: 28px 46px;
 }
-.copy a {
-    font-size: 19px;
+  main section .Ajio-main .Ajio img {
+    width: 305px;
 }
-.copy h2 {
-    PADDING-TOP: 4PX;
+main section .Ajio-main .Ajio1 img {
+  width: 305px;
 }
+main section .Ajio-main .Ajio2 img {
+  width: 305px;
 }
-
-
-@media (max-width:375px){
-    .main .ern-btn button {
-        WIDTH: 102PX;
-        font-size: 14px;
-        height: 56px;
-    }
-    .main .ern-btn {
-        padding-left: 48px;
-    }
-    .Ajio img {
-        WIDTH: 150PX;
-    }
-    .Ajio-img img {
-        WIDTH: 28px;
-    }
-    .Ajio-img {
-        top: 95px;
-        left: 6px;
-    }
-    .profit p {
-        font-size: 9px;
-        margin-left: 41px;
-        padding-top: 10px;
-    }
-    .profit h2 {
-        font-size: 10px;
-        margin-left: 62px;
-    }
-    .flex-btn .btn1 button {
-        width: 69px;
-        height: 29px;
-    }
-    .flex-btn .btn1 a {
-        font-size: 14px;
-    }
-    .flex-btn .Amount h2 {
-        font-size: 13px;
-    }
-    .flex-btn {
-        gap: 21px;
-        padding: 13px 10px;
-    }
-    .Ajio {
-        height: 218px;
-        width: 157px;
-    }
-    .Ajio1 {
-        height: 218px;
-        width: 157px;
-    }
-    .Ajio1 img {
-        WIDTH: 150PX;
-    }
-    .Ajio-img img {
-        WIDTH: 28px;
-    }
-    .Ajio2 {
-        height: 218px;
-        width: 157px;
-    }
-    .Ajio2 img {
-        WIDTH: 150PX;
-    }
-    .Ajio-img img {
-        WIDTH: 28px;
-    }
-
-
-    .Ajio3 {
-        height: 218px;
-        width: 157px;
-    }
-    .Ajio3 img {
-        WIDTH: 150PX;
-    }
-    .Ajio-img img {
-        WIDTH: 28px;
-    }
-
-    .flipkart img {
-        WIDTH: 150PX;
-    }
-    .flipkart-img img {
-        WIDTH: 28px;
-    }
-    .flipkart-img {
-        top: 95px;
-        left: 6px;
-    }
-    .flp-profit p {
-        font-size: 9px;
-        margin-left: 41px;
-        padding-top: 10px;
-    }
-    .flp-profit h2 {
-        font-size: 10px;
-        margin-left: 49px;
-    }
-    .flp-btn .flp-btn1 button {
-        width: 69px;
-        height: 29px;
-    }
-    .flp-btn .flp-btn1 a {
-        font-size: 14px;
-    }
-    .flp-btn .flp-Amount h2 {
-        font-size: 13px;
-    }
-    .flp-btn {
-        gap: 21px;
-        padding: 13px 10px;
-    }
-     .flipkart {
-        height: 218px;
-        width: 157px;
-    }
-
-    .flipkart1 {
-        height: 218px;
-        width: 157px;
-    }
-    .flipkart1 img {
-        WIDTH: 150PX;
-    }
-    .flipkart-img img {
-        WIDTH: 28px;
-    }
-
-
-    
-    .Myntra img {
-        WIDTH: 150PX;
-    }
-    .Myntra-img img {
-        WIDTH: 28px;
-    }
-    .Myntra-img {
-        top: 95px;
-        left: 6px;
-    }
-    .mnt-profit p {
-        font-size: 9px;
-        margin-left: 41px;
-        padding-top: 10px;
-    }
-    .mnt-profit h2 {
-        font-size: 10px;
-        margin-left: 49px;
-    }
-    .mnt-btn .mnt-btn1 button {
-        width: 69px;
-        height: 29px;
-    }
-    .mnt-btn .mnt-btn1 a {
-        font-size: 14px;
-    }
-    .mnt-btn .mnt-Amount h2 {
-        font-size: 13px;
-    }
-    .mnt-btn {
-        gap: 21px;
-        padding: 13px 10px;
-    }
-     .Myntra {
-        height: 218px;
-        width: 157px;
-    }
-
-    .Myntra1 {
-        height: 218px;
-        width: 157px;
-    }
-
-    
-    .Myntra1 img {
-        WIDTH: 150PX;
-    }
-    .Myntra-img img {
-        WIDTH: 28px;
-    }
-    .Download {
-        PADDING: 11PX 14PX;
-    }
-    .email {
-        padding: 17px 38px;
-    }
-    .email-btn {
-        padding: 0 74px;
-    }
-    .footer-bottom {
-        padding-top: 20px;
-    }
-    footer {
-        padding: 10px 50px;
-    }
-
+main section .Ajio-main .Ajio3 img {
+  width: 305px;
+}
+main section .Ajio-main .Ajio-img  img{
+  width:50px;
+}
+main section .Ajio-main .Ajio {
+  width: 309px;
+  height: auto;
+}
+main section .Ajio-main .Ajio1 {
+  width: 309px;
+  height: auto;
+}
+main section .Ajio-main .Ajio2 {
+  width: 309px;
+  height: auto;
+}
+main section .Ajio-main .Ajio3 {
+  width: 309px;
+  height: auto;
+}
+main section .Ajio-main .Ajio-img {
+  top: 195px;
+  left: 25px;
+}
+main section .Ajio-main .profit p {
+  font-size: 16px;
+  margin-left: 121px;
+  padding-top: 4px;
+}
+main section .Ajio-main .profit h2 {
+  font-size: 17px;
+  margin-left: 160px;
+}
+main section .Ajio-main .flex-btn .btn1 button {
+  width: 140px;
+  height: 44px;
+}
+main section .Ajio-main .flex-btn .btn1 a {
+  font-size: 21px;
 }
 
-@media (min-width:1800px){
-
-    .logo {
-        PADDING-LEFT: 9PC;
-    }
-    .heder-link a {
-        padding-left: 83px;
-        font-size: 21px;
-    }
-    .main .them {
-        padding-left: 99px;
-    }
-    section {
-        padding: 27px 133px;
-    }
-
-    .Ajio {
-        height: 406px;
-        width: 385px;
-    }
-    .Ajio1 {
-        display: block;
-        height: 406px;
-        width: 385px;
-    }
-
-    .Ajio2 {
-        display: block;
-        height: 406px;
-        width: 385px;
-    }
-
-    .Ajio3 {
-        display: block;
-        height: 406px;
-        width: 385px;
-    }
-    .Ajio-img {
-        top: 233px;
-    }
-
-    .profit p {
-        font-size: 21px;
-        margin-left: 145px;
-        padding-top: 3px;
-    }
-    .profit h2 {
-        font-size: 19px;
-        margin-left: 218px;
-    }
-    .flex-btn {
-        gap: 120px;
-    }
-
-    .flex-btn .btn1 button {
-        width: 146px;
-        height: 46px;
-    }
-    .flex-btn .btn1 a {
-        font-size: 25px;
-    }
-
-    .flipkart {
-        height: 418px;
-        width: 385px;
-    }
-
-    .flipkart1 {
-        display: block;
-        height: 418px;
-        width: 385px;
-    }
-
-    .flipkart2 {
-        display: block;
-        height: 418px;
-        width: 385px;
-    }
-
-    .flipkart3 {
-        display: block;
-        height: 418px;
-        width: 385px;
-    }
-
-
-    .flipkart-img {
-        top: 233px;
-    }
-
-    .flp-profit p {
-        font-size: 21px;
-        margin-left: 145px;
-        padding-top: 3px;
-    }
-    .flp-profit h2 {
-        font-size: 19px;
-        margin-left: 195px;
-    }
-    .flp-btn {
-        gap: 120px;
-    }
-
-    .flp-btn .flp-btn1 button {
-        width: 146px;
-        height: 46px;
-    }
-    .flp-btn .flp-btn1 a {
-        font-size: 25px;
-    }
-
-
-
-
-
-    .Myntra {
-        height: 418px;
-        width: 385px;
-    }
-
-    .Myntra1 {
-        display: block;
-        height: 418px;
-        width: 385px;
-    }
-
-    .Myntra2 {
-        display: block;
-        height: 418px;
-        width: 385px;
-    }
-
-    .Myntra3 {
-        display: block;
-        height: 418px;
-        width: 385px;
-    }
-
-
-    .Myntra-img {
-        top: 233px;
-    }
-
-    .mnt-profit p {
-        font-size: 21px;
-        margin-left: 145px;
-        padding-top: 3px;
-    }
-    .mnt-profit h2 {
-        font-size: 19px;
-        margin-left: 195px;
-    }
-    .mnt-btn {
-        gap: 120px;
-    }
-
-    .mnt-btn .mnt-btn1 button {
-        width: 146px;
-        height: 46px;
-    }
-    .mnt-btn .mnt-btn1 a {
-        font-size: 25px;
-    }
-
-
-
-    .Subscribe p {
-        padding-top: 56px;
-        font-size: 18px;
-        width: 241px;
-        display: block;
-        padding-left: 2px;
-        /* text-align: center; */
-    }
-    .email input {
-        width: 224.8px;
-        display: block;
-        height: 50px;
-        font-size: 18px;
-        padding: 3px 12px;
-    }
-
-    .email-btn {
-        padding: 0 49px;
-        display: block;
-    }
-    .footer-grid {
-        grid-template-columns: repeat(6,1fr);
-        padding-top: 38px;
-    }
-    .footer {
-        padding: 0px 127px;
-    }
-    .Subscribe h2 {
-        display: block;
-        font-size: 30px;
-        padding: 0 27px;
-    }
-
+main section .flex-btn .Amount h2 {
+  font-size: 23px;
 }
-@media (min-width:2560px){
-    .logo {
-        PADDING-LEFT: 17PC;
-    }
-    .logo .src input {
-        width: 16pc;
-        height: 51px;
-        padding-left: 46px;
-        border-radius: 18px;
-        font-size: 24px;
-    }
-    .logo .src span {
-        padding-left: 13px;
-        padding-top: 14px;
-        font-size: 20px;
-    }
-    .heder-link a {
-        padding-left: 130px;
-        font-size: 27px;
-    }
-
-    .main .ern-btn {
-        padding-left: 130px;
-    }
-
-    section {
-        padding: 27px 266px;
-    }
-
-    .Ajio {
-        height: 521px;
-        width: 451px;
-    }
-    .Ajio1 {
-        height: 522px;
-        width: 451px;
-    }
-
-    .Ajio2 {
-        height: 522px;
-        width: 451px;
-    }
-    .Ajio3 {
-        height: 521px;
-        width: 451px;
-    }
-    .Ajio-img {
-        top: 280px;
-    }
-    .profit p {
-        font-size: 26px;
-        margin-left: 147px;
-        padding-top: 21px;
-    }
-    .profit h2 {
-        font-size: 24px;
-        margin-left: 242px;
-    }
-    .flex-btn {
-        gap: 132px;
-        padding-top: 15px;
-    }
-    .flex-btn .btn1 button {
-        width: 173px;
-        height: 62px;
-    }
-    .flex-btn .btn1 a {
-        font-size: 32px;
-    }
-    .flex-btn .Amount h2 {
-        font-size: 32px;
-    }
-
-    .grid-img h2 {
-        font-size: 46px;
-        padding: 6px 10px;
-    }
-
-    .flipkart{
-        height: 521px;
-        width: 451px;
-    }
-    .flipkart1{
-        height: 522px;
-        width: 451px;
-    }
-
-    .flipkart2{
-        height: 522px;
-        width: 451px;
-    }
-    .flipkart3 {
-        height: 521px;
-        width: 451px;
-    }
-    .flipkart-img {
-        top: 280px;
-    }
-    .flp-profit p {
-        font-size: 26px;
-        margin-left: 147px;
-        padding-top: 21px;
-    }
-    .flp-profit h2 {
-        font-size: 24px;
-        margin-left: 202px;
-    }
-    .flp-btn {
-        gap: 132px;
-        padding-top: 15px;
-    }
-    .flp-btn .flp-btn1 button {
-        width: 173px;
-        height: 62px;
-    }
-    .flp-btn .flp-btn1 a {
-        font-size: 32px;
-    }
-    .flp-btn .flp-Amount h2 {
-        font-size: 32px;
-    }
-
-
-    .Myntra{
-        height: 521px;
-        width: 451px;
-    }
-     .Myntra1{
-        height: 522px;
-        width: 451px;
-    }
-
-    .Myntra2{
-        height: 522px;
-        width: 451px;
-    }
-    .Myntra3 {
-        height: 521px;
-        width: 451px;
-    }
-    .Myntra-img {
-        top: 280px;
-    }
-    .mnt-profit p {
-        font-size: 26px;
-        margin-left: 147px;
-        padding-top: 21px;
-    }
-    .mnt-profit h2 {
-        font-size: 24px;
-        margin-left: 202px;
-    }
-    .mnt-btn {
-        gap: 132px;
-        padding-top: 15px;
-    }
-    .mnt-btn .mnt-btn1 button {
-        width: 173px;
-        height: 62px;
-    }
-    .mnt-btn .mnt-btn1 a {
-        font-size: 32px;
-    }
-    .mnt-btn .mnt-Amount h2 {
-        font-size: 32px;
-    }
-
-    .footer {
-        padding: 0px 246px;
-    }
-    .flp-grid-img h2 {
-        font-size: 45px;
-    }
-    .mnt-grid-img h2 {
-        font-size: 45px;
-    }
+main section .Ajio-main .flex-btn {
+  gap: 70px;
+  padding: 7px 16px;
 }
-@media (max-width:320px){
-    .logo .src input {
-        width: 10pc;
-        height: 47px;
-        font-size: 15px;
-    }
-    .logo .src span {
-        padding-top: 18px;
-        font-size: 15px;
-    }
-    
-    .main .ern-btn button {
-        WIDTH: 89PX;
-        font-size: 12px;
-        height: 50px;
-    }
-    .main .ern-btn {
-        padding-left: 42px;
-    }
-    .Ajio {
-        height: 184px;
-        width: 141px;
-    }
-    .Ajio img {
-        WIDTH: 136PX;
-    }
-    .Ajio-img img {
-        WIDTH: 20px;
-    }
-    .Ajio-img {
-        top: 84px;
-        left: 6px;
-    }
-
-
-
-    .profit {
-        margin-top: 2px;
-    }
-    .profit p {
-        font-size: 9px;
-        margin-left: 33px;
-        padding-top: 8px;
-    }
-    .profit h2 {
-        font-size: 10px;
-        margin-left: 51px;
-    }
-    .flex-btn {
-        gap: 20px;
-        padding: 13px 6px;
-    }
-    .flex-btn .btn1 button {
-        width: 64px;
-        height: 27px;
-    }
-    .flex-btn .btn1 a {
-        font-size: 12px;
-    }
-
-
-    .Ajio1 {
-        height: 184px;
-        width: 141px;
-    }
-    .Ajio1 img {
-        WIDTH: 136PX;
-    }
-    .Ajio-img img {
-        WIDTH: 20px;
-
+main section .flipkart-main .flipkart img {
+  width: 305px;
 }
-.flipkart {
-    height: 184px;
-    width: 141px;
+main section .flipkart-main .flipkart1 img {
+  width: 305px;
 }
-.flipkart img {
-    WIDTH: 136PX;
+main section .flipkart-main .flipkart2 img {
+  width: 305px;
 }
-.flipkart-img img {
-    WIDTH: 20px;
+main section .flipkart-main .flipkart3  img {
+  width: 305px;
 }
-.flipkart-img {
-    top: 84px;
-    left: 6px;
+main section .flipkart-main .flipkart-img img{
+  width:50px;
+}
+main section .flipkart-main .flipkart {
+  width: 309px;
+  height:AUTO;
+}
+main section .flipkart-main .flipkart1 {
+  width: 309px;
+  height:AUTO;
+}
+main section .flipkart-main .flipkart2 {
+  width: 309px;
+  height:AUTO;
+}
+main section .flipkart-main .flipkart3 {
+  width: 309px;
+  height:AUTO;
+}
+main section .flipkart-main .flipkart-img {
+  top: 198px;
+  left: 25px;
+}
+main section .flipkart-main .flp-profit p {
+  font-size: 17px;
+  margin-left: 105px;
+  padding-top: 6px;
+}
+main section .flipkart-main .flp-profit h2 {
+  font-size: 16px;
+  margin-left: 139px;
+}
+main section .flipkart-main .flp-btn1 button {
+  width: 138px;
+  height: 44px;
+}
+main section .flipkart-main .flp-btn1 button a {
+  font-size: 21px;
 }
 
-.flp-profit {
-    margin-top: 2px;
+main section  .flp-btn .flp-Amount h2 {
+  font-size: 23px;
+  padding-top: 6px;
 }
-.flp-profit p {
-    font-size: 9px;
-    margin-left: 33px;
-    padding-top: 8px;
+main section .flipkart-main .flp-btn {
+  gap: 72px;
+  padding: 13px 10px;
 }
-.flp-profit h2 {
-    font-size: 10px;
-    margin-left: 40px;
+.Myntra-main .Myntra img {
+  width: 305px;
 }
-.flp-btn {
-    gap: 20px;
-    padding: 13px 6px;
+.Myntra-main .Myntra1 img {
+  width: 305px;
 }
-.flp-btn .flp-btn1 button {
-    width: 64px;
-    height: 27px;
+.Myntra-main .Myntra2 img {
+  width: 305px;
 }
-.flp-btn .flp-btn1 a {
-    font-size: 12px;
+.Myntra-main .Myntra3 img {
+  width: 305px;
+}
+.Myntra-main .Myntra-img img {
+  width: 50px;
+}
+.Myntra-main .Myntra {
+  width: 309px;
+  height:AUTO;
+}  
+.Myntra-main .Myntra1 {
+  width: 309px;
+  height:AUTO;
+
+}  
+.Myntra-main .Myntra2 {
+  width: 309px;
+  height:AUTO;
+
+}  
+.Myntra-main .Myntra3 {
+  width: 309px;
+  height:AUTO;
+
+}  
+.Myntra-main .Myntra-img {
+  top: 192px;
+  left: 24px;
+}
+.Myntra-main .mnt-profit p {
+  font-size: 17px;
+  margin-left: 102px;
+  padding-top: 1px;
+}
+.Myntra-main .mnt-profit h2 {
+  font-size: 17px;
+  margin-left: 141px;
+}
+.Myntra-main .mnt-btn1 button {
+  width: 145px;
+  height: 44px;
 }
 
-.flipkart1 {
-    height: 184px;
-    width: 141px;
+.Myntra-main .mnt-btn .mnt-Amount h2 {
+  font-size: 23px;
 }
-.flipkart1 img {
-    WIDTH: 136PX;
+.Myntra-main .mnt-btn1 button a {
+  font-size: 20px;
 }
-.flipkart-img img {
-    WIDTH: 20px;
+.Myntra-main .mnt-btn {
+  display: flex;
+  gap: 65px;
+  padding: 11px 14px;
+}
+
+footer .footer .footer-grid {
+  display: grid;
+  gap: 30px;
+  padding:0;
+  grid-template-columns: repeat(6,1fr);
+}
+footer .footer .email input {
+  width: 244.8px;
+  height: 45px;
+  font-size: 15px;
+}
+.Ft-main footer {
+  padding: 32px 36px;
+  background: black;
+}
+footer .footer .abt-link {
+  padding: 29px 12px;
+  display: block;
+  width: 14.6pc;
+}
+footer .footer .read {
+  DISPLAY: block;
+  width: 15pc;
+}
+footer .footer .page {
+  DISPLAY: block;
+  width: 14.4pc;
+}
+footer .footer .connect {
+  DISPLAY: block;
+  width: 16.4pc;
+}
+footer .footer  .Download {
+  display: none;
+}
+footer .footer  .Subscribe h2 {
+  padding: 3px 0 0px;
+  font-size: 27px;
 
 
 }
+footer .footer .About {
+  display: flex;
+  padding: 0;
+}
+footer .footer .Subscribe p {
+  font-size: 17px;
+  width: 14pc;
+  padding: 50px 0 0 0;
+}
+footer .footer  .About img{
+  display:none;
+}
+footer .footer  .Subscribe {
+  PADDING: 5px 0PX;
+}
+footer .footer .abt-link a {
+  color: white;
+  FONT-SIZE: 17PX;
+}
+footer .footer .About h2 {
+  padding: 13px 4px 0;
+  font-size: 27px;
+}
+footer .footer  .rd-link a {
+  color: white;
+  FONT-SIZE: 18PX;
+}
+footer .footer .pg-link a {
+  color: white;
+  FONT-SIZE: 18PX;
+}
+footer .footer .cnt-link a {
+  color: white;
+  FONT-SIZE: 19PX;
+}
+footer .footer  .Subscribe p {
+  padding-top: 46px;
+  font-size: 18px;
+}
+footer .footer  .email {
+  padding: 76px 0px 0;
+}
+footer .footer .email-btn {
+  padding: 13px 51px 0;
+}
+footer .footer .email-btn button {
+  background: #FDC7B0;
+  width: 122px;
+  height: 41px;
+  font-size: 20px;
+}
+.footer-bottom .copy p {
+  font-size: 21px;
+}
+.footer-bottom .copy a {
+  font-size: 20px;
+}
+}
+@media (min-width:1914px) {
+  .header-main header .header-top {
+    margin: 0px 83px 0px 159px;
+    padding: 0px;
+}
+header .header-top .header-nav .bell {
+  flex: 0.8;
+}
+header .header-top .header-nav .nav .mid-nav ul li {
+  padding: 10px 37px;
+  font-size: 22px;
+}
+main section {
+  padding: 28px 158px 70px 199px;
+}
+main section .Ajio-main .Ajio img {
+  width: 342px;
+}
+main section .Ajio-main .Ajio1 img {
+  width: 342px;
+}
+main section .Ajio-main .Ajio2 img {
+  width: 342px;
+}
+main section .Ajio-main .Ajio3 img {
+  width: 342px;
+}
+main section .Ajio-main .Ajio-img img {
+  width: 52px;
+}
+main section .Ajio-main .Ajio  {
+  width: 347px;
+}
+main section .Ajio-main .Ajio1  {
+  width: 347px;
+}
+main section .Ajio-main .Ajio2  {
+  width: 347px;
+}
+main section .Ajio-main .Ajio3  {
+  width: 347px;
+}
+main section .Ajio-main .Ajio-img {
+  top: 223px;
+  left: 27px;
+}
+main section .Ajio-main .flex-btn {
+  gap: 98px;
+  padding: 7px 27px;
+}
+main section .Ajio-main .profit p {
+  font-size: 18px;
+  margin-left: 140px;
+  padding-top: 4px;
+}
+main section .Ajio-main .profit h2 {
+  font-size: 18px;
+  margin-left: 199px;
+}
+header .header-top .header-nav .nav {
+  gap: 47px;
+}
+main section .flipkart-main .flipkart img {
+  width: 342px;
+}
+main section .flipkart-main .flipkart1 img {
+  width: 342px;
+}
+main section .flipkart-main .flipkart2 img {
+  width: 342px;
+}
+main section .flipkart-main .flipkart3 img {
+  width: 342px;
+}
+main section .flipkart-main .flipkart-img img {
+  width: 50px;
+}
+main section .flipkart-main .flipkart-img {
+  top: 222px;
+  left: 30px;
+}
+main section .flipkart-main .flipkart  {
+  width: 347px;
+}
+main section .flipkart-main .flipkart1  {
+  width: 347px;
+}
+main section .flipkart-main .flipkart2 {
+  width: 347px;
+}
 
+main section .flipkart-main .flipkart3  {
+  width: 347px;
+}
+main section .flipkart-main .flp-btn {
+  gap: 88px;
+  padding: 13px 29px;
+}
+main section .flipkart-main .flp-profit p {
+  font-size: 18px;
+  margin-left: 124px;
+  padding-top: 6px;
+}
+main section .flipkart-main .flp-profit h2 {
+  font-size: 17px;
+  margin-left: 161px;
+}
+.Myntra-main .Myntra img {
+  width: 342px;
+}
+.Myntra-main .Myntra2 img {
+  width: 342px;
+}
+.Myntra-main .Myntra1 img {
+  width: 342px;
+}
+.Myntra-main .Myntra3 img {
+  width: 342px;
+}
+.Myntra-main .Myntra-img img {
+  width:50px;
+}
+.Myntra-main .Myntra {
+  width: 347px;
+}
+.Myntra-main .Myntra1 {
+  width: 347px;
+}
+.Myntra-main .Myntra2 {
+  width: 347px;
+}
+.Myntra-main .Myntra3 {
+  width: 347px;
+}
+.Myntra-main .Myntra-img {
+  top: 221px;
+  left: 31px;
+}
+.Myntra-main .mnt-btn {
+  display: flex;
+  gap: 88px;
+  padding: 11px 31px;
+}
+.Myntra-main .mnt-profit p {
+  font-size: 19px;
+  margin-left: 116px;
+  padding-top: 2px;
+}
+.Myntra-main .mnt-profit h2 {
+  font-size: 18px;
+  margin-left: 154px;
+}
+footer .footer .About img {
+  display: block;
+  width: 56px;
+  height:AUTO;
+}
+footer .footer .Download {
+  display: block;
+  padding: 0;
+}
+footer .footer .Download h2 {
+  padding: 11px 0 0 40px;
+  font-size: 27px;
+  /* text-align: center; */
+}
+footer .footer .app-link {
+  padding: 46px 0 0 80px;
+}
+footer .footer .abt-link {
 
-
-
-
-
-
-.Myntra{
-    height: 184px;
-    width: 141px;
+  width: 13pc;
 }
-.Myntra img {
-    WIDTH: 136PX;
+footer .footer .read {
+  width: 14pc;
 }
-.Myntra-img img {
-    WIDTH: 20px;
+footer .footer .footer-grid {
+  display: grid;
+  gap: 0;
 }
-.Myntra-img {
-    top: 84px;
-    left: 6px;
+.Ft-main footer {
+  padding: 32px 99px 0 195px;
+  background: black;
 }
-
-.mnt-profit {
-    margin-top: 2px;
+.footer-bottom .copy p {
+  font-size: 24px;
 }
-.mnt-profit p {
-    font-size: 9px;
-    margin-left: 33px;
-    padding-top: 8px;
-}
-.mnt-profit h2 {
-    font-size: 10px;
-    margin-left: 40px;
-}
-.mnt-btn {
-    gap: 20px;
-    padding: 13px 6px;
-}
-.mnt-btn .mnt-btn1 button {
-    width: 64px;
-    height: 27px;
-}
-.mnt-btn .mnt-btn1 a {
-    font-size: 12px;
-}
-
-
-.Myntra1{
-    height: 184px;
-    width: 141px;
-}
-.Myntra1 img {
-    WIDTH: 136PX;
-}
-.Myntra-img img {
-    WIDTH: 20px;
-}
-footer {
-    padding: 10px 30px;
-}
-.email-btn {
-    padding: 0 67px;
-}
-.Subscribe p {
-    padding-top: 10px;
-    font-size: 10px;
-    width: 242px;
-}
-.email {
-    padding: 12px 29px;
-}
-.app-link {
-    padding: 0px 44px;
-}
-.Subscribe h2 {
-    padding: 0 49px;
-    font-size: 26px;
-}
-.copy p {
-    font-size: 12px;
-}
-.copy a {
-    font-size: 11px;
-}
-.copy h2 {
-    PADDING-TOP: 0;
-}
-.footer-bottom {
-    padding-top: 14px;
+.footer-bottom .copy h2 {
+  PADDING-TOP: 5px;
+  PADDING-BOTTOM: 26PX;
 }
 
 
 }
 
+@media (Max-width:425px){
+ .header-main header .header-top {
+    margin: 0px 0 0px 0;
+    padding: 0px;
+}
+.header-main .header-bottom {
+  padding: 13px;
+}
+  header .header-top .header-nav .logo {
+    padding: 0px 72px;
+}
+header .header-top .header-nav .logo img {
+  height: 29px;
+  width: 50px;
+}
+.header-bottom .header-b-val .input-search input {
+  height: 45px;
+  width: 282px;
+  padding: 0 29px;
+  font-size: 19px;
+}
+.header-bottom .header-b-val .input-search span {
+  top: 15px;
+  left: 9px;
+  font-size: 14px;
+
+}
+main section .grid-img h2 {
+  font-size: 24px;
+  padding: 10px 0 20px;
+}
+main section {
+  padding: 0px 15px;
+}
+main section .Ajio-main .Ajio img {
+  width: 185px;
+}
+main section .Ajio-main .Ajio1 img {
+  width: 185px;
+}
+main section .Ajio-main .Ajio-img img {
+  width: 30px;
+}
+main section .Ajio-main .Ajio  {
+  width: 190px;
+  height: 238px;
+}
+main section .Ajio-main .Ajio1  {
+  width: 190px;
+  height: 238px;
+}
+main section .Ajio-main .Ajio-img {
+  top: 113px;
+  left: 5px;
+}
+main section .Ajio-main .profit p {
+  font-size: 13px;
+  margin-left: 40px;
+  padding-top: 0;
+}
+main section .Ajio-main .profit h2 {
+  font-size: 12px;
+  margin-left: 88px;
+}
+main section .flex-btn .Amount h2 {
+  font-size: 17px;
+}
+main section .Ajio-main .flex-btn {
+  gap: 40px;
+  padding: 13px 7px;
+}
+main section .Ajio-main .flex-btn .btn1 a {
+  font-size: 14px;
+}
+main section .flp-grid-img h2 {
+  font-size: 22px;
+  padding: 1px 10px 20px;
+}
+main section .flipkart-main .flipkart img {
+  width: 185px;
+}
+main section .flipkart-main .flipkart1 img {
+  width: 185px;
+  
+}
+main section .flipkart-main .flipkart-img img {
+  width: 30px;
+}
+main section .flipkart-main .flipkart-img {
+  top: 118px;
+  left: 7px;
+}
+main section .flipkart-main .flp-profit p {
+  font-size: 11px;
+  margin-left: 55px;
+  padding-top: 0;
+}
+main section .flipkart-main .flp-profit h2 {
+  font-size: 12px;
+  margin-left: 68px;
+}
+
+main section  .flp-btn .flp-Amount h2 {
+  font-size: 17px;
+}
+main section .flipkart-main .flp-btn {
+  gap: 45px;
+  padding: 15px 7px;
+}
+main section .flipkart-main .flipkart {
+  height: 238px;
+  width: 190px;
+}
+main section .flipkart-main .flipkart1 {
+  height: 238px;
+  width: 190px;
+}
+main section .mnt-grid-img h2 {
+  font-size: 23px;
+  padding: 1px 10px 20PX;
+}
+.Myntra-main .Myntra img {
+  width: 185px;
+}
+.Myntra-main .Myntra1 img {
+  width: 185px;
+}
+.Myntra-main .Myntra-img img{
+  WIDTH:40px;
+}
+.Myntra-main .Myntra-img {
+  top: 115px;
+  left: 6px;
+}
+.Myntra-main .mnt-profit p {
+  font-size: 12px;
+  margin-left: 54px;
+  padding-top: 0;
+}
+.Myntra-main .mnt-profit h2 {
+  font-size: 11px;
+  margin-left: 76px;
+}
+main section .flipkart-main .flp-btn1 button a {
+  font-size: 13px;
+}
+main section .mnt-btn .mnt-Amount h2 {
+  font-size: 18px;
+}
+.Myntra-main .mnt-btn {
+  gap: 55px;
+  padding: 13px 5px;
+}
+.Myntra-main .Myntra {
+  height: 235px;
+  width: 190px;
+}
+.Myntra-main .Myntra1 {
+  height: 235px;
+  width: 190px;
+}
+
+.Myntra-main {
+  GAP: 15PX;
+}
+.Ft-main{
+  margin-top:50px;
+}
+
+.Ft-main footer {
+  padding: 10px 52px;
+  
+}
+.Ft-main footer  .main-about .About img{
+  WIDTH:auto;
+  height:auto;
+}
+header .header-nav .nav .menu-list {
+  display: block;
+  height: 1654px;
+  width: 294px;
+}
+}
+
+
+@media (max-width:375px) {
+header .header-top .header-nav .logo {
+  padding: 0px 55px;
+}
+.header-bottom .header-b-val .input-search input {
+  height: 43px;
+  width: 234px;
+  padding: 3px 24px;
+  font-size: 17px;
+}
+main section .Ajio-main  .Ajio img {
+  width: 160px;
+}
+main section .Ajio-main  .Ajio1 img {
+  width: 160px;
+}
+main section .Ajio-main  .Ajio-img img {
+  width: 30px;
+}
+main section .Ajio-main .Ajio-img {
+  top: 102px;
+  left: 4px;
+}
+main section .Ajio-main .profit p {
+  font-size: 12px;
+  margin-left: 30px;
+  padding-top: 9px;
+}
+main section .Ajio-main .profit h2 {
+  font-size: 12px;
+  margin-left: 64px;
+}
+main section .Ajio-main .flex-btn .btn1 button {
+  width: 72px;
+  height: 29px;
+}
+main section .Ajio-main .Ajio {
+  width: 165px;
+  height: 225px;
+}
+main section .Ajio-main .Ajio1 {
+  width: 165px;
+  height: 225px;
+}
+main section .flex-btn .Amount h2 {
+  font-size: 15px;
+  padding: 0;
+}
+.Ajio-main {
+  gap: 16px;
+}
+main section .flipkart-main .flipkart img {
+  width: 160px;
+}
+main section .flipkart-main .flipkart1 img {
+  width: 160px;
+}
+main section .flipkart-main .flipkart-img img {
+  width: 30px;
+}
+main section .flipkart-main .flipkart-img {
+  top: 100px;
+  left: 7px;
+}
+main section .flipkart-main .flp-profit p {
+  font-size: 11px;
+  margin-left: 35px;
+  padding-top: 17px;
+}
+main section .flipkart-main .flp-profit h2 {
+  font-size: 12px;
+  margin-left: 43px;
+}
+main section .flp-btn .flp-Amount h2 {
+  font-size: 15px;
+  padding: 0;
+}
+main section .flipkart-main .flp-btn1 button {
+  width: 72px;
+  height: 29px;
+}
+main section .flipkart-main .flp-btn {
+  gap: 33px;
+  padding: 17px 7px;
+}
+main section .flipkart-main .flipkart {
+  height: 238px;
+  width: 165px;
+}
+main section .flipkart-main .flipkart1 {
+  height: 238px;
+  width: 165px;
+}
+.Myntra-main .Myntra img {
+  width: 160px;
+}
+.Myntra-main .Myntra1 img {
+  width: 160px;
+}
+.Myntra-main .Myntra-img img {
+WIDTH:30px;
+}
+.Myntra-main .Myntra-img {
+  top: 99px;
+  left: 5px;
+}
+.Myntra-main .mnt-profit p {
+  font-size: 12px;
+  margin-left: 27px;
+  padding-top: 5px;
+}
+.Myntra-main .mnt-profit h2 {
+  font-size: 11px;
+  margin-left: 58px;
+}
+.Myntra-main .mnt-btn1 button {
+  width: 66px;
+  height: 27px;
+}
+.Myntra-main .mnt-btn1 button a {
+  font-size: 13px;
+}
+main section .mnt-btn .mnt-Amount h2 {
+  font-size: 16px;
+  padding: 0;
+}
+.Myntra-main .mnt-btn {
+  gap: 52px;
+  padding: 13px 5px;
+}
+.Myntra-main .Myntra {
+  height: 217px;
+  width: 164px;
+}
+.Myntra-main .Myntra1 {
+  height: 217px;
+  width: 164px;
+}
+.Ft-main footer .main-about .About img {
+  WIDTH: 52px;
+  height: 42px;
+}
+.Ft-main footer .About h2 {
+  padding: 7px 8px;
+  font-size: 23px;
+}
+footer .footer .Download {
+  PADDING: 8PX 56PX;
+}
+footer .footer .Subscribe {
+  text-align: center;
+  padding: 0;
+}
+footer .footer .email {
+  padding: 14px 0 18px;
+}
+.footer-bottom .copy p {
+  font-size: 14px;
+}
+.footer-bottom .copy a {
+  font-size: 14px;
+}
+header .header-nav .nav .menu-list {
+  display: block;
+  height: 1572px;
+  width: 294px;
+}
+
+}
+
+@media (Max-width:320px){
+  header .header-top .header-nav .bell img {
+    height: 38px;
+    border-radius: 51%;
+    width: 44px;
+    background-color: black;
+  }
+  header .header-top .header-nav .logo img {
+    height: 26px;
+    width: 36px;
+}
+header .header-top .header-nav .bars button {
+  height: 31px;
+  width: 37px;
+}
+header .header-top .header-nav .logo {
+  padding: 0px 48px;
+}
+.btn button {
+  height: 41px;
+  width: 82px;
+  font-size: 11px;
+  border-radius: 10px;
+}
+.header-bottom .header-b-val .input-search input {
+  height: 43px;
+  width: 199px;
+  padding: 3px 24px;
+  font-size: 17px;
+}
+main section .Ajio-main .Ajio img {
+  width: 140px;
+}
+main section .Ajio-main .Ajio1 img {
+  width: 140px;
+}
+main section .Ajio-main .Ajio-img img {
+  width: 20px;
+}
+main section .Ajio-main .Ajio-img {
+  top: 90px;
+  left: 4px;
+}
+main section .Ajio-main .profit p {
+  font-size: 9px;
+  margin-left: 41px;
+  padding-top: 0;
+}
+main section .Ajio-main .profit h2 {
+  font-size: 11px;
+  margin-left: 54px;
+}
+main section .Ajio-main .flex-btn .btn1 button {
+  width: 67px;
+  height: 27px;
+}
+main section .Ajio-main .flex-btn .btn1 a {
+  font-size: 11px;
+}
+main section .flex-btn .Amount h2 {
+  font-size: 12px;
+  padding: 0;
+}
+main section .Ajio-main .flex-btn {
+  gap: 27px;
+  padding: 14px 7px;
+}
+main section .Ajio-main .Ajio {
+  width: 147px;
+  height: 195px;
+}
+main section .Ajio-main .Ajio1 {
+  width: 147px;
+  height: 195px;
+}
+main section {
+  padding: 0px 8px;
+}
+.Ajio-main {
+  gap: 6px;
+}
+main section .flipkart-main .flipkart img {
+  width: 140px;
+}
+main section .flipkart-main .flipkart1 img {
+  width: 140px;
+}
+main section .flipkart-main .flipkart-img img {
+  width: 20px;
+}
+main section .flipkart-main .flipkart-img {
+  top: 91px;
+  left: 7px;
+}
+main section .flipkart-main .flp-profit p {
+  font-size: 9px;
+  margin-left: 39px;
+  padding-top: 3px;
+}
+main section .flipkart-main .flp-profit h2 {
+  font-size: 10px;
+  margin-left: 43px;
+}
+main section .flp-btn .flp-Amount h2 {
+  font-size: 13px;
+  padding: 0;
+}
+main section .flipkart-main .flp-btn1 button {
+  width: 64px;
+  height: 27px;
+}
+main section .flipkart-main .flp-btn1 button a {
+  font-size: 11px;
+}
+main section .flipkart-main .flipkart {
+  height: 202px;
+  width: 145px;
+}
+main section .flipkart-main .flipkart1 {
+  height: 202px;
+  width: 145px;
+}
+main section .flipkart-main {
+  GAP: 9PX;
+}
+header .header-nav .nav .menu-list {
+  display: block;
+  height: 1506px;
+  width: 260px;
+}
+header .header-top .header-nav .nav .mid-nav ul li {
+  padding: 10px 39PX;
+  font-size: 20px;
+  FONT-FAMILY: SANS-SERIF;
+}
+.Myntra-main .Myntra img {
+  width: 140px;
+}
+.Myntra-main .Myntra1 img {
+  width: 140px;
+}
+.Myntra-main .Myntra-img img {
+  width: 20px;
+}
+.Myntra-main .Myntra-img {
+  top: 88px;
+  left: 5px;
+}
+.Myntra-main .mnt-profit p {
+  font-size: 10px;
+  margin-left: 28px;
+  padding-top: 4px;
+}
+.Myntra-main .mnt-profit h2 {
+  font-size: 11px;
+  margin-left: 32px;
+}
+main section .mnt-btn .mnt-Amount h2 {
+  font-size: 13px;
+  padding: 0;
+}
+.Myntra-main .mnt-btn1 button a {
+  font-size: 12px;
+}
+.Myntra-main .mnt-btn {
+  gap: 39px;
+  padding: 13px 5px;
+}
+.Myntra-main .Myntra {
+  height: 201px;
+  width: 145px;
+}
+.Myntra-main .Myntra1 {
+  height: 201px;
+  width: 145px;
+}
+.Myntra-main {
+  GAP: 9PX;
+}
+.Ft-main footer .main-about .About img {
+  WIDTH: 41px;
+  height: 34px;
+}
+.Ft-main footer .About h2 {
+  padding: 0 8px;
+  font-size: 21px;
+}
+footer .footer .Download h2 {
+  padding: 0 0;
+  font-size: 18px;
+}
+footer .footer .app-link {
+  padding: 11px 14px;
+}
+.Ft-main footer {
+  padding: 10px 43px;
+}
+.footer-bottom .copy p {
+  font-size: 12px;
+}
+
+}
+
+@media (Min-width:2560px){
+  header .header-top .header-nav .bell {
+    flex: 0.5;
+}
+header .header-top .header-nav {
+  display: flex;
+  padding: 22px 9px 12px 104px;
+}
+header .header-top .header-nav .logo img {
+  height: 63px;
+  width: 82px;
+}
+header .header-nav .logo h1 {
+  font-size: 37px;
+}
+header .header-top .header-nav .logo p {
+  font-size: 22px;
+  padding-left: 75px;
+}
+header .header-top .header-nav .nav .mid-nav ul li {
+  padding: 10px 64px;
+  font-size: 26px;
+}
+main section .grid-img h2 {
+  font-size: 35px;
+}   
+main section .Ajio-main .Ajio img {
+  width: 420px;
+}
+main section .Ajio-main .Ajio1 img {
+  width: 420px;
+}main section .Ajio-main .Ajio2 img {
+  width: 420px;
+}main section .Ajio-main .Ajio3 img {
+  width: 420px;
+}
+main section .Ajio-main .Ajio-img img {
+  width: 60px;
+}
+main section .Ajio-main .Ajio {
+  width: 425px;
+}
+main section .Ajio-main .Ajio1 {
+  width: 425px;
+}
+main section .Ajio-main .Ajio2 {
+  width: 425px;
+}
+main section .Ajio-main .Ajio3 {
+  width: 425px;
+}
+.header-main header .header-top {
+  margin: 0px 0 0px 226px;
+  padding: 0px;
+}
+main section {
+  padding: 28px 299px 70px 328px;
+}
+main section .flp-grid-img h2 {
+  font-size: 35px;
+  padding: 1px 10px 20px;
+}
+main section .Ajio-main .profit p {
+  font-size: 21px;
+  margin-left: 156px;
+  padding-top: 4px;
+}
+main section .Ajio-main .profit h2 {
+  font-size: 24px;
+  margin-left: 206px;
+}
+main section .Ajio-main .flex-btn .btn1 button {
+  width: 198px;
+  height: 56px;
+}
+main section .Ajio-main .Ajio-img {
+  top: 265px;
+  left: 27px;
+}
+main section .Ajio-main .flex-btn {
+  gap: 81px;
+  padding: 20px 27px 23px;
+}
+main section .flex-btn .Amount h2 {
+  font-size: 28px;
+}
+main section .Ajio-main .flex-btn .btn1 a {
+  font-size: 29px;
+}
+main section .flipkart-main .flipkart img {
+  width: 420px;
+}main section .flipkart-main .flipkart1 img {
+  width: 420px;
+}main section .flipkart-main .flipkart2 img {
+  width: 420px;
+}main section .flipkart-main .flipkart3 img {
+  width: 420px;
+}
+main section .flipkart-main .flipkart-img img {
+  width: 60px;
+}
+main section .flipkart-main .flipkart {
+  width: 425px;
+}
+main section .flipkart-main .flipkart1 {
+  width: 425px;
+}
+main section .flipkart-main .flipkart2 {
+  width: 425px;
+}
+main section .flipkart-main .flipkart3 {
+  width: 425px;
+}
+main section .flipkart-main .flipkart-img {
+  top: 268px;
+  left: 30px;
+}
+main section .flipkart-main .flp-profit p {
+  font-size: 21px;
+  margin-left: 156px;
+  padding-top: 4px;
+}
+main section .flipkart-main .flp-profit h2 {
+  font-size: 24px;
+  margin-left: 173px;
+  padding-top: 4px;
+}
+main section .flipkart-main .flp-btn1 button {
+  width: 198px;
+  height: 56px;
+}
+main section .flipkart-main .flp-btn1 button a {
+  font-size: 28px;
+}
+main section .flipkart-main .flp-btn {
+  gap: 81px;
+  padding: 20px 27px 23px;
+}
+main section .flp-btn .flp-Amount h2 {
+  font-size: 31px;
+
+}
+.Myntra-main .Myntra img {
+  width: 420px;
+}
+.Myntra-main .Myntra1 img {
+  width: 420px;
+}
+.Myntra-main .Myntra2 img {
+  width: 420px;
+}
+.Myntra-main .Myntra3 img {
+  width: 420px;
+}
+.Myntra-main .Myntra-img img {
+  width: 60px;
+}
+.Myntra-main .Myntra  {
+  width: 425px;
+}
+.Myntra-main .Myntra1  {
+  width: 425px;
+}
+.Myntra-main .Myntra2  {
+  width: 425px;
+}
+.Myntra-main .Myntra3  {
+  width: 425px;
+}
+.Myntra-main .mnt-profit p {
+  font-size: 23px;
+  margin-left: 126px;
+  padding-top: 2px;
+}
+.Myntra-main .Myntra-img {
+  top: 264px;
+  left: 31px;
+}
+.Myntra-main .mnt-profit h2 {
+  font-size: 23px;
+  margin-left: 171px;
+}
+.Myntra-main .mnt-btn {
+  gap: 81px;
+  padding: 20px 27px 23px;
+}
+.Myntra-main .mnt-btn .mnt-Amount h2 {
+  font-size: 31px;
+}
+.Myntra-main .mnt-btn1 button {
+  width: 198px;
+  height: 56px;
+}
+.Myntra-main .mnt-btn1 button a {
+  font-size: 28px;
+}
+.Ft-main footer {
+  padding: 32px 255px 0 328px;
+  background: black;
+}
+footer .footer .Download h2 {
+  padding: 11px 0 0 0;
+  font-size: 27px;
+  /* text-align: center; */
+}
+.Ft-main footer .footer .Subscribe p {
+  padding-top: 45px;
+  font-size: 18px;
+  width: 21pc;
+}
 
 
 
@@ -2242,28 +2431,7 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 

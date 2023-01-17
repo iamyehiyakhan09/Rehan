@@ -1,0 +1,3013 @@
+@media (max-width:576px) {
+  header .header-top  .header-nav .bars {
+    display: block;
+    flex: 1;
+}
+
+  header .header-top .header-nav .logo img {
+      height: 34px;
+      width: auto;
+  }
+header .header-nav .logo h1 {
+  font-size: 22px;
+
+}
+header .header-top .header-nav .bell img {
+  height: 36px;
+  width: 52px;
+  padding-top: 3px;
+  background-color: #4b3333;
+}
+header .header-top .header-nav .bars button {
+  height: 40px;
+  width: 44px;
+  border-radius: 50%;
+  background: #7d7373;
+  COLOR: WHITE;
+  border: none;
+}
+
+
+header .header-top .header-nav .logo  p {
+  font-size: 13px;
+  padding-left: 48px;
+}
+header .header-top  .header-nav .nav .mid-nav ul li {
+  padding: 10px 62PX;
+  font-size: 20px;
+  FONT-FAMILY: SANS-SERIF;
+}
+header .header-nav .nav .search {
+    display: NONE;
+  }
+  header .header-nav .nav .mid-nav {
+    flex: 1;
+    display: NONE;
+  }
+  header .header-nav .btn button {
+    display: none;
+  }
+  .header-bottom {
+    padding: 15px 20px;
+  }
+header .header-top .header-nav .mid-nav .logo-visi {
+  padding-top: 50px;
+}
+header .header-top .header-nav .mid-nav .logo-visi .logo img{
+width: 30px;
+height: auto;
+}
+header .header-top .header-nav .mid-nav .logo-visi .logo h1{
+  font-size: 18px; 
+}
+header .header-top .header-nav .mid-nav .logo-visi .logo p{
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+header .header-nav .nav .menu-list {
+  display: block;
+  height: 3170px;
+  width: 300px;
+  background-color: #4E5053;
+  position: absolute;
+  left: -340px;
+  top: 0;
+  padding-top: 30px;
+  z-index: 1;
+  transition: 3s ease all;
+}
+header .header-nav .nav .menu-list ul {
+  display: flex;
+  flex-direction: column;
+}
+header.header-top .header-nav .bell img {
+    height: 34px;
+    border-radius: 60%;
+    width: 40px;
+    background-color: black;
+}
+.header-bottom .header-b-val {
+  display: flex;
+  GAP: 12PX;
+}
+
+.header-bottom .header-b-val .input-search input {
+  height: 45px;
+  width: 335px;
+  border-radius: 10px;
+  border: none;
+  background: gainsboro;
+  padding: 0 38px;
+  font-size: 20px;
+}
+.header-bottom .header-b-val .input-search span {
+  position: absolute;
+  top: 14px;
+  left: 9px;
+  font-size: 14px;
+  color: gray;
+
+}
+.header-bottom .btn button {
+  width: 114px;
+  height: 44px;
+  border-radius: 11px;
+  border: none;
+  background: #FDC7B0;
+  font-size: 15px;
+}
+section {
+  padding: 19px 22px;
+}
+.Ajio-main {
+  gap: 43px;
+}
+.Ajio-main .Ajio img{
+  width: 240px; 
+}
+.Ajio-main .Ajio-img img {
+  width:50px;
+}
+.Ajio-img {
+  position: absolute;
+  top: 149px;
+  left: 11px;
+}
+.profit p {
+  font-size: 14px;
+  margin-left: 87px;
+  padding-top: 7px;
+}
+.flex-btn .btn1 button {
+  width: 96px;
+  height: 35px;
+ 
+}
+.flex-btn .Amount h2 {
+  font-size: 19px;
+}
+.flex-btn {
+  display: flex;
+  gap: 61px;
+}
+.profit h2 {
+  font-size: 18px;
+  margin-left: 144px;
+}
+
+.Ajio {
+  height: 280px;
+  width: 242px;
+}
+
+.Ajio-main .Ajio1 img{
+  width: 240px; 
+}
+.Ajio-main .Ajio-img img {
+  width:50px;
+}
+
+.Ajio1 {
+  border: 2px solid #FDC7B0;
+  height: 282px;
+  width: 240px;
+}
+
+.Ajio2 {
+display:none;
+}
+.Ajio3 {
+  display:none;
+  }
+
+  .flipkart-main .flipkart img{
+    width: 240px; 
+  }
+  .flipkart-main  .flipkart-img img{
+    width:50px;
+  }
+  .flipkart-img {
+    position: absolute;
+    top: 147px;
+    left: 15px;
+}
+
+.flp-btn1 button {
+  width: 96px;
+  height: 35px;
+}
+.flp-profit p {
+  font-size: 14px;
+  margin-left: 87px;
+  padding-top: 7px;
+}
+.flp-btn .flp-Amount h2 {
+font-size: 19px;
+}
+.flp-profit h2 {
+  font-size: 17px;
+  margin-left: 152px;
+}
+.flp-btn {
+  display: flex;
+  gap: 61px;
+}   
+.flipkart {
+  height: 281px;
+  width: 237px;
+}
+.flipkart-main .flipkart1 img{
+  width: 240px; 
+}
+.flipkart-main  .flipkart-img img{
+  width:50px;
+}
+.flipkart1 {
+  height: 281px;
+  width: 237px;
+}
+.flipkart-main {
+  display: grid;
+  padding: 31px 0;
+  GAP: 48PX;
+}
+.flipkart3{
+  DISPLAY:NONE;
+}
+.flipkart2{
+  DISPLAY:NONE;
+}
+.Myntra2 {
+  DISPLAY: NONE;
+}
+.Myntra3 {
+  DISPLAY: NONE;
+}
+.Myntra-main  .Myntra  img{
+  width: 240px; 
+}
+.Myntra-main  .Myntra-img img{
+  WIDTH:50px;
+}
+.Myntra-img {
+  position: absolute;
+  top: 148px;
+  left: 12px;
+}
+.mnt-profit p {
+  font-size: 14px;
+  margin-left: 87px;
+  padding-top: 7px;
+}
+.mnt-profit h2 {
+  font-size: 18px;
+  margin-left: 144px;
+}
+.mnt-btn1 button {
+  width: 96px;
+  height: 35px;
+}
+
+.mnt-btn .mnt-Amount h2 {
+  font-size: 19px;
+}
+.mnt-btn {
+  
+  gap: 61px;
+  padding: 0px 10px;
+}
+.mnt-btn {
+  display: flex;
+  gap: 61px;
+  padding: 0px 20px;
+}
+
+.Myntra {
+    height: 291px;
+    width: 239px;
+ 
+}
+.Myntra-main  .Myntra1  img{
+  width: 240px; 
+}
+.Myntra1 {
+  height: 291px;
+  width: 239px;
+
+}
+.Myntra-main  .Myntra-img img{
+  WIDTH:50px;
+}
+.Myntra-main {
+  gap: 42px;
+}
+.footer {
+  padding-top: 2px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+}
+.abt-link {
+  DISPLAY: NONE;
+}
+.read {
+  DISPLAY: NONE;
+}
+.page {
+  DISPLAY: NONE;
+}
+.connect {
+  DISPLAY: NONE;
+}
+.Download h2 {
+  padding: 0 58px;
+  font-size: 22px;
+ 
+}
+.app-link {
+    padding: 23px 53px;
+}
+.Subscribe {
+  PADDING: 0 70PX;
+}
+.Subscribe p {
+  padding-top: 13px;
+  font-size: 13px;
+}
+.email input {
+  width: 200.8px;
+  height: 42px;
+  font-size: 16px;
+}
+.email-btn button {
+  background: #FDC7B0;
+  width: 146px;
+  height: 42px;
+
+}
+.email-btn {
+  padding: 0 38px;
+}
+.footer-bottom {
+  padding-top: 15px;
+}
+.copy p {
+  font-size: 17px;
+}
+.copy a {
+  font-size: 19px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:576px) {
+  header .header-top  .header-nav .bars {
+    display: block;
+    flex: 0;
+}
+
+  header .header-top .header-nav.bars .logo {
+padding-left: 54px;
+  }
+  header .header-top .header-nav .logo {
+      padding: 0 118px;
+  }
+  header .header-top .header-nav .logo img {
+      height: 34px;
+      width: auto;
+  }
+header .header-nav .logo h1 {
+  font-size: 22px;
+
+}
+header .header-top .header-nav .bell img {
+  height: 44px;
+  width: 59px;
+  padding-top: 4px;
+  background-color: #4b3333;
+}
+
+header .header-top .header-nav .logo  p {
+  font-size: 13px;
+  padding-left: 48px;
+}
+header .header-top  .header-nav .nav .mid-nav ul li {
+  padding: 10px 62PX;
+  font-size: 20px;
+  FONT-FAMILY: SANS-SERIF;
+}
+header .header-nav .nav .search {
+    display: NONE;
+  }
+  header .header-nav .nav .mid-nav {
+    flex: 1;
+    display: NONE;
+  }
+  header .header-nav .btn button {
+    display: none;
+  }
+  .header-bottom {
+    padding: 15px 20px;
+  }
+header .header-top .header-nav .mid-nav .logo-visi {
+  padding-top: 50px;
+}
+header .header-top .header-nav .mid-nav .logo-visi .logo img{
+width: 30px;
+height: auto;
+}
+header .header-top .header-nav .mid-nav .logo-visi .logo h1{
+  font-size: 18px; 
+}
+header .header-top .header-nav .mid-nav .logo-visi .logo p{
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+header .header-nav .nav .menu-list {
+  display: block;
+  height: 3170px;
+  width: 300px;
+  background-color: #4E5053;
+  position: absolute;
+  left: -340px;
+  top: 0;
+  padding-top: 30px;
+  z-index: 1;
+  transition: 3s ease all;
+}
+header .header-nav .nav .menu-list ul {
+  display: flex;
+  flex-direction: column;
+}
+header.header-top .header-nav .bell img {
+    height: 34px;
+    border-radius: 60%;
+    width: 40px;
+    background-color: black;
+}
+.header-bottom .header-b-val {
+  display: flex;
+  GAP: 12PX;
+}
+
+.header-bottom .header-b-val .input-search input {
+  height: 45px;
+  width: 335px;
+  border-radius: 10px;
+  border: none;
+  background: gainsboro;
+  padding: 0 38px;
+  font-size: 20px;
+}
+.header-bottom .header-b-val .input-search span {
+  position: absolute;
+  top: 16px;
+  left: 14px;
+  font-size: 16px;
+  color: gray;
+}
+.header-bottom .btn button {
+  width: 114px;
+  height: 44px;
+  border-radius: 11px;
+  border: none;
+  background: #FDC7B0;
+  font-size: 15px;
+}
+section {
+  padding: 19px 22px;
+}
+.Ajio-main {
+  gap: 43px;
+}
+.Ajio-main .Ajio img{
+  width: 240px; 
+}
+.Ajio-main .Ajio-img img {
+  width:50px;
+}
+.Ajio-img {
+  position: absolute;
+  top: 149px;
+  left: 11px;
+}
+.profit p {
+  font-size: 14px;
+  margin-left: 87px;
+  padding-top: 7px;
+}
+.flex-btn .btn1 button {
+  width: 96px;
+  height: 35px;
+ 
+}
+.flex-btn .Amount h2 {
+  font-size: 19px;
+}
+.flex-btn {
+  display: flex;
+  gap: 61px;
+}
+.profit h2 {
+  font-size: 18px;
+  margin-left: 144px;
+}
+
+.Ajio {
+  height: 280px;
+  width: 242px;
+}
+
+.Ajio-main .Ajio1 img{
+  width: 240px; 
+}
+.Ajio-main .Ajio-img img {
+  width:50px;
+}
+
+.Ajio1 {
+  border: 2px solid #FDC7B0;
+  height: 282px;
+  width: 240px;
+}
+
+.Ajio2 {
+display:none;
+}
+.Ajio3 {
+  display:none;
+  }
+
+  .flipkart-main .flipkart img{
+    width: 240px; 
+  }
+  .flipkart-main  .flipkart-img img{
+    width:50px;
+  }
+  .flipkart-img {
+    position: absolute;
+    top: 147px;
+    left: 15px;
+}
+
+.flp-btn1 button {
+  width: 96px;
+  height: 35px;
+}
+.flp-profit p {
+  font-size: 14px;
+  margin-left: 87px;
+  padding-top: 7px;
+}
+.flp-btn .flp-Amount h2 {
+font-size: 19px;
+}
+.flp-profit h2 {
+  font-size: 17px;
+  margin-left: 152px;
+}
+.flp-btn {
+  display: flex;
+  gap: 61px;
+}   
+.flipkart {
+  height: 281px;
+  width: 237px;
+}
+.flipkart-main .flipkart1 img{
+  width: 240px; 
+}
+.flipkart-main  .flipkart-img img{
+  width:50px;
+}
+.flipkart1 {
+  height: 281px;
+  width: 237px;
+}
+.flipkart-main {
+  display: grid;
+  padding: 31px 0;
+  GAP: 48PX;
+}
+.flipkart3{
+  DISPLAY:NONE;
+}
+.flipkart2{
+  DISPLAY:NONE;
+}
+.Myntra2 {
+  DISPLAY: NONE;
+}
+.Myntra3 {
+  DISPLAY: NONE;
+}
+.Myntra-main  .Myntra  img{
+  width: 240px; 
+}
+.Myntra-main  .Myntra-img img{
+  WIDTH:50px;
+}
+.Myntra-img {
+  position: absolute;
+  top: 148px;
+  left: 12px;
+}
+.mnt-profit p {
+  font-size: 14px;
+  margin-left: 87px;
+  padding-top: 7px;
+}
+.mnt-profit h2 {
+  font-size: 18px;
+  margin-left: 144px;
+}
+.mnt-btn1 button {
+  width: 96px;
+  height: 35px;
+}
+
+.mnt-btn .mnt-Amount h2 {
+  font-size: 19px;
+}
+.mnt-btn {
+  
+  gap: 61px;
+  padding: 0px 10px;
+}
+.mnt-btn {
+  display: flex;
+  gap: 61px;
+  padding: 0px 20px;
+}
+
+.Myntra {
+    height: 291px;
+    width: 239px;
+ 
+}
+.Myntra-main  .Myntra1  img{
+  width: 240px; 
+}
+.Myntra1 {
+  height: 291px;
+  width: 239px;
+
+}
+.Myntra-main  .Myntra-img img{
+  WIDTH:50px;
+}
+.Myntra-main {
+  gap: 42px;
+}
+.footer {
+  padding-top: 2px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+}
+.abt-link {
+  DISPLAY: NONE;
+}
+.read {
+  DISPLAY: NONE;
+}
+.page {
+  DISPLAY: NONE;
+}
+.connect {
+  DISPLAY: NONE;
+}
+.Download h2 {
+  padding: 0 58px;
+  font-size: 22px;
+ 
+}
+.app-link {
+    padding: 23px 53px;
+}
+.Subscribe {
+  PADDING: 0 70PX;
+}
+.Subscribe p {
+  padding-top: 13px;
+  font-size: 13px;
+}
+.email input {
+  width: 200.8px;
+  height: 42px;
+  font-size: 16px;
+}
+.email-btn button {
+  background: #FDC7B0;
+  width: 146px;
+  height: 42px;
+
+}
+.email-btn {
+  padding: 0 38px;
+}
+.footer-bottom {
+  padding-top: 15px;
+}
+.copy p {
+  font-size: 17px;
+}
+.copy a {
+  font-size: 19px;
+}
+
+}
+header .header-nav .bars button {
+  height: 33px;
+  width: 38px;
+  border-radius: 50%;
+  background: #7d7373;
+  COLOR: WHITE;
+  border: none;
+}
+   header .header-nav .bars {
+     display: block;
+     flex: 18;
+   }
+   header .header-top .header-nav.bars .logo {
+ padding-left: 54px;
+   }
+   header .header-top .header-nav .logo {
+     display: flex;
+     justify-content: center;
+     /* padding: 0px 30px; */
+     padding-left: 54px;
+     padding-top: 0;
+    
+   }
+   header .header-top .header-nav .logo img {
+     height: 29px;
+     width: 40px;
+ }
+ header .header-nav .logo h1 {
+   font-size: 22px;
+ 
+ }
+ header .header-top .header-nav .logo  p {
+   font-size: 13px;
+   padding-left: 48px;
+ }
+ header .header-top  .header-nav .nav .mid-nav ul li {
+   padding: 10px 62PX;
+   font-size: 20px;
+   FONT-FAMILY: cursive;
+ }
+ header .header-nav .nav .search {
+     display: NONE;
+   }
+   header .header-nav .nav .mid-nav {
+     flex: 1;
+     display: NONE;
+   }
+   header .header-nav .btn button {
+     display: none;
+   }
+ .header-bottom {
+     padding: 15px 10px;
+ }
+ header .header-top .header-nav .mid-nav .logo-visi {
+   padding-top: 50px;
+ }
+ header .header-top .header-nav .mid-nav .logo-visi .logo img{
+ width: 30px;
+ height: auto;
+ }
+ header .header-top .header-nav .mid-nav .logo-visi .logo h1{
+   font-size: 18px; 
+ }
+ header .header-top .header-nav .mid-nav .logo-visi .logo p{
+   font-size: 15px;
+   padding-left: 15px;
+ }
+ 
+ header .header-nav .nav .menu-list {
+   display: block;
+   height: 1218px;
+   width: 300px;
+   background-color: rgb(0, 0, 0);
+   position: absolute;
+   left: -340px;
+   top: 0;
+   padding-top: 30px;
+   z-index: 1;
+   transition: 3s ease all;
+ }
+ header .header-nav .nav .menu-list ul {
+   display: flex;
+   flex-direction: column;
+ }
+ header.header-top .header-nav .bell img {
+     height: 34px;
+     border-radius: 60%;
+     width: 40px;
+     background-color: black;
+ }
+ .header-bottom .header-b-val {
+   display: flex;
+   GAP: 15PX;
+ }
+ .header-bottom .header-b-val .input-search input {
+  height: 45px;
+  width: 195px;
+ }
+ 
+ .header-bottom .input-search input {
+  height: 41px;
+  width: 119px;
+  border-radius: 10px;
+  border: none;
+  background: gainsboro;
+  padding: 0 30px;
+  font-size: 17px;
+}
+ .header-bottom .header-b-val .input-search span {
+  top: 15px;
+    left: 12px;
+   font-size: 14px;
+   color: gray;
+ }
+ .btn button {
+   background: #FDC7B0;
+   border: NONE;
+   height: 40px;
+   width: 91px;
+   font-size: 12px;
+   border-radius: 10px;
+ }
+ section {
+  padding: 10px 10px;
+}
+.Ajio-main {
+  gap: 11px;
+}
+ .Ajio-main .Ajio img{
+  width:193PX;
+ }
+ .Ajio {
+  position: relative;
+  padding: 0px 0;
+  height: 233px;
+  width: 194px;
+}
+ .Ajio-main .sle .Ajio-img img{
+  width:30px;
+ }
+ .Ajio-img {
+  position: absolute;
+  top: 124px;
+  left: 6px;
+}
+
+.profit p {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 11px;
+  margin-left: 70px;
+  padding-top: 0;
+}
+.profit h2 {
+  font-size: 14px;
+  font-weight: 900;
+  font-family: sans-serif;
+  margin-left: 110px;
+}
+.flex-btn{
+display: flex;
+gap: 41px;
+padding: 0px 20px;
+}
+.flex-btn .Amount h2 {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 900;
+  padding-top: 6px;
+}
+.flex-btn .btn1 a {
+  color: black;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.Ajio-main .Ajio1 img{
+  width:193PX;
+ }
+ .Ajio1 {
+  position: relative;
+  padding: 0px 0;
+  height: 233px;
+  width: 194px;
+}
+ .Ajio-main .sle1 .Ajio-img img{
+  width:30px;
+ }
+ .Ajio-img {
+  position: absolute;
+  top: 124px;
+  left: 6px;
+}
+.flex-btn .btn1 button {
+  width: 70px;
+  height: 30px;
+  background: #FDC7B0;
+  border-radius: 10px;
+}
+.profit p {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 11px;
+  margin-left: 70px;
+  padding-top: 0;
+}
+.profit h2 {
+  font-size: 14px;
+  font-weight: 900;
+  font-family: sans-serif;
+  margin-left: 110px;
+}
+.Ajio2{
+  display:none;
+}
+.Ajio3{
+  display:none;
+}
+
+
+.flipkart-main {
+
+  grid-template-columns: repeat(4,1fr);
+  padding: 29px 0;
+  gap: 10px;
+}
+.flipkart-main .flipkart img{
+width: 193px;
+}
+.flipkart-main .flipkart .flp-sle .flipkart-img img{
+width:30px;
+
+}
+.flipkart-img {
+  position: absolute;
+  top: 125px;
+  left:10px;
+}
+.flp-profit p {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  margin-left: 70px;
+  padding-top: 1px;
+}
+.flp-profit h2 {
+  font-size: 14px;
+  font-weight: 900;
+  font-family: sans-serif;
+  margin-left: 105px;
+}
+.flp-btn1 button {
+  width: 77px;
+  height: 34px;
+  background: #FDC7B0;
+  border: none;
+
+}
+.flp-btn .flp-btn1 a {
+  color: black;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.flp-btn .flp-Amount h2 {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 900;
+  padding-top: 8px;
+}
+.flp-btn {
+  display: flex;
+  gap: 41px;
+  padding: 6px 12px;
+}
+.flipkart {
+    position: relative;
+    padding: 0px 0;
+    border: 2px solid #FDC7B0;
+    height: 238px;
+    width: 193px;
+
+}
+.flipkart1 {
+  position: relative;
+  padding: 2px 0;
+  border: 2px solid #FDC7B0;
+  height: 237px;
+  width: 193px;
+  border-radius: 9px;
+}
+.flipkart-main .flipkart1 img{
+  width: 193px;
+}
+ .flipkart1 .flp-border1 .flp-sle .flipkart-img img{
+  width:40px;
+
+ }
+ .flipkart2{
+  display:none;
+ }
+ .flipkart3{
+  display:none;
+ }
+ .Myntra-main {
+  gap: 10px;
+}
+.Myntra-main .Myntra img{
+  width:193px;
+ }
+ .Myntra .mnt-sle .Myntra-img img{
+  width:30px;
+ }
+ .Myntra-img {
+  position: absolute;
+  top: 122px;
+  left: 14px;
+}
+.mnt-btn1 button {
+  width: 79px;
+  height: 37px;
+  background: #FDC7B0;
+}
+.mnt-btn .mnt-btn1 a {
+  color: black;
+  font-size: 15px;
+
+}
+.mnt-profit p {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 68px;
+  padding-top: 0px;
+}
+.mnt-profit h2 {
+  font-size: 14px;
+  margin-left: 114px;
+}
+.mnt-btn .mnt-Amount h2 {
+  font-size: 16px;
+  padding-top: 9px;
+}
+.mnt-btn {
+  gap: 47px;
+  padding: 0px 11px;
+}
+.Myntra {
+
+  border: 2px solid #FDC7B0;
+  height: 241px;
+  width: 193px;
+  border-radius: 15px;
+}
+.Myntra-main .Myntra1 img{
+  width:193px;
+ }
+ .Myntra1 .mnt-border1 .mnt-sle .Myntra-img img{
+  width:30px;
+ }
+ .Myntra1 {
+  border: 2px solid #FDC7B0;
+  height: 240px;
+  width: 193px;
+  border-radius: 15px;
+}
+.Myntra2 {
+  DISPLAY: NONE;
+}
+.Myntra3 {
+  DISPLAY: NONE;
+}
+footer {
+  padding: 0 9px;
+  background: black;
+}
+.footer-grid {
+  display: grid;
+  padding:0 97px;
+
+  grid-template-columns: repeat(1,1fr);
+}
+.About img{
+  width: 44px;
+    height: 31px;
+
+}
+.About h2 {
+  padding: 2px 4px;
+  font-size: 20px;
+}
+.abt-link {
+  display: none;
+  padding: 0;
+}
+.read {
+  display: none;
+}
+.page {
+  display: none;
+}
+.connect {
+  display: none;
+}
+.Download h2 {
+  padding: 0 29px 0;
+  font-size: 16px;
+}
+.app-link {
+  padding: 7px 33px 0;
+}
+.app-link img{
+  WIDTH: 98PX;
+}
+.Subscribe {
+  PADDING: 0 19PX;
+}
+.Subscribe h2 {
+  padding: 0 0 0 40px;
+  font-size: 17px;
+}
+.Subscribe p {
+  padding-top: 3px;
+  font-size: 8px;
+}
+.email {
+  padding: 7px 0 6px;
+}
+.email input {
+  width: 138.8px;
+  height: 35px;
+  font-size: 14px;
+  padding: 0 20px;
+}
+.email-btn button {
+  background: #FDC7B0;
+  width: 100px;
+  height: 31px;
+  border: none;
+  font-size: 18px;
+}
+.email-btn {
+  padding: 0 42px 0;
+  PADDING-BOTTOM: 13PX;
+}
+.footer-bottom {
+  padding-top: 14px;
+}
+.copy p {
+  font-size: 13px;
+}
+.copy h2 {
+  PADDING-TOP: 3PX;
+  PADDING-BOTTOM: 15PX;
+}
+.copy a {
+  font-size: 16px;
+}
+
+ @media (min-width: 768px) {
+  header .header-top .header-nav .bell img {
+    height: 38px;
+    width: 49px;
+    padding-top: 4px;
+}
+   .header-bottom .header-b-val {
+     gap: 12px;
+ }
+ header .header-top .header-nav .logo {
+   padding: 0;
+   flex: 9;
+ 
+ }
+ header .header-top .header-nav .mid-nav .logo-visi .logo img {
+   height: auto;
+   width: auto;
+ }
+ header .header-nav .logo h1 {
+  font-size: 33px;
+}
+ header .header-top  .header-nav .nav .mid-nav ul li {
+ padding: 10px 62PX;
+ font-size: 20px;
+
+ }
+ 
+ header .header-nav .nav .menu-list {
+  display: block;
+  height: 1700px;
+  width: 451px;
+  background-color: black;
+}
+ .header-bottom .header-b-val .input-search input {
+   height: 49px;
+   width: 524px;
+   padding: 0 38px;
+   font-size: 18px;
+ }
+ header .header-top .header-nav .logo img {
+   height: auto;
+   width: auto;
+ }
+ header .header-top .header-nav .mid-nav  .logo h1{
+ color: blue;
+ font-size: 33px;
+ 
+ }
+ header .header-top .header-nav .logo p {
+  font-size: 19px;
+  padding-left: 76px;
+}
+header .header-nav .bars button {
+  height: 39px;
+  width: 42px;
+  border-radius: 50%;
+  background: #7d7373;
+}
+ header .header-top .header-nav .bars {
+   flex: 0;
+   display: flex;
+ }
+ 
+ header .header-top .header-nav .mid-nav .logo-visi .logo img{
+   width: auto;
+   height: auto;
+   }
+ header .header-top .header-nav .mid-nav .logo-visi .logo h1 a{
+   color: rgb(255, 255, 255);
+   font-size: 36px;
+ }
+ 
+   header .header-top .header-nav .mid-nav .logo-visi .logo p{
+     font-size: 21px;
+     padding-left: 80px;
+   }
+
+   .Ajio {
+    height: 265px;
+    width: 230px;
+}
+.Ajio-main .Ajio img {
+  width: 229px;
+}
+.Ajio-main .Ajio1 img {
+  width: 230px;
+}
+
+.Ajio1 {
+  width: 230px;
+  height: 265px;
+}
+.Ajio-main {
+  gap: 14px;
+}
+   .Ajio2 {
+    height: 265px;
+    width: 230px;
+    display: block;
+}
+.Ajio-main .Ajio2 img {
+  width: 230px;
+
+}
+.Ajio-img {
+  position: absolute;
+  top: 142px;
+  left: 16px;
+}
+.Ajio-main .Ajio .Ajio-img img {
+  width:45px;
+  
+  }
+  .Ajio-main .Ajio1 .Ajio-img img {
+    width:60px;
+    
+    }
+.Ajio-main .Ajio2 .Ajio-img img {
+width:100px;
+
+}
+.profit p {
+  font-size: 13px;
+  margin-left: 89px;
+  padding-top: 7px;
+}
+.profit h2 {
+  font-size: 16px;
+  margin-left: 140px;
+}
+.flex-btn .Amount h2 {
+  font-size: 18px;
+  padding-top: 6px;
+}
+.flex-btn .btn1 button {
+  width: 94px;
+  height: 32px;
+  background: #FDC7B0;
+  border-radius: 10px;
+}
+.flex-btn {
+  display: flex;
+  gap: 46px;
+  padding: 3px 20px;
+}
+
+.flipkart-main .flipkart img {
+  width: 230px;
+}
+.flipkart-main .flipkart-img  img {
+width:50px
+}
+.flipkart {
+  height: 268px;
+  width: 229px;
+}
+.flipkart-main .flipkart1 img {
+  width: 230px;
+}
+.flipkart-main .flipkart-img img {
+  width: 50px;
+}
+.flipkart1 {
+  height: 268px;
+  width: 230px;
+}
+.flipkart-main {
+  display: grid;
+  padding: 31px 3px;
+  GAP: 12PX;
+}
+.flipkart2 {
+  height: 268px;
+  width: 230px;
+  display: block;
+}
+.flipkart-main .flipkart2 img {
+  width: 230px;
+}
+.flipkart-main .flipkart .flp-sle .flipkart-img img {
+  width: 44px;
+}
+.flipkart-main .flipkart1 .flp-sle .flipkart-img img {
+  width: 59px;
+}
+.flipkart-main .flipkart2 .flp-sle .flipkart-img img {
+  width: 59px;
+}
+.flipkart-img {
+  position: absolute;
+  top: 142px;
+  left: 20px;
+}
+.flp-profit p {
+  font-size: 14px;
+  margin-left: 80px;
+  padding-top: 0px;
+}
+.flp-profit h2 {
+  font-size: 16px;
+  margin-left: 142px;
+}
+.flp-btn .flp-Amount h2 {
+  font-size: 19px;
+  padding-top: 9px;
+}
+.flp-btn1 button {
+  width: 102px;
+  height: 37px;
+  background: #FDC7B0;
+  border: none;
+}
+.Myntra-main .Myntra img {
+  width: 230px;
+}
+
+.Myntra {
+  height: 265px;
+  width: 230px;
+}
+.Myntra-main {
+  gap: 12px;
+}
+.Myntra-main .Myntra1 img {
+  width: 230px;
+}
+.Myntra1 {
+  height: 265px;
+  width: 230px;
+}
+.Myntra2 {
+  height: 265px;
+  width: 230px;
+  display:block;
+}
+.Myntra-main .Myntra2 img {
+  width: 230px;
+}
+.Myntra .mnt-sle .Myntra-img img {
+  width: 50px;
+}
+.Myntra2 .mnt-sle .Myntra-img img {
+  width: 41px;
+}
+.Myntra1 .mnt-border1 .mnt-sle .Myntra-img img {
+  width: 55px;
+}
+.Myntra-img {
+  position: absolute;
+  top: 140px;
+  left: 20px;
+}
+.mnt-profit p {
+  font-size: 14px;
+  margin-left: 79px;
+  padding-top: 4px;
+}
+.mnt-profit h2 {
+  font-size: 15px;
+  margin-left: 145px;
+}
+.mnt-btn .mnt-Amount h2 {
+  font-size: 18px;
+  padding-top: 9px;
+}
+.mnt-btn1 button {
+  width: 97px;
+  height: 37px;
+  background: #FDC7B0;
+}
+.mnt-btn {
+  gap: 52px;
+  padding: 0px 17px;
+}
+
+footer {
+  padding: 10px 0 0 227px;
+  background: black;
+}
+.email input {
+  width: 256.8px;
+  height: 38px;
+  font-size: 16px;
+}
+.email-btn button {
+  background: #FDC7B0;
+  width: 123px;
+  height: 36px;
+}
+.email-btn {
+  padding: 1px 85px;
+}
+.copy h2 {
+  PADDING-TOP: 9PX;
+  PADDING-BOTTOM: 6PX;
+}
+.Subscribe {
+  PADDING: 0;
+}
+.Subscribe h2 {
+  padding: 0 0px 0 76px;
+  font-size: 27px;
+}
+.app-link {
+  padding: 15px 6px 0 72px;
+}
+.Download .app-link img {
+  width: 145px;
+} 
+.email {
+  padding: 11px 1px 12px 2px;
+}
+.email-btn button a {
+  color: black;
+  font-size: 20px;
+}
+.footer-grid {
+  padding: 10px 0;
+}
+.About img {
+  width: auto;
+  height: auto;
+}
+.About h2 {
+  padding: 7px 4px 0;
+  font-size: 29px;
+}
+.Download {
+  PADDING: 11PX 0;
+}
+.Download h2 {
+  padding: 7px 5px 0 74px;
+  font-size: 27px;
+}
+.Subscribe p {
+  padding-top: 10px;
+  font-size: 14px;
+}
+.copy p {
+  font-size: 16px;
+}
+.copy h2 {
+  PADDING-TOP: 4PX;
+  PADDING-BOTTOM: 10PX;
+}
+ }
+ @media (min-width: 1024px) {
+  
+  .header-bottom .header-b-val {
+    gap: 28px;
+}
+   .header-bottom .btn button {
+    width: 114px;
+    height: 54px;
+    font-size: 17px;
+}
+.header-bottom .header-b-val .input-search span {
+  position: absolute;
+  top: 18px;
+  left: 10px;
+  font-size: 16px;
+  color: gray;
+}
+   .header-bottom .header-b-val .input-search input {
+     height: 53px;
+     width: 780px;
+     border-radius: 10px;
+ }
+ 
+ .btn button {
+   background: #d700f1;
+   height: 50px;
+   width: 108px;
+   font-size: 15px;
+ }
+ 
+ header .header-nav .nav .menu-list {
+  height: 1500px;
+  width: 566px;
+  padding-top: 50px;
+}
+  .menu-list ul li a {
+   color: white;
+   font-size: 23px;
+ }
+ 
+ .Ajio3 {
+  height: 265px;
+  width: 230px;
+  display: block;
+}
+.Ajio-main .Ajio3 img {
+  width: 230px;
+}
+.Ajio-main .Ajio3 .Ajio-img img {
+width:50px;
+}
+.Ajio-main .Ajio2 .Ajio-img img {
+  width: 71px;
+}
+  .Ajio-main .Ajio1 .Ajio-img img {
+    width: 74px;
+}
+    .Ajio-main .Ajio .Ajio-img img {
+      width:50px;
+      }
+      .Ajio-img {
+        position: absolute;
+        top: 144px;
+        left: 21px;
+    }
+    .profit p {
+    
+      font-size: 13px;
+      margin-left: 90px;
+      padding-top: 0;
+  }
+  .profit h2 {
+    font-size: 15px;
+    margin-left: 144px;
+}
+.flex-btn {
+  display: flex;
+  gap: 39px;
+  padding: 7px 20px;
+}
+.flex-btn .btn1 button {
+  width: 97px;
+  height: 35px;
+  background: #FDC7B0;
+  border-radius: 10px;
+}
+.flex-btn .btn1 a {
+  color: black;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+.flex-btn .Amount h2 {
+  font-size: 20px;
+
+}
+.flipkart3 {
+  height: 265px;
+  width: 230px;
+  display: block;
+}
+.flipkart-main .flipkart3 img {
+  width: 230px;
+}
+.flipkart-main .flipkart3 .flipkart-img img {
+  width: 50px;
+}
+.flipkart-main .flipkart2 .flipkart-img img {
+  width: 50px;
+}
+.flipkart-main .flipkart .flp-sle .flipkart-img img {
+  width: 50px;
+}
+.flipkart1 .flp-border1 .flp-sle .flipkart-img img {
+  width: 80px;
+}
+.flipkart-img {
+  top: 144px;
+  left: 20px;
+}
+.flp-btn1 button {
+  width: 95px;
+  height: 35px;
+}
+.flp-profit p {
+  font-size: 13px;
+  margin-left: 92px;
+  padding-top: 8px;
+}
+.flp-profit h2 {
+  font-size: 14px;
+  margin-left: 150px;
+}
+.flp-btn .flp-Amount h2 {
+  font-size: 20px;
+}
+.flp-btn {
+  display: flex;
+  gap: 53px;
+  padding: 5px 11px;
+}
+
+.Myntra-img {
+  position: absolute;
+  top: 144px;
+  left: 20px;
+}
+.mnt-profit p {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 74px;
+  padding-top: 7px;
+}
+.mnt-profit h2 {
+  font-size: 14px;
+  margin-left: 142px;
+}
+.mnt-btn1 button {
+  width: 104px;
+  height: 37px;
+  background: #FDC7B0;
+}
+.mnt-btn .mnt-Amount h2 {
+  font-size: 20px;
+  padding-top: 9px;
+}
+.mnt-btn {
+  gap: 38px;
+  padding: 0px 11px;
+}
+.Myntra3 {
+  height: 265px;
+  width: 230px;
+  display: block;
+}
+.Myntra-main .Myntra3 img {
+  width: 230px;
+}
+
+.Myntra .mnt-sle .Myntra-img img {
+    width: 50px;
+}
+.Myntra1 .mnt-border1 .mnt-sle .Myntra-img img {
+  width: 71px;
+}
+.Myntra3 .mnt-sle .Myntra-img img {
+  width: 50px;
+}
+footer {
+  padding: 10px 336px;
+  background: black;
+}
+.Subscribe p {
+  padding-top: 13px;
+  font-size: 11px;
+}
+.email input {
+  width: 220.8px;
+  height: 38px;
+  font-size: 14px;
+}
+.email {
+  padding: 7px 0;
+}
+.Subscribe {
+  PADDING: 0 50PX;
+}
+.email-btn button {
+  background: #FDC7B0;
+  width: 104px;
+  height: 34px;
+}
+.email-btn button a {
+  color: black;
+  font-size: 19px;
+}
+.app-link {
+  padding: 9px 0 0 73px;
+}
+.Download .app-link img{
+width: 122px;
+}
+.Subscribe h2 {
+  padding: 0 55px;
+  font-size: 21px;
+}
+
+ }
+ 
+ @media (min-width: 1440px) {
+   header .header-top .header-nav .bars {
+     display: none;
+   }
+   header .header-nav .nav .search {
+     display: block;
+   }
+   header .header-top .header-nav .logo {
+     flex: 0;
+ }
+   header .header-nav .nav .mid-nav {
+     display: block;
+   }
+   .header-bottom {
+     display: none;
+   }
+   header .header-top .header-nav .bell {
+     display: block;
+     padding: 17px 0;
+ }
+ header .header-top .header-nav .nav .mid-nav ul li {
+  padding: 0px 35px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+ 
+   header .header-nav .btn button {
+     display: block;
+   }
+   header  .header-top .header-nav .mid-nav .logo-visi .logo{
+     display: none;
+   }
+   header .header-nav .nav .mid-nav ul li .arrowleft{
+     display: none;
+   }
+   header .header-nav .nav .search input {
+    height: 40px;
+    width: 158px;
+    padding: 0 32px;
+    font-size: 16px;
+}
+header .header-top .header-nav .logo img {
+  height: auto;
+  width: auto;
+}
+header .header-nav .logo h1 {
+  font-size: 29px;
+}
+header .header-top .header-nav .logo p {
+  font-size: 20px;
+  padding-left: 60px;
+}
+header .header-top {
+  margin: 0px 22px 0px 27px;
+  padding: 0px;
+}
+
+header .header-top .header-nav {
+    display: flex;
+    padding: 10px;
+}
+header .header-nav .nav .search span {
+  font-size: 16px;
+  color: gray;
+}
+section {
+  padding: 29px 33px;
+}
+.Ajio-main .Ajio img {
+  width: 315px;
+}
+.Ajio-main .Ajio1 img {
+  width: 315px;
+}
+.Ajio-main .Ajio2 img {
+  width: 315px;
+}
+.Ajio-main .Ajio3 img {
+  width: 315px;
+}
+.Ajio-main .Ajio-img img {
+  width: 65px;
+}
+.Ajio {
+  width: 316px;
+  height: 348px;
+}
+.Ajio1 {
+  width: 316px;
+  height: 348px;
+}
+.Ajio2 {
+  width: 316px;
+  height: 348px;
+}
+.Ajio3 {
+  width: 316px;
+  height: 348px;
+}
+.profit p {
+  font-size: 19px;
+  margin-left: 119px;
+  padding-top: 7px;
+}
+.profit h2 {
+  font-size: 20px;
+  margin-left: 208px;
+}
+.flex-btn .btn1 button {
+  width: 153px;
+  height: 37px;
+}
+.flex-btn .Amount h2 {
+  font-size: 21px;
+}
+.flex-btn .btn1 a {
+  font-size: 22px;
+
+}
+.Ajio-main {
+  gap: 33px;
+} 
+.Ajio-img {
+  top: 197px;
+  left: 16px;
+}
+.flipkart-main .flipkart img {
+  width: 315px;
+}
+.flipkart-main .flipkart1 img {
+  width: 315px;
+}
+.flipkart-main .flipkart2 img {
+  width: 315px;
+}
+.flipkart-main .flipkart3 img {
+  width: 315px;
+}
+.flipkart-main .flipkart-img img{
+  width:65px;
+
+}
+.Ajio-main .Ajio1 .Ajio-img img {
+  width: 77px;
+}
+.Ajio-main .Ajio2 .Ajio-img img {
+  width: 100px;
+}
+.flipkart {
+    height: 348px;
+    width: 315px;
+}
+.flipkart1 {
+  height: 348px;
+  width: 315px;
+}
+.flipkart2 {
+  height: 348px;
+  width: 315px;
+}
+.flipkart3 {
+  height: 348px;
+  width: 315px;
+}
+.flp-profit p {
+  font-size: 19px;
+  margin-left: 119px;
+  padding-top: 7px;
+}
+.flp-profit h2 {
+  font-size: 20px;
+  margin-left: 208px;
+}
+.flp-btn .flp-Amount h2 {
+  font-size: 21px;
+ }
+ .flp-btn1 button {
+  width: 153px;
+  height: 37px;
+ }
+ .flipkart-main {
+  GAP: 33PX;
+  padding: 29px 1px;
+}
+.flipkart-img {
+  position: absolute;
+  top: 197px;
+  left: 16px;
+}
+.flipkart1 .flp-border1 .flp-sle .flipkart-img img {
+  width: 93px;
+}
+.flipkart-main .flipkart2 .flipkart-img img {
+  width: 75px;
+}
+.Myntra-main .Myntra img {
+  width: 315px;
+}
+.Myntra-main .Myntra1 img {
+  width: 315px;
+}
+.Myntra-main .Myntra2 img {
+  width: 315px;
+}
+.Myntra-main .Myntra3 img {
+  width: 315px;
+}
+.Myntra-main .Myntra-img img {
+  width: 45px;
+}
+.Myntra {
+  height: 348px;
+  width: 315px;
+}
+.Myntra1 {
+  height: 348px;
+  width: 315px;
+}
+.Myntra2 {
+  height: 348px;
+  width: 315px;
+}
+.Myntra3 {
+  height: 348px;
+  width: 315px;
+}
+.mnt-profit p {
+  font-size: 19px;
+  margin-left: 119px;
+  padding-top: 7px;
+}
+.mnt-profit h2 {
+  font-size: 20px;
+  margin-left: 208px;
+}
+.mnt-btn .mnt-Amount h2 {
+  font-size: 21px;
+}
+.mnt-btn1 button {
+  width: 153px;
+  height: 37px;
+}
+.Myntra-main {
+  gap: 34px;
+}
+.Myntra-img {
+  position: absolute;
+  top: 199px;
+  left: 18px;
+}
+.Myntra1 .mnt-border1 .mnt-sle .Myntra-img img {
+  width: 88px;
+}
+
+.footer-grid {
+  display: grid;
+  gap: 30px;
+  padding:0;
+  grid-template-columns: repeat(6,1fr);
+}
+.email input {
+  width: 164.8px;
+  height: 36px;
+  font-size: 14px;
+}
+
+
+footer {
+  padding: 32px 36px;
+  background: black;
+}
+.abt-link {
+  padding: 29px 12px;
+  display:block;
+  width: 14pc;
+}
+  .read {
+    DISPLAY: block;
+    width: 13pc;
+}
+.page {
+  DISPLAY: block;
+  width: 13pc;
+}
+.connect {
+  DISPLAY: block;
+  width: 14pc;
+}
+.Download {
+  display: none;
+}
+.Subscribe h2 {
+  padding: 3px 0 0px;
+  font-size: 27px;
+
+}
+.Subscribe p {
+  padding-top: 49px;
+  font-size: 20px;
+}
+.About img{
+  display:none;
+}
+.Subscribe {
+  PADDING: 5px 0PX;
+}
+.abt-link a {
+  color: white;
+  FONT-SIZE: 18PX;
+}
+.About h2 {
+  padding: 13px 4px 0;
+  font-size: 27px;
+}
+.rd-link a {
+  color: white;
+  FONT-SIZE: 18PX;
+}
+.pg-link a {
+  color: white;
+  FONT-SIZE: 18PX;
+}
+.cnt-link a {
+  color: white;
+  FONT-SIZE: 19PX;
+}
+.Subscribe p {
+  padding-top: 46px;
+  font-size: 18px;
+}
+.email {
+  padding: 76px 0px 0;
+}
+.email-btn {
+  padding: 13px 51px 0;
+}
+.email-btn button {
+  background: #FDC7B0;
+  width: 89px;
+  height: 32px;
+}
+}
+
+
+@media (Max-width: 425px) {
+  header .header-top .header-nav .logo {
+    padding: 0 83px;
+}
+header .header-top .header-nav .bars button {
+  height: 36px;
+  width: 39px;
+}
+header .header-nav .bell {
+  flex: 0;
+}
+header .header-top .header-nav .bars {
+  display: block;
+  flex: 1;
+}
+header .header-top .header-nav .bell img {
+  height: 32px;
+  width: 48px;
+  padding-top: 4px;
+  background-color: #4b3333;
+}
+header .header-nav .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0px;
+}
+header .header-top {
+  margin: 0px 5px 0px 9px;
+  padding: 0px;
+}
+}
+@media (Max-width: 375px) {
+  header .header-top .header-nav .bars button {
+    height: 33px;
+    width: 37px;
+}
+  header .header-top {
+    margin: 0px 11px 0px 9px;
+    padding: 0px;
+}
+header .header-nav {
+  display: flex;
+  padding: 18px 0;
+}
+header .header-nav .bars button {
+  height: 30px;
+  border:none;
+  width: 35px;
+}
+header .header-top .header-nav .logo {
+  padding: 0 69px;
+}
+header .header-top  .header-nav .bell img {
+  height: 31px;
+  width: 41px;
+  padding-top: 2px;
+  background-color: #4b3333;
+}
+.header-bottom .header-b-val .input-search input {
+  height: 37px;
+  width: 165px;
+  font-size: 16px;
+}
+.header-bottom .header-b-val .input-search span {
+  position: absolute;
+  top: 11px;
+  left: 9px;
+  font-size: 14px;
+  color: gray;
+}
+.header-bottom .btn button {
+  width: 98px;
+  height: 37px;
+  border-radius: 11px;
+  border: none;
+  background: #FDC7B0;
+  font-size: 12px;
+}
+.Ajio-main .Ajio img {
+  width: 167PX;
+}
+.Ajio-main .Ajio1 img {
+  width: 167PX;
+}
+.Ajio {
+  position: relative;
+  padding: 0px 0;
+  height: 215px;
+  width: 165px;
+}
+
+.profit p {
+  font-size: 11px;
+  margin-left: 54px;
+  padding-top: 0;
+}
+.Ajio-img {
+  position: absolute;
+  top: 103px;
+  left: 6px;
+}
+.profit h2 {
+  font-size: 14px;
+  margin-left: 92px;
+}
+.flex-btn {
+  display: flex;
+  gap: 35px;
+  padding: 3px 4px;
+}
+.flex-btn .btn1 a {
+  font-size: 14px;
+
+}
+.Ajio1 {
+  position: relative;
+  padding: 0px 0;
+  height: 214px;
+  width: 167px;
+}
+.flipkart-main .flipkart img {
+  width: 165px;
+}
+.flipkart-main .flipkart1 img {
+  width: 165px;
+}
+.flipkart-img {
+
+    top: 104px;
+    left: 7px;
+}
+.flipkart {
+  padding: 0px 0;
+
+  height: 234px;
+  width: 165px;
+}
+.flipkart1 {
+ 
+  padding: 0px 0;
+  height: 234px;
+  width: 165px;
+}
+.flp-profit p {
+  font-size: 11px;
+  margin-left: 46px;
+  padding-top: 5px;
+}
+.flp-profit h2 {
+  font-size: 14px;
+  font-weight: 900;
+  margin-left: 85px;
+}
+.flp-btn1 button {
+  width: 72px;
+  height: 32px;
+}
+.flp-btn .flp-btn1 a {
+  color: black;
+  font-size: 13px;
+}
+.flp-btn {
+  display: flex;
+  gap: 24px;
+  padding: 14px 7px;
+}
+.Myntra-main .Myntra img {
+  width: 165px;
+}
+.Myntra-img {
+  top: 104px;
+  left: 10px;
+}
+.mnt-profit p {
+
+  font-size: 12px;
+  margin-left: 43px;
+  padding-top: 0px;
+}
+.mnt-profit h2 {
+  font-size: 14px;
+  margin-left: 96px;
+}
+.mnt-btn1 button {
+  width: 72px;
+  height: 33px;
+  background: #FDC7B0;
+}
+.mnt-btn {
+  gap: 34px;
+  padding: 0px 5px;
+}
+.Myntra {
+  border: 2px solid #FDC7B0;
+  height: 221px;
+  width: 165px;
+  border-radius: 15px;
+}
+.Myntra1 {
+  border: 2px solid #FDC7B0;
+  height: 221px;
+  width: 165px;
+  border-radius: 15px;
+}
+.Myntra-main .Myntra1 img {
+  width: 165px;
+}
+.footer-grid {
+  display: grid;
+  padding: 8px 78px;
+ 
+}
+
+}
+@media (Max-width: 320px) {
+  header .header-top .header-nav .logo {
+    padding: 0 39px;
+}
+.header-bottom .header-b-val .input-search input {
+  height: 37px;
+  width: 130px;
+  font-size: 16px;
+}
+.header-bottom .btn button {
+  width: 82px;
+  height: 37px;
+  background: #FDC7B0;
+  font-size: 11px;
+}
+.Ajio-main .Ajio img {
+  width: 143PX;
+}
+.Ajio-main .Ajio1 img {
+  width: 143PX;
+}
+.Ajio {
+  height: 184px;
+  width: 143px;
+}
+.Ajio1 {
+  height: 184px;
+  width: 143px;
+}
+.Ajio-img {
+  position: absolute;
+  top: 90px;
+  left: 3px;
+}
+.profit p {
+  font-size: 9px;
+  margin-left: 50px;
+  padding-top: 0;
+}
+.profit h2 {
+  font-size: 11px;
+  margin-left: 90px;
+}
+.flex-btn {
+
+  gap: 26px;
+  padding: 5px 3px;
+}
+.flex-btn .btn1 a {
+  font-size: 12px;
+}
+.flex-btn .btn1 button {
+  width: 67px;
+  height: 28px;
+}
+.Ajio-main {
+  gap: 7px;
+}
+.flipkart-main .flipkart img {
+  width: 142px;
+}
+.flipkart-img {
+  top: 86px;
+  left: 5px;
+}
+.flp-profit p {
+  font-size: 11px;
+  margin-left: 32px;
+  padding-top: 6px;
+}
+.flp-profit h2 {
+  font-size: 12px;
+  margin-left: 83px;
+}
+.flp-btn1 button {
+  width: 66px;
+  height: 29px;
+}
+.flp-btn {
+  display: flex;
+  gap: 22px;
+  padding: 4px 7px;
+}
+.flipkart {
+  padding: 0px 0;
+  height: 194px;
+  width: 142px;
+}
+.flipkart-main .flipkart1 img {
+  width: 142px;
+}
+.flipkart1 {
+  padding: 0px 0;
+  height: 193px;
+  width: 142px;
+}
+.flipkart-main {
+  gap: 7px;
+}
+.Myntra-main .Myntra img {
+  width: 143px;
+}
+.Myntra-main .Myntra1 img {
+  width: 143px;
+}
+.Myntra-img {
+  top: 86px;
+  left: 7px;
+}
+.mnt-profit p {
+  font-size: 11px;
+  margin-left: 34px;
+  padding-top: 2px;
+}
+.mnt-profit h2 {
+  font-size: 14px;
+  margin-left: 75px;
+}
+.mnt-btn1 button {
+  width: 68px;
+  height: 32px;
+  background: #FDC7B0;
+}
+.mnt-btn .mnt-btn1 a {
+  color: black;
+  font-size: 13px;
+}
+.mnt-btn .mnt-Amount h2 {
+  font-size: 15px;
+  padding-top: 7px;
+}
+.mnt-btn {
+  gap: 25px;
+  padding: 0px 5px;
+}
+.Myntra {
+  border: 2px solid #FDC7B0;
+  height: 192px;
+  width: 143px;
+}
+.Myntra1 {
+  border: 2px solid #FDC7B0;
+  height: 191px;
+  width: 143px;
+  border-radius:10px;
+
+}
+.Myntra-main {
+  gap: 5px;
+}
+.footer-grid {
+  display: grid;
+  padding: 8px 48px;
+}
+.email-btn button {
+  background: #FDC7B0;
+  width: 92px;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+}
+.copy p {
+  font-size: 12px;
+}
+.copy a {
+  font-size: 15px;
+}
+header .header-nav .nav .menu-list {
+  display: block;
+  height: 1088px;
+  width: 231px;
+}
+header .header-top .header-nav .nav .mid-nav ul li {
+    padding: 10px 29PX;
+    font-size: 16px;
+    FONT-FAMILY: cursive;
+}
+
+}
+@media (min-width: 1914px) {
+  header .header-top .header-nav .bell {
+    flex: 0.7;
+}
+header .header-top .header-nav .logo img {
+  height: auto;
+  width: 78px;
+}
+header .header-top .header-nav .nav .mid-nav ul li {
+  padding: 0px 48px;
+  font-size: 20px;
+}
+header .header-top {
+  margin: 3px 24px 0px 184px;
+  padding: 0px;
+}
+header .header-top .header-nav .logo {
+  flex: 0;
+  padding-top: 12px;
+}
+section {
+  padding: 29px 103px 0 193px;
+}
+.flipkart-main {
+  GAP: 33PX;
+  padding: 66px 1px;
+}
+.About img {
+  display: block;
+}
+.Download {
+  display: block;
+  padding: 0;
+}
+.abt-link {
+  width: 12pc;
+}
+.footer-grid {
+  gap: 0;
+  padding: 0;
+ 
+}
+.read {
+  width: 11.4pc;
+}
+.page {
+  width: 12pc;
+}
+.Download h2 {
+  padding: 11px 0 0 25px;
+  font-size: 27px;
+}
+.app-link {
+  padding: 48px 0 0 26px;
+}
+.Download .app-link img {
+  width: auto;
+}
+.Subscribe h2 {
+  padding: 4px 0 0px;
+  font-size: 27px;
+}
+footer {
+  padding: 32px 83px 0 192px;
+  background: black;
+  margin-top: 66px;
+}
+.About h2 {
+  padding: 7px 6px 0;
+  font-size: 26px;
+
+}
+
+}
+@media (min-width:2560px) {
+  header .header-top {
+    margin: 0px 206px 0px 194px;
+    padding: 9px 0;
+}
+header .header-top .header-nav .bell {
+
+  flex: 1.8;
+}
+header .header-top .header-nav .logo img {
+  height: auto;
+  width: 93px;
+}
+header .header-top .header-nav .nav .mid-nav ul li {
+  padding: 0px 67px;
+  font-size: 29px;
+}
+header .header-nav .logo h1 {
+  font-size: 36px;
+}
+header .header-top .header-nav .logo p {
+  font-size: 21px;
+  padding-left: 80px;
+}
+section {
+  padding: 28px 167px 0 205px;
+}
+
+.Download {
+  display: block;
+  width: 12pc;
+}
+.About img {
+  display: block;
+  width: 66px;
+  height: 50px;
+}
+.footer-grid {
+  display: grid;
+  gap: 0;
+}
+.Download h2 {
+  padding: 0 0;
+  font-size: 27px;
+}
+.Subscribe h2 {
+  padding: 1px 0 0;
+  font-size: 31px;
+}
+.Download .app-link img {
+  width: 175px;
+}
+.cnt-link {
+  padding: 36px 18px;
+}
+.app-link {
+  padding: 50px 0 0 6px;
+}
+.Subscribe p {
+  padding-top: 46px;
+  font-size: 17px;
+  width: 14pc;
+}
+.abt-link {
+  padding: 29px 60px;
+  display: block;
+  width: 11.2pc;
+}
+footer {
+  padding: 60px 162px 0 118px;
+  background: black;
+  margin-top: 68px;
+}
+.email input {
+  width: 201.8px;
+  height: 43px;
+  font-size: 16px;
+}
+.email-btn button {
+  background: #FDC7B0;
+  width: 108px;
+  height: 35px;
+}
+.email-btn {
+  padding: 13px 59px 0;
+}
+.copy p {
+  font-size: 22px;
+}
+.copy h2 {
+  PADDING-TOP: 5PX;
+  PADDING-BOTTOM: 18PX;
+}
+header .header-top .header-nav {
+  display: flex;
+  padding: 5px 0;
+}
+header .header-nav .logo h1 {
+  font-size: 46px;
+}
+header .header-top .header-nav .logo p {
+  font-size: 29px;
+  padding-left: 100px;
+}
+header .header-nav .nav .search input {
+  height: 62px;
+  width: 265Px;
+  padding: 0 46px;
+  font-size: 26px;
+  BORDER-RADIUS: 34PX;
+}
+header .header-nav .nav .search span {
+  font-size: 22px;
+  left: 12px;
+  top: 19px;
+
+}
+
+header .header-top .header-nav .bell img {
+  height: 70PX;
+  width: 82PX;
+  padding-top: 7px;
+  background-color: #4b3333;
+}
+
+header .header-nav .btn button {
+  position: absolute;
+  height: 116px;
+  width: 179px;
+  border: none;
+  border-radius: 12px;
+  font-size: 25px;
+  top: -3px;
+  background: #fdc7b0;
+}
+.Ajio-main {
+  gap: 81px;
+}
+  .Ajio {
+    width: 446px;
+    height: 502px;
+}
+.Ajio1 {
+  width: 446px;
+  height: 502px;
+}
+.Ajio2 {
+  width: 446px;
+  height: 502px;
+}
+.Ajio3 {
+  width: 446px;
+  height: 502px;
+}
+.Ajio-img {
+  top: 273px;
+  left: 34px;
+}
+  .Ajio-main .Ajio img {
+    width: 449px;
+}
+.Ajio-main .Ajio1 img {
+  width: 449px;
+}
+.Ajio-main .Ajio2 img {
+  width: 449px;
+}
+.Ajio-main .Ajio3 img {
+  width: 449px;
+}
+.Ajio-main .Ajio-img img {
+  width: 100%;
+}
+.profit p {
+  font-size: 27px;
+  margin-left: 154px;
+  padding-top: 19px;
+}
+.profit h2 {
+  font-size: 29px;
+  margin-left: 285px;
+  padding-top: 6px;
+}
+.flex-btn .Amount h2 {
+  font-size: 34px;
+  padding-top: 8px;
+}
+.flex-btn .btn1 button {
+  width: 210px;
+  height: 60px;
+}
+.flex-btn .btn1 a {
+  font-size: 28px;
+}
+.flex-btn {
+  display: flex;
+  gap: 91px;
+}
+.flipkart-main .flipkart img {
+  width: 449px;
+}
+.flipkart-img {
+  top: 277px;
+  left: 16px;
+}
+.flipkart-main .flipkart1 img {
+  width: 449px;
+}
+.flipkart-main .flipkart2 img {
+  width: 449px;
+}
+.flipkart-main .flipkart3 img {
+  width: 449px;
+}
+
+.flipkart-main .flipkart-img img {
+  width: 100%;
+}
+.flipkart {
+  width: 446px;
+  height: 502px;
+}
+.flipkart1 {
+  width: 446px;
+  height: 502px;
+}
+.flipkart2 {
+  width: 446px;
+  height: 502px;
+}
+.flipkart3 {
+  width: 446px;
+  height: 502px;
+}
+.flp-profit p {
+  font-size: 29px;
+  margin-left: 143px;
+  padding-top: 10px;
+}
+.flp-profit h2 {
+  font-size: 30px;
+  margin-left: 284px;
+  PADDING-TOP: 6PX;
+}
+.flp-btn .flp-Amount h2 {
+  font-size: 35px;
+}
+.flp-btn1 button {
+  width: 210px;
+  height: 60px;
+}
+.flp-btn .flp-btn1 a {
+  color: black;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+.flp-btn {
+  display: flex;
+  gap: 87px;
+}
+.flipkart-main {
+  GAP: 83PX;
+  padding: 94px 1px;
+}
+.Myntra-main .Myntra img {
+  width: 454px;
+}
+.Myntra-main .Myntra1 img {
+  width: 459px;
+}
+.Myntra-main .Myntra2 img {
+  width: 459PX;
+}
+
+.Myntra-main .Myntra3 img {
+  width: 459px;
+}
+.Myntra-main .Myntra-img img {
+  width: 100%;
+}
+.Myntra {
+  width: 446px;
+  height: 502px;
+}
+.Myntra {
+  width: 455px;
+  height: 502px;
+}
+.Myntra1 {
+  width: 455px;
+  height: 502px;
+}
+.Myntra2 {
+  width: 455px;
+  height: 502px;
+}
+.Myntra3 {
+  width: 455px;
+  height: 502px;
+}
+.Myntra-main {
+  gap: 80px;
+}
+.Myntra-img {
+  position: absolute;
+  top: 287px;
+  left: 25px;
+}
+.mnt-profit p {
+  font-size: 27px;
+  margin-left: 162px;
+  padding-top: 10px;
+}
+.mnt-profit h2 {
+  font-size: 30px;
+  margin-left: 280px;
+}
+.mnt-btn .mnt-Amount h2 {
+  font-size: 36px;
+}
+.mnt-btn1 button {
+  width: 210px;
+  height: 60px;
+}
+.mnt-btn .mnt-btn1 a {
+  color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.mnt-btn {
+  display: flex;
+  gap: 82px;
+  padding: 3px 20px;
+}
+footer {
+  padding: 60px 67px 0 216px;
+  background: black;
+  margin-top: 68px;
+}
+.About img {
+  display: block;
+  width: 90PX;
+  height: 80PX;
+}
+.About h2 {
+  padding: 17px 8px;
+  font-size: 36px;
+}
+.read h2 {
+  padding: 11px 1px;
+  font-size: 36px;
+}
+.read {
+  DISPLAY: block;
+  width: 16.7pc;
+}
+.page h2 {
+  padding: 10px 0px;
+  font-size: 36px;
+}
+.page {
+  DISPLAY: block;
+  width: 16pc;
+}
+.connect {
+  DISPLAY: block;
+  width: 19pc;
+  PADDING: 0;
+}
+.connect h2 {
+  padding: 19px 0px 0;
+  font-size: 36px;
+}
+.Download {
+  display: block;
+  width: 16pc;
+}
+.Download h2 {
+  padding: 10px 0;
+  font-size: 36px;
+}
+.Subscribe h2 {
+  padding: 18px 0 0;
+  font-size: 37px;
+}
+.abt-link {
+  padding: 29px 92px;
+  display: block;
+  width: 15.2pc;
+}
+.abt-link a {
+  color: white;
+  FONT-SIZE: 24PX;
+}
+.rd-link a {
+  color: white;
+  FONT-SIZE: 23PX;
+}
+.pg-link a {
+    color: white;
+    FONT-SIZE: 23PX;
+}
+.cnt-link a {
+  color: white;
+  FONT-SIZE: 26PX;
+}
+.Download .app-link img {
+  width: 93%;
+}
+.Subscribe p {
+  padding-top: 56px;
+  font-size: 23px;
+  width: 17pc;
+}
+.email input {
+  width: 237.8px;
+  height: 56px;
+  font-size: 21px;
+}
+.email-btn {
+  padding: 16px 49px 0;
+}
+.email-btn button {
+  background: #FDC7B0;
+  width: 151px;
+  height: 52px;
+}
+.email-btn button a {
+  color: black;
+  font-size: 25px;
+}
+
+
+
+}
