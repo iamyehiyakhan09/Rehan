@@ -1,14 +1,22 @@
 @media (max-width:576px) {
-    header .header-top  .header-nav .bars {
-      display: block;
-      flex: 0;
-  }
-  
+    header .header-top .header-nav .bars {
+        display: block;
+        flex: 0;
+        padding-top: 20px;
+        padding-left: 13px;
+    }
+  header .header-top .header-nav {
+    display: flex;
+    padding: 3px;
+}
+.main-heder header .header-top .header-nav .nav {
+    padding: 13px;
+}
     header .header-top .header-nav.bars .logo {
   padding-left: 54px;
     }
     header .header-top .header-nav .logo {
-        padding: 0 118px;
+        padding: 13px 114px 0px 139px;
     }
     header .header-top .header-nav .logo img {
         height: 34px;
@@ -18,11 +26,11 @@
     font-size: 22px;
   
   }
-  header .header-top .header-nav .bell img {
-    height: 44px;
-    width: 59px;
-    padding-top: 4px;
-    background-color: #4b3333;
+ .main-heder header .header-top .header-nav .bell img {
+    height: 37px;
+    border-radius: 50%;
+    width: 53px;
+    background-color: rgb(136, 117, 117);
 }
 
   header .header-top .header-nav .logo  p {
@@ -86,12 +94,12 @@
   }
   .header-bottom .header-b-val {
     display: flex;
-    GAP: 30PX;
+    GAP: 10PX;
   }
   
   .header-bottom .header-b-val .input-search input {
     height: 45px;
-    width: 305px;
+    width: 385px ;
     border-radius: 10px;
     border: none;
     background: gainsboro;
@@ -105,14 +113,22 @@
     font-size: 14px;
     color: gray;
   }
- .header-bottom .btn button {
+ .header-bottom .btn1 button {
     width: 114px;
     height: 44px;
+    border-radius:10px;
     border: none;
     background: #FDC7B0;
+    PADDING-BOTTOM: 48PX;
     font-size: 15px;
 }
-
+.header-bottom .btn1 button  p{
+margin:0;
+}
+.header-bottom .btn1 button h2 {
+    font-size: 19px;
+    font-weight: bold;
+}
 main  section {
     margin: 10px ;
 }
@@ -254,16 +270,18 @@ footer .footer  .email-btn {
         padding: 10px;
     }
     header .header-top .header-nav .bars {
-      display: block;
-      flex: 1;
-  }
+        display: block;
+        flex: 1;
+        padding-top: 17px;
+    }
+    
   
     header .header-top .header-nav.bars .logo {
   padding-left: 54px;
     }
     header .header-top .header-nav .logo {
-      padding: 0;
-  }
+        padding: 0 141px 0 126px;
+    }
     header .header-top .header-nav .logo img {
       height: auto;
       width: auto;
@@ -279,8 +297,9 @@ footer .footer  .email-btn {
   header .header-top  .header-nav .nav .mid-nav ul li {
     padding: 10px 62PX;
     font-size: 20px;
-    FONT-FAMILY: cursive;
+   
   }
+  
   header .header-nav .nav .search {
       display: NONE;
     }
@@ -308,7 +327,12 @@ footer .footer  .email-btn {
     font-size: 15px;
     padding-left: 15px;
   }
-  
+  .main-heder  header .header-top  .header-nav .bell img {
+    height: 44px;
+    border-radius: 50%;
+    width: 56px;
+    background-color: rgb(136, 117, 117);
+}
   header .header-nav .nav .menu-list {
     display: block;
     height: 1230px;
@@ -335,10 +359,14 @@ footer .footer  .email-btn {
     display: flex;
     GAP: 12px;
   }
+
+  .main-heder header .header-top .header-nav .nav {
+    padding: 0;
+}
   
   .header-bottom .header-b-val .input-search input {
     height: 45px;
-    width: 345px;
+    width: 405px;
     border-radius: 10px;
     border: none;
     background: gainsboro;
@@ -352,12 +380,21 @@ footer .footer  .email-btn {
     font-size: 14px;
     color: gray;
   }
-  .header-bottom .btn button {
-    width: 107px;
-    height: 45px;
+  .header-bottom .btn1 button {
+    width: 109px;
+    height: 44px;
+    border-radius:10px;
     border: none;
     background: #FDC7B0;
+    PADDING-BOTTOM: 48PX;
     font-size: 15px;
+}
+.header-bottom .btn1 button  p{
+margin:0;
+}
+.header-bottom .btn1 button h2 {
+    font-size: 19px;
+    font-weight: bold;
 }
 .header-bottom {
     padding: 15px 21px;
@@ -515,7 +552,10 @@ main section  .top-line  .line-main3 .line-5 {
     main section .lifeline-main-4  {
         padding: 0;
     }
-
+    .ft  footer {
+        padding: 10px 158px;
+        background: black;
+    }
    .ft footer .footer-grid {
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -540,7 +580,7 @@ main section  .top-line  .line-main3 .line-5 {
     }
     .main-about .About img{
         width: 40px;
-        height: auto;
+        height:  40px;
     }
 
     .ft footer .Download h2 {
@@ -563,11 +603,11 @@ main section  .top-line  .line-main3 .line-5 {
     }
     .ft footer .Subscribe p {
         padding-top: 16px;
-        font-size: 14px;
-        
+        font-size: 11px;
+        text-align: center;
     }
     .ft footer .email {
-        padding: 12px 31px 9px;
+        padding: 0 13px 9px;
     }
     .ft footer  .email-btn button {
         background: #FDC7B0;
@@ -576,7 +616,7 @@ main section  .top-line  .line-main3 .line-5 {
         font-size: 18px;
     }
     .ft footer .email-btn {
-        padding: 0 98px;
+        padding: 0 81px;
     }
 
     .ft .footer-bottom {
@@ -586,20 +626,27 @@ main section  .top-line  .line-main3 .line-5 {
     .ft .footer-bottom  .copy p {
         font-size: 14px;
     }
-    .ft .footer-bottom   .copy h2 {
+    .ft .footer-bottom .copy h2 {
         PADDING-TOP: 0PX;
-        PADDING-BOTTOM: 16PX;
+        PADDING-BOTTOM: 0;
+        line-height: 0;
     }
     .ft .footer-bottom   .copy a {
         font-size: 17px;
     }
-
+    .ft footer  .email input {
+        width: 261.8px;
+        height: 45px;
+    }
 }
 
 @media (Min-width:768px){
+    header .header-top .header-nav .logo {
+        padding: 0 227px 0 227px;
+    }
     .header-bottom .header-b-val .input-search input {
-        height: 45px;
-        width: 530px;
+        height: 46px;
+        width: 604px;
     }
     main section .box-main .box3 {
         width: 157px;
@@ -622,12 +669,42 @@ padding-left: 50px;
         height: 1230px;
         width: 446px;
     }
+
+    main section .box-top .box-main { 
+        padding: 0 4px 0 24px;
+        gap: 30px;
+    }
+    main section .box-main2 {
+        padding: 28px 9px 0 25px;
+        gap: 30px;
+    }
+    main section .top-line .line-main3 {
+        padding: 30px 9px 0 27px;
+        gap: 34px;
+    }
+    .main-about .About img {
+        width: auto;
+        height: auto;
+    }
+    .About h2 {
+        font-weight:bold;
+        font-size: 28px;
+    }
+
+    .ft footer .footer-grid {
+        text-align: center;
+    }
+
+
+
+
+
     .ft footer .Subscribe h2 {
         padding: 0px 53px;
         font-size: 23px;
     }
 .ft footer {
-    padding: 10px 227px;
+    padding: 10px 244px;
     background: black;
 }
 }
@@ -636,6 +713,11 @@ padding-left: 50px;
     header .header-nav .bars {
       flex: 3;
   }
+  .main-heder header .header-nav .bars button {
+    height: 34px;
+    width: 35px;
+
+}
   header .header-top .header-nav .nav .mid-nav ul li {
     padding: 10px 42PX;
 }
@@ -643,9 +725,18 @@ header .header-nav .nav .menu-list {
     display: block;
     height: 1150px;
 }
+.main-heder header .header-top .header-nav .nav {
+    padding: 0;
+}
+.main-heder header .header-top .header-nav .bell img {
+    height: 36px;
+    width: 46px;
 
-
-
+}
+header .header-top .header-nav {
+    display: flex;
+    padding: 0;
+}
   header .header-top .header-nav .logo img {
     height: auto;
     width: 44px;
@@ -656,15 +747,27 @@ header .header-nav .nav .menu-list {
   }
   .header-bottom .header-b-val .input-search input {
     height: 42px;
-    width: 288px;
+    width: 249PX;
 }
 header .header-top .header-nav .logo {
-    padding: 0 53px;
+    PADDING-TOP: 12PX;
+    PADDING-LEFT: 79PX;
+    PADDING-RIGHT: 70PX;
 }
-.header-bottom .header-b-val .input-search input {
-    height: 42px;
-    width: 162px;
+.main-heder header .header-top .header-nav .logo p {
+    font-size: 14px;
+    padding-left: 0px;
+ 
 }
+
+.main-heder .header-bottom .btn1 button {
+    width: 94px;
+    height: 45px;
+    PADDING-BOTTOM: 45PX;
+    font-size: 15px;
+}
+
+
 .box-top .box-main .box-img {
     padding: 5px 13px;
 }
@@ -752,7 +855,7 @@ main section .box-main2 .online-cont h2 {
 }
 
 .top-line .line-main3 .line-cont h2 {
-    font-size: 18px;
+    font-size: 17px;
     padding-left: 14px;
 }
 .top-line .line-main3   .cont-btn button {
@@ -843,9 +946,18 @@ footer .footer .email-btn {
 
 
 @media (Min-width:1024px){
+    header .header-top .header-nav .logo {
+        padding: 6px 227px 0 227px;
+    }
+
+    .main-heder  header .header-top {
+        margin: 0px 0 0px 12px;
+        padding: 0px;
+    }
+
     header .header-top .header-nav {
-        display: flex;
-        padding: 18px;
+       
+        padding: 1px;
     }
     header .header-top .header-nav .logo img {
         height: 44px;
@@ -858,11 +970,16 @@ footer .footer .email-btn {
         font-size: 16px;
         padding-left: 64px;
     }
-    .header-bottom .header-b-val .input-search input {
-        height: 50px;
-        width: 777px;
-        font-size: 24px;
-    }
+   .header-bottom .header-b-val .input-search input {
+    height: 50px;
+    width: 855px;
+    font-size: 18px;
+}
+main section .box4 .cont h2 {
+    font-size: 23px;
+    padding-left: 32px;
+    padding-top: 31px;
+}
     .header-bottom .header-b-val .input-search span {
         position: absolute;
         top: 16px;
@@ -892,6 +1009,7 @@ footer .footer .email-btn {
 
     main section .lifeline-main-4 {
         padding: 30px 0 0 27px;
+        gap: 27px;
     }
     main section  .lifestyle-img {
         padding: 14px 33px;
@@ -920,7 +1038,7 @@ footer .footer .email-btn {
     main section   .lifeline-cont4 .lifestyle-cont {
         color: black;
         text-align: center;
-        font-size: 17px;
+        font-size: 20px;
     }
 
     main section .lifeline-cont4 h2 {
@@ -1008,7 +1126,9 @@ footer .footer .email-btn {
       }
       header .header-top .header-nav .logo {
         flex: 0;
+        padding: 0 0 0;
     }
+
       header .header-nav .nav .mid-nav {
         display: block;
       }
@@ -1042,6 +1162,16 @@ header .header-top .header-nav .nav .mid-nav ul li {
       header .header-nav .btn {
         display: block;
     }
+    header .header-nav .btn p{
+padding-top:10px;
+        margin:0;
+        font-size:20px;
+    }
+    header .header-nav .btn h2{
+        font-weight: bold;
+        font-size: 25px;
+    
+    }
     header .header-nav .nav .search span {
       position: absolute;
       left: 11px;
@@ -1052,18 +1182,18 @@ header .header-top .header-nav .nav .mid-nav ul li {
     header .header-nav .nav {
       padding: 0;
     }
-    header .header-top .header-nav .nav .search input {
+   .main-heder header .header-top .header-nav .nav .search input {
         height: 41px;
-        width: 158px;
+        width: 230px;
         padding: 0 27px;
         border-radius: 19px;
         border: none;
         font-size: 17px;
     }
-    header .header-top  .header-nav .nav .search span {
+    .main-heder header .header-top  .header-nav .nav .search span {
         position: absolute;
         left: 9px;
-        top: 11px;
+        top: 13px;
         font-size: 15px;
         color: gray;
     }
@@ -1075,7 +1205,7 @@ header .header-top .header-nav .nav .mid-nav ul li {
     }
     header .header-top .header-nav {
         display: flex;
-        padding: 15px 6px  0 22px;
+        padding: 12px 41px 0 31px;
     }
     header .header-top .header-nav .logo h1 {
         font-size: 36px;
@@ -1358,27 +1488,42 @@ header .header-top .header-nav .bell img {
     padding: 15px 10px;
 }
 header .header-top .header-nav .logo {
-  padding: 19px 55px;
+    padding: 10px 60px 0;
 }
     header .header-nav .bars {
       display: block;
       padding: 22px 0;
   }
-
+  .main-heder header .header-top .header-nav .logo p {
+    font-size: 14px;
+    padding-left: 45px;
+}
 
   .header-bottom .header-b-val {
     GAP: 15PX;
 }
 .header-bottom .header-b-val .input-search input {
-    height: 41px;
-    width: 183px;
-
+    height: 47px;
+    width: 244px;
 }
 .header-bottom .header-b-val .btn button {
     background: #FDC7B0;
     height: 40px;
     width: 80px;
     font-size: 10px;
+}
+.header-bottom .header-b-val .input-search span {
+    position: absolute;
+    top: 18px;
+    left: 12px;
+    font-size: 14px;
+   
+}
+.main-heder .header-bottom .btn1 button {
+    width: 95px;
+    height: 47px;
+    PADDING-BOTTOM: 45PX;
+    font-size: 14px;
 }
 header .header-nav .nav .menu-list {
     display: block;
@@ -1387,14 +1532,14 @@ header .header-nav .nav .menu-list {
 }
 main section .box-top .box-main {
     padding: 2px 9px 0 1px;
-    gap: 3px;
+    gap: 9px;
 }
 .box-top .box-main .box2 {
     width: 104px;
 }
 main section .box-main2 {
     padding: 14px 9px 0 1px;
-    gap: 3px;
+    gap: 9px;
 }
 .box-line2 .box-main2 .online-shop {
     height: auto;
@@ -1422,11 +1567,15 @@ main section .box-main2 .online-cont h2 {
     padding-bottom: 11px;
 }
 main section .top-line .line-main3 {
-    gap: 2px;
+    gap: 9px;
     padding: 14px 4px 0 1px;
 }
 main section .top-line .line-main3 .line-5 {
     width: 106px;
+}
+.top-line .line-main3 .cont-btn {
+    padding: 6px 7px;
+    padding-bottom: 8px;
 }
 footer .footer .Subscribe {
     PADDING: 0PX 0;
@@ -1446,6 +1595,10 @@ footer .footer .Subscribe {
 
 
 @media (MAX-width:320px){
+    .main-heder  header .header-top {
+        margin: 0px 0 0px 7px;
+        padding: 0px;
+    }
     header .header-top .header-nav .bars .logo .nav {
       padding: 0;
   }
@@ -1453,28 +1606,58 @@ footer .footer .Subscribe {
     padding: 0;
   }
   header .header-top .header-nav .logo {
-    padding: 19px 11px;
-  }
-  header .header-nav .bell img {
+    padding: 9px 47px 0 47px;
+}
+  header .header-top   .header-nav .bell img {
     height: 40px;
     width: 57px;
   }
     header .header-top .header-nav .bars button {
-      height: 33px;
-      width: 35px;
+      height: 30px;
+      width: 32px;
   }
-  .header-bottom .header-b-val .input-search input {
-    height: 43px;
-    width: 113px;
-    font-size: 15px;
+  header .header-top .header-nav .bars span {
+    FONT-SIZE:12PX;
+
+}
+.main-heder header .header-top .header-nav .bell img {
+    height: 30px;
+    width: 33px;
+}
+
+header .header-top .header-nav .bars {
+    padding-top: 18px;
+    padding-left: 10px;
+}
+header .header-top .header-nav {
+    display: flex;
+    gap: 0;
+}
+
+.header-bottom .header-b-val .input-search input {
+    height: 47px;
+    width: 193px;
+    font-size: 17px;
 }
 header .header-nav .nav .menu-list {
     display: block;
     height: 1120px;
     WIDTH: 214PX;
 }
+.main-heder .header-bottom .header-b-val {
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
   header .header-top .header-nav .nav .mid-nav ul li {
-    padding: 8px 22PX;
+    padding: 8px 2PX;
     font-size: 20px;
     FONT-FAMILY: SANS-SERIF;
   }
@@ -1521,6 +1704,18 @@ header .header-nav .nav .menu-list {
     border: none;
     font-size: 12px;
   }
+  main section .box-top .box-main {
+    padding: 0px 9px 0 1px;
+    gap: 14px;
+}
+main section .box-main2 {
+    padding: 15px 9px 0 1px;
+    gap: 14px;
+}
+main section .top-line .line-main3 {
+    gap: 14px;
+    padding: 14px 4px 0 1px;
+}
   .box-top .box-main .box2 {
     display: none;
 }
@@ -1616,12 +1811,30 @@ main section .top-line .big-img {
 
 
 @media (Min-width:1900px){
+    header .header-top .header-nav .logo h1 {
+        font-size: 33px;
+    }
+    .main-heder header .header-top .header-nav .logo p {
+        font-size: 18px;
+        padding-left: 74px;
+        font-family: sans-serif;
+        color: bisque;
+    }
+    header .header-nav .btn p {
+        padding-top: 10px;
+        margin: 0;
+        font-size: 18px;
+    }
+    header .header-nav .btn h2 {
+        font-weight: bold;
+        font-size: 26px;
+    }
     header .header-top {
       margin: 0px 27px 0px 168px;
       padding: 1px;
   }
   header .header-top .header-nav .nav .mid-nav ul li {
-    padding: 10px 29px;
+    padding: 0 35px;
     font-size: 22px;
 }
   header .header-top .header-nav .bell {
@@ -1631,7 +1844,7 @@ main section .top-line .big-img {
 }
 header .header-top .header-nav {
     display: flex;
-    padding: 15px 0px 10px 191px;
+    padding: 15px 64px 10px 191px;
 }
 main section .box-top .box-main {
     padding: 0 165px 0 187px;
@@ -1723,9 +1936,9 @@ main section .last-line {
   }
   
   header .header-top .header-nav .nav .mid-nav ul li {
-    padding: 10px 76px;
-    font-size: 30px;
-  }
+    padding: 13px 67px;
+    font-size: 25px;
+}
   header .header-nav .logo h1 {
     font-size: 46px;
   }
@@ -1756,8 +1969,13 @@ main section .last-line {
   }
   header .header-top .header-nav .logo img {
     height: auto;
-    width: 6PC;
+    width: 5PC;
   }
+  header .header-top .header-nav {
+    display: flex;
+    padding: 15px 0 10px 211px;
+}
+
   header .header-nav .btn button {
   
     height: 104px;
@@ -1766,19 +1984,20 @@ main section .last-line {
   
   }
   main section .box-top .box-main {
-    padding: 0 161px 0 187px;
+    padding: 0 223px 0 198px;
     gap: 0;
 }
 main section .box-main2 {
-    padding: 83px 146px 0 192px;
+    padding: 83px 223px 0 198px;
     gap: 0;
 }
 main section .top-line .line-main3 {
-    padding: 85px 144px 0 193px;
+    padding: 85px 223px 0 198px;
     gap: 0;
 }
 main section .lifeline-main-4 {
-    padding: 85px 131px 0 188px;
+    padding: 85px 223px 0 198px;
+    gap:0;
 }
 main section .last-line {
     padding: 42px 0 0 189px;
@@ -1936,8 +2155,9 @@ main section .lifeline-cont4 button {
     font-size: 27px;
 }
 main section .last-line {
-    padding: 79px 126px 0 183px;
+    padding: 79px 223px 0 198px;
 }
+
 main section .lt-line {
     height: auto;
     width: 359px;
@@ -1950,7 +2170,6 @@ main section .ltline-img {
     PADDING: 40PX 109PX;
 
 }
-
 main section .lt-line-cont  h2{
 padding-left:12px;
 font-size:35px;
@@ -1971,6 +2190,40 @@ main section .lt-line-cont {
     padding: 13px 84px;
     padding-bottom: 11px;
 }
+.ft footer .footer-grid {
+
+    text-align: inherit;
+
+}
+.ft footer .footer-grid .read {
+    display: block;
+    width: 14pc;
+}
+.ft footer  .read h2 {
+    font-size: 29px;
+    font-weight: bold;
+}
+.ft footer .abt-link a {
+    color: white;
+    FONT-SIZE: 23PX;
+}
+.ft footer .footer-grid .page {
+    display: block;
+    width: 16pc;
+}
+.page h2 {
+    font-size: 29px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1978,7 +2231,11 @@ main section .lt-line-cont {
 
 }
 
+@media (Min-width:1900px){
 
+
+
+}
 
 
 
