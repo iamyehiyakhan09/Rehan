@@ -1,0 +1,35 @@
+
+Module (JQuery Basic, Effects & Advanced) – 5
+1. What is jQuery ?
+jQuery is a fast, small, cross-platform and feature-rich JavaScript library. It is designed to
+simplify
+the client-side scripting of HTML. It makes things like HTML document traversal and
+manipulation, animation, event handling, and AJAX very simple with an easy-to-use API that
+works on a lot of different type of browsers.
+2. How to Apply CSS Using JQuery, How to Add class and Remov Class
+In jquery , JQuery Animation ?
+It is possible to change the CSS property of an element by using a simple JavaScript API, but
+we
+try to complete this challenge using jQuery CSS () method.
+Syntax:
+$().css(propertyname, value);
+$().css(properties);
+jQuery - Get and Set CSS Classes :
+1. addClass() - Adds one or more classes to the selected elements.
+2. removeClass() - Removes one or more classes from the selected elements.
+3. toggleClass() - Toggles between adding/removing classes from the selected elements.
+4. css() - Sets or returns the style attribute.
+JQUERY ANIMATION.
+The jQuery animate() method is used to create custom animations by changing the CSS
+numerical properties of a DOM element, for example, width, height, margin, padding, opacity,
+top, left, etc.
+$(selector).animate({ properties }, [speed, callback] );
+3. How to create slider with animation?
+jQuery UI is great for building UI interfaces for the webpages. jQueryUI provides us a slider
+control through the slider widget. Slider helps us to get a certain value using a given range. In
+this article, we will see how to animate a slider. The animate option when set to true will create
+an animation effect when you directly click at any point on the slider’s axis .
+Syntax:
+$(".selector").slider(
+{ animate: value }
+);
