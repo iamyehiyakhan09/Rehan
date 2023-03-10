@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300&display=swap');
+
+*{
+    font-family: 'Nunito',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .3s ease-out;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+    overflow-x: hidden;
+}
+section{
+    padding: 2rem 9%;
+}
+.heading{
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 4rem;
+    color: #555;
+}
+.heading span{
+    color: #e8786e;
+    border-radius: .5rem;
+    background: #fceae9;
+    padding: 0 1.5rem;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    color: #fff;
+    background: #e8786e;
+    border-radius: .5rem;
+    box-shadow: 0.5rem 0.6rem rgba(0,0,0,.1);
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+.btn::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0%;
+    background: #555;
+    z-index: -1;
+    transition: .2s ease-out;
+}
+.btn:hover::before{
+    left: 0;
+    width: 100%;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #fff;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+}
+.logo{
+    font-size: 2.5rem;
+    color: #555;
+    font-weight: bolder;
+}
+.navbar a{
+    font-size: 1.7rem;
+    color: #777;
+    margin-left: 2rem;
+
+}
+    .navbar a:hover{
+    color: #e8786e;
+}
+#menu-btn{
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding: 1rem 1.3rem;
+    border-radius: .5rem;
+    color: #e8786e;
+    background: #fceae9;
+    display: none;
+}
+#menu-btn:hover{
+    color: white;
+    background: #e8786e;;
+}
+.home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #fceae9;
+    gap: 1.5rem;
+    padding-top: 10rem;
+    position: relative;
+}
+.content{
+    flex: 1 1 45rem;
+}
+.image{
+    flex: 1 1 45rem;
+}
+.image img{
+    width: 100%;
+}
+.content h3{
+    font-size: 3.52rem;
+    color: #555;
+    line-height: 1.8;
+}
+.content p{
+    font-size: 1.7rem;
+    color: #777;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+.cloud{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 18rem;
+    background-size: 250rem 18rem;
+    background: url(images/cloud.png) repeat-x;
+    animation: cloud 10s linear infinite;
+}
+@keyframes cloud {
+    0%{
+        background-position-x: 0rem;
+    }
+    100%{
+        background-position-x: -250rem;
+    }
+}
+.cloud-1{
+    opacity: .5;
+    height: 20rem;
+    background-size: 250rem 20rem;
+    animation-direction: reverse;
+    animation-duration: 15s
+}
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+.box-container .box{
+    text-align: center;
+    border: 2px solid rgba(0,0,0,.1);
+    box-shadow: 0.5rem 0.5rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    padding: 4rem 2rem;
+}
+ .box  img{
+    height: 10rem;
+}
+.box  h3{
+    color: #555;
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+}
+.box p{
+    color: #777;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.row.image{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.row.img{
+    width: 100%;
+}
+.row.content{    
+    flex: 1 1 45rem;
+}
+.content.title{
+    font-size: 3rem;
+    color: #555;
+
+}
+.content p{
+    font-size: 1.5rem;
+    color: #777;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+.icon-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+.icon-container .icons{
+    flex: 1 1 15rem;
+    border-radius: 5rem;
+    border: 2px solid rgba(0,0,0,.1);
+    padding: 1.5rem;
+    text-align: center;
+}
+.icons i{
+    border-radius: 50%;
+    background: #fceae9;
+    color: #e8786e;
+    height: 5rem;
+    width: 5rem;
+   line-height: 5rem;
+   font-size: 2rem;
+}
+.icons h3{
+    color: #777;
+    font-size: 1.8rem;
+    padding-top: 1rem;
+}
+.Protflio .box-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+.box-container .box1{
+    height: 30rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0.5rem 0.5rem rgba(0,0,0,.1);
+}
+.box-container .box1  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.box-container .box1 span{
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-weight: bolder;
+    font-size: 5rem;
+    color: #555;
+}
+
+.box-container .box1 .content{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 6rem;
+    opacity: 0;
+    left: 0;
+    display: flex;
+    transition-delay: .3s;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-container .box1:hover .content{
+    top: 0;
+    opacity: 1;
+}
+
+.box1 .content h3{
+    font-size: 2.5rem;
+    padding-bottom: .5rem;
+    color: #555;
+}
+
+.box1 .content p{
+    font-size: 1.5rem;
+    color: #777;
+}
+
+.box-container .box1::before{
+    height: 100%;
+    width: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    clip-path: circle(30% at 93% 0);
+    transition: .3s linear;
+}
+.box-container .box1:hover::before{
+    clip-path: circle(100%);
+}
+
+
