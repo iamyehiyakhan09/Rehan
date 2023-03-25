@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>janvee.com</title>
+  <link rel="icon" href="janvee.jfif">
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css"
+      integrity="sha512-YFENbnqHbCRmJt5d+9lHimyEMt8LKSNTMLSaHjvsclnZGICeY/0KYEeiHwD1Ux4Tcao0h60tdcMv+0GljvWyHg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font-awosome cdn -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!-- jquery cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <!-- owl crousel js cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- owl css cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <script>
+    $(document).ready(function () {
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 0,
+        autoplay: true,
+        autoplayTimeout: 1000,
+        nav: false,
+        dots: false,
+        responsive: {
+          0: {
+            items: 3,
+          },
+          600: {
+            items: 4,
+          },
+          1000: {
+            items: 5,
+          }
+        }
+      })
+    });
+
+    $(document).ready(function () {
+      $nav_bar = $(".nav-br");
+      $(window).scroll(function () {
+        $current_val = $(this).scrollTop();
+        if ($current_val > 0) {
+          $nav_bar.addClass("menu-changed");
+        } else {
+          $nav_bar.removeClass("menu-changed");
+        }
+      });
+    })
+  </script>
+  <!-- bxslider cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.css" />
+
+  <!-- bxslider code -->
+  <script>
+    $(document).ready(function () {
+      $('.bxslider').bxSlider({
+        mode: "vertical",
+        auto: true,
+        controls: false,
+        pager: false,
+      });
+    });
+  </script>
+
+
+
+
+</head>
+
+<body>
+  <!-- NAVIGATION -->
+  <section class="navigation">
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="nav-br">
+          <nav class="navbar navbar-expand-lg  p-3 nav-bar-pos">
+            <div class="container-fluid mqr">
+              <a class="navbar-brand" href="#"><span class="logo-text">꧁𓊈𒆜🅹🅰🅽🆅🅴🅴𒆜𓊉꧂</span></a>
+              <button class="navbar-toggler nvbaar" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0  w-100 d-flex justify-content-center">
+                  <li class="nav-item">
+                    <a class="nav-link active"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"     aria-controls="offcanvasExample"aria-current="page" href="#">Home</a>
+                
+              
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="service.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="service.html">Service</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Registation</a>
+                  </li>
+                </ul>
+                <form class="d-flex pos-form1" role="search">
+                  <input class="form-control me-2 input-margin" type="search" placeholder="Search" aria-label="Search"
+                    list="searching">
+                  <datalist id="searching">
+                    <option value="Eduction"></option>
+                    <option value="Sports"></option>
+                    <option value="games"></option>
+                    <option value="Entertainment"></option>
+
+                  </datalist>
+                  <span class="bi bi-search-heart-fill pos-serch "></span>
+                </form>
+              </div>
+            </div>
+            <span class="bi bi-moon pos-moon "></span>
+
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- main header -->
+  <section class="main-header">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-lg-6 mt-5 py-5 ">
+          <div class="display-4 fw-bold py-3">
+            Expert Greate things form<span class="text-primary"> Your Build</span> House.
+          </div>
+          <div class="divider pb-3"></div>
+          <p class="text-muted fw-bold pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sed modi
+            temporibus cum esse corporis magni repudiandae architecto ad rerum, incidunt aperiam! Natus, ipsum soluta!
+          </p>
+          <button class="head-button"><a href="#">Read More </a></button>
+        </div>
+        <div class="col-lg-6 py-5">
+          <img src="features-2.svg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- owl Crusel  -->
+  <style>
+    .owl-crl {
+      /* margin: 70px 40px 20px 40px !important; */
+      position: absolute;
+      width: 100%;
+    }
+
+    .owl-crl img {
+      width: 100px !important;
+      height: 80px !important;
+      border-radius: 50%;
+      border: 2px solid black;
+      border-style: dashed;
+    }
+  </style>
+  <section class="owl-crl">
+    <div class="container">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="j3.jpeg" alt="">
+        </div>
+        <div class="item">
+          <img src="janvee.jfif" alt="">
+        </div>
+        <div class="item">
+          <img src="j3.jpeg" alt="">
+        </div>
+        <div class="item">
+          <img src="janvee.jfif" alt="">
+        </div>
+
+        <div class="item">
+          <img src="j3.jpeg" alt="">
+        </div>
+
+        <div class="item">
+          <img src="janvee.jfif" alt="">
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section class="about-as m-5">
+    <div class="container p-5 text-center">
+      <div class="row ">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-auto">
+          <p class="text-muted fs-4">About Us</p>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-auto">
+          <div class="text-dark display-4 fw-bold">Grow Your Business With Our Our <span class="text-primary">SEO</span>
+            Agency</d'>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-auto">
+            <p class="text-muted text-center px-lg-5 mx-lg-5 pb-4  px-sm-0 m-sm-0 para-text">Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Ipsa deleniti laudantium rerum dolorem repudiandae
+              similique sit iusto modi, sint quo voluptatum sapiente nostrum veniam autem possimus! Iste a praesentium
+              inventore!</p>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-auto">
+            <button class="head-button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"
+              aria-controls="offcanvasBottom"><a href="#">Read More</a></button>
+
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- project Client Review  project Counting  -->
+  <script>
+    let counting = setInterval(cal_count);
+    let counting1 = setInterval(cal_count1);
+    let counting2 = setInterval(cal_count2);
+    let values = 10;
+
+    function cal_count() {
+      let count = document.querySelector("#counter");
+      count.innerHTML = ++values;
+      if (values == 500) {
+        clearInterval(counting);
+      }
+    }
+    let values_1 = 0;
+    function cal_count1() {
+      let count = document.querySelector("#counter1");
+      count.innerHTML = ++values_1;
+      if (values_1 == 479) {
+        clearInterval(counting1);
+      }
+    }
+    let values_2 = 0;
+    function cal_count2() {
+      let count = document.querySelector("#counter2");
+      count.innerHTML = ++values_2;
+      if (values_2 == 4) {
+        clearInterval(counting2);
+      }
+    }
+  </script>
+  <section class="mb-5">
+    <div class="container mb-5">
+      <div class="main-count">
+        <div class="box">
+          <img src="Development.png" alt="">
+          <div id="counter"></div>
+          <a href="#" target="_blank">
+            <h2>Total Projects</h2>
+          </a>
+        </div>
+        <div class="box">
+          <img src="boy-face-avatar-cartoon-free-vector.jpg" alt="">
+          <div id="counter1"></div>
+          <a href="#" target="_blank">
+            <h2>Happy Client</h2>
+          </a>
+        </div>
+
+        <div class="box">
+          <img src="TEST.png" alt="">
+          <div id="counter2"></div>
+          <a href="#" target="_blank">
+            <h2>Experience</h2>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- features -->
+  <section class="features mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-auto">
+          <!-- heading -->
+          <div class="row pb-5">
+            <p class="text-muted fs-4">features</p>
+            <h1>How SEOG Team can Help</h1>
+          </div>
+          <div class="row">
+            <!-- page Ranking -->
+            <div class="col-lg-2 col-md-2 col-sm-2 col-auto mt-2 justify-content-end d-flex">
+              <span class="fa-solid fa-signal text-info fs-3"></span>
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-auto ">
+              <h4><a href="#" class="text-dark  fs-3   links">Page Ranking</a></h4>
+              <p class="text-muted py-2 fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+                dignissimos sunt nemo iusto praesentium magnam molestias officiis voluptatum?</p>
+            </div>
+
+            <!-- Site optimizatin -->
+            <div class="col-lg-2 col-md-2 col-sm-2 col-auto mt-2 justify-content-end d-flex">
+              <span class="fa-solid fa-cubes text-danger fs-3"></span>
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-auto">
+              <h4><a href="#" class="text-dark  fs-3  links">Site optimizatin</a></h4>
+              <p class="text-muted py-2 fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+                dignissimos sunt nemo iusto praesentium magnam molestias officiis voluptatum?</p>
+            </div>
+
+            <!-- user interface -->
+            <div class="col-lg-2 col-md-2 col-sm-2 col-auto  mt-2 justify-content-end d-flex">
+              <span class="fa-solid fa-users text-warning fs-3"></span>
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-auto ">
+              <h4><a href="#" class="text-dark fs-3 links">Users Interface</a></h4>
+              <p class="text-muted py-2 fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+                dignissimos sunt nemo iusto praesentium magnam molestias officiis voluptatum?</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-auto">
+          <img src="design.png" alt="" class="img-fluid">
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--reasion  -->
+  <section class="reasion">
+    <div class="container p-5 my-5">
+      <div class="row text-center pb-5">
+        <p class="text-muted fs-4">Reasion Why</p>
+        <h1 class="text-dark">Our Valuable Reputation <br> Analysis</h1>
+      </div>
+
+
+      <div class="row text-center">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-auto">
+          <div class="icon pb-3">
+            <span class="fa-solid fa-laptop text-danger fs-2"></span>
+          </div>
+          <div class="content pb-2">
+            <h3><a href="#" class="text-dark rs-link">Website Content</a></h3>
+          </div>
+          <div class="paragraph">
+            <p class="text-muted  fs-6 fw-bold">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est labore ad
+              natus fugiat ratione in non praesentium nostrum distinctio!</p>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 col-sm-12 col-auto">
+          <div class="icon pb-3">
+            <span class="fa-solid fa-rocket text-info fs-2"></span>
+          </div>
+          <div class="content pb-2">
+            <h3><a href="#" class="text-dark rs-link">Visitor Tracking</a></h3>
+          </div>
+          <div class="paragraph">
+            <p class="text-muted fs-6 fw-bold">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est labore ad
+              natus fugiat ratione in non praesentium nostrum distinctio!</p>
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-4 col-md-6 col-sm-12 col-auto">
+          <div class="icon pb-3">
+            <span class="fa-solid fa-pie-chart text-warning fs-2"></span>
+          </div>
+          <div class="content pb-2">
+            <h3><a href="#" class="text-dark rs-link">Result Analysis</a></h3>
+          </div>
+          <div class="paragraph">
+            <p class="text-muted  fs-6 fw-bold">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est labore ad
+              natus fugiat ratione in non praesentium nostrum distinctio!</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- bestin -->
+  <section class="best-part">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-lg-10 ">
+          <p class="fs-4 text-muted">We're Best in</p>
+          <h1>Better Builder means beeter user <br> Experience</h1>
+        </div>
+        <div class="col-lg-2 d-flex align-items-center justify-content-center ">
+          <button class="head-button"><a href="#">Find out More</a></button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--Registation form  Modal -->
+  <section class="reg_form">
+  <div class="modal fade show_modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header form-bg-head">
+          <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Registation Form</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body form-body ">
+          <section>
+            <div class="body">
+              <div class="box">
+                <div class="form2">
+                  <h2 class="fs-5">꧁𓊈𒆜🅹🅰🅽🆅🅴🅴𒆜𓊉꧂</h2>
+                  <div class=" inputbox">
+                    <input type="text" required="required">
+                    <span>Username</span>
+                    <i></i>
+                  </div>
+                  <div class="inputbox">
+                    <input type="password" required="required">
+                    <span>Password</span>
+                    <i></i>
+                  </div>
+                  <div class="link">
+                    <a href="#">Forget password</a>
+                    <a href="#">Sinup</a>
+                  </div>
+                  <div class="btn-lg">
+                    <a href="" target="_blank"><button>Read More</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!--Offcanvas logo side slide   -->
+  <section class="side-sl bg-dark">
+    <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel"><a href="#" class="logo-drk"></a>
+        </h5>
+
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body p-0 bgr-bl">
+        <div class="d-flex flex-column flex-shrink-0 p-3" style="width: 382px; margin-top: 21px; height:550px";>
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none"></a>
+          <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link active text-black" aria-current="page">
+                <svg class="bi pe-none me-2 " width="16" height="16"><use xlink:href="#home"/></svg>
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-black">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"/></svg>
+                Dashboard
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-black">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#table"/></svg>
+                Orders
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-black">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"/></svg>
+                Products
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-black">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
+                Customers
+              </a>
+            </li>
+          </ul>
+          <hr>
+          <div class="dropdown">
+            <a href="#" class="d-flex align-items-center text-black text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="janvee.jfif" alt="" width="32" height="32" class="rounded-circle me-2">
+              <strong>꧁𓊈𒆜🅹🅰🅽🆅🅴🅴𒆜𓊉꧂</strong>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+              <li><a class="dropdown-item" href="#">New project...</a></li>
+              <li><a class="dropdown-item" href="setting.html">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+          </div>
+        </div>
+      
+      </div>
+
+
+    </div>
+  </section>
+  <!-- offcanva bottom -->
+  <div class="offcanvas offcanvas-bottom bg-dark" tabindex="-1" id="offcanvasBottom"
+    aria-labelledby="offcanvasBottomLabel">
+    <div class="offcanvas-header">
+      <h1 class="offcanvas-title text-light" id="offcanvasBottomLabel">Grow Your Business</h1>
+      <button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body small">
+      <div class="row text">
+        <button class="start-btn"><a href="#">Let's Start</a></button>
+
+      </div>
+    </div>
+  </div>
+  <!-- blog post -->
+  <section class="blog-post ">
+    <div class="container">
+      <div class="row text-center py-5">
+        <p class="text-muted fs-5 ">latest News</p>
+        <h1 class="fs-2 fw-bold text-dark">Top Project's</h1>
+      </div>
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6 col-sm-12 col-auto">
+          <div class="card card-brd" style="width: 22rem;">
+            <img src="b4 (2).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="pb-1">
+                <a href="#" class="text-primary fs-5">Structure Design</a>
+              </div>
+              <div class="pb-1">
+                <h3><a href="#" class="text-dark blog-link">Allence Group </a></h3>
+              </div>
+              <div class="div">
+                <span class="fa-solid fa-users text-muted"></span>
+                <span class="text-muted fs-5 crd-by">By🅹🅰🅽🆅🅴🅴 </span>
+                <span class="fa-solid fa-clock px-2"></span>
+                <span class="text-muted fs-5 crd-by">28/01/2023</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-auto">
+          <div class="card card-brd" style="width: 22rem;">
+            <img src="pexels-quang-nguyen-vinh-2138126.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="pb-1">
+                <a href="#" class="text-primary fs-5">Building Developement </a>
+              </div>
+              <div class="pb-1">
+                <h3><a href="#" class="text-dark blog-link">Jain Group</a></h3>
+              </div>
+              <div class="div">
+                <span class="fa-solid fa-users text-muted "></span>
+                <span class="text-muted fs-5 crd-by">By🅹🅰🅽🆅🅴🅴 </span>
+                <span class="fa-solid fa-clock px-2"></span>
+                <span class="text-muted fs-5 crd-by">28/01/2023</span>
+              </div>
+
+            </div>
+            
+          </div>
+
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-auto">
+          <div class="card card-brd" style="width: 22rem;">
+            <img src="b1.jpg" alt="">
+            <div class="card-body">
+              <div class="pb-1">
+                <a href="#" class="text-primary fs-5">Structure Design</a>
+              </div>
+              <div class="pb-1">
+                <h3><a href="#" class="text-dark blog-link">A.I.T Group </a></h3>
+              </div>
+              <div class="div">
+                <span class="fa-solid fa-users text-muted"></span>
+                <span class="text-muted fs-5 crd-by">By🅹🅰🅽🆅🅴🅴 </span>
+                <span class="fa-solid fa-clock px-2 "></span>
+                <span class="text-muted fs-5 crd-by">28/01/2023</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- HEROES RESPONSIVE -->
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="poster.jpeg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" style="height: 500px; width: 500px; border-radius: 15px;" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3"> Hiii ??</h1>
+        <p class="lead"> I am RajiShree Reddy from RourKela Orrisa. <br> 
+          I am Structure Engineer For Aellance Group Of Construction Benglore Karnatka. <br> I Have Working As  Structure Engineer For 4Year's In  Aellance Group Of Construction.  <br>  I  am Working Diffrent Diffrent Top Construction-Side  Project In India Look like (AIT,Jain Group,Allence Group ....Etc)..  </p>
+         </div>
+    </div>
+  </div>
+<section>
+ 
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- bxslider -->
+  <section class="bx-slide ">
+    <style>
+      .bx-slide {
+        margin: 70px 0 30px 0 !important;
+      }
+
+      .bx-slide img {
+        width: 100% !important;
+        height: 400px !important;
+      }
+    </style>
+    <div class="container">
+      <div class="bxslider">
+        <div class="img1"><img src="WhatsApp Image 2022-10-17 at 08.19.37 (1).jpeg" alt=""></div>
+        <div class="img2"><img src="WhatsApp Image 2022-10-17 at 08.19.37 (1).jpeg" alt=""></div>
+        <div class="img3"><img src="WhatsApp Image 2022-10-17 at 08.19.37 (1).jpeg" alt=""></div>
+      </div>
+    </div>
+  </section>
+<section class="pgr-links">
+<div class="container">
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item  bg-dark">
+        <a class="page-link ">Previous</a>
+      </li>
+      <li class="page-item bg-dark"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+</section>
+  <section class="footer-mr">
+    <div class="container">
+      <footer class="pt-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+ 
+  <button type="button" class="btn btn-primary" id="liveAlertBtn">Subscribe</button>
+
+              </div>
+            </form>
+            <div id="liveAlertPlaceholder" class="mt-2"></div>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter" />
+                </svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram" />
+                </svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook" />
+                </svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </section>
+<!-- POPBOX  FOOTER EMAIL-->
+
+<SCript>
+  const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+
+const alert = (message, type) => {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = [
+    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+    `   <div>${message}</div>`,
+    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+    '</div>'
+  ].join('')
+
+  alertPlaceholder.append(wrapper)
+}
+
+const alertTrigger = document.getElementById('liveAlertBtn')
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', () => {
+    alert('Nice, you triggered this alert message!', 'success')
+  })
+}
+</SCript>
+
+
+
+<!-- theme change  code  -->
+  <script>
+    let icon = document.querySelector(".bi-moon");
+    let b = document.querySelector("body");
+
+    icon.addEventListener("click", function () {
+      b.classList.toggle("dark-mode");
+      if (b.classList.contains("dark-mode") == true) {
+        icon.classList.remove("bi-moon");
+        icon.classList.add("bi-sun");
+      }
+      else {
+        icon.classList.remove("bi-sun");
+        icon.classList.add("bi-moon");
+      }
+    })
+  </script>
+  <!-- bundel js -->
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- HOME CLICK slidebar js -->
+  <script src="sidebars.js"></script>
+</body>
+
+</html>
